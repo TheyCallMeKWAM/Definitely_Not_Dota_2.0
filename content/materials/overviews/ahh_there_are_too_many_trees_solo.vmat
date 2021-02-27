@@ -1,0 +1,6 @@
+"Layer0"
+{
+	"Shader"	"ui.vfx"
+	"F_TRANSLUCENT"	"0"
+	"Texture"	"materials/overviews/ahh_there_are_too_many_trees_solo.tga"
+}

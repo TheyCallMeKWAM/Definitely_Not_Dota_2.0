@@ -1,0 +1,8 @@
+motherfucking_desert_duo
+{
+	material materials/overviews/motherfucking_desert_duo.vmat
+	pos_x -5632
+	pos_y 5632
+	scale 11.000
+}
+
