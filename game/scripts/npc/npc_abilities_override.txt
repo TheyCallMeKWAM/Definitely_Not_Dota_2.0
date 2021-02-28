@@ -3161,6 +3161,7 @@
 		"AbilityTextureName"			"roshan_aegis"
 
 		"HasScepterUpgrade"			"1"
+		"HasShardUpgrade"			"1"
 		"precache"
 		{
 			"soundfile"			"soundevents/game_sounds_heroes/game_sounds_skeleton_king.vsndevts"
@@ -3197,7 +3198,7 @@
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"attackslow_tooltip"	"-75"
+				"attackslow"			"-75"
 			}
 			"05"
 			{
@@ -3207,17 +3208,19 @@
 			"07"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"scepter_duration"		"15"
+				"scepter_duration"		"7"
+				"RequiresScepter"			"1"
 			}
 			"08"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"aura_radius"			"1200"
+				"aura_radius"	"1200"
 			}
 			"09"
 			{
 				"var_type"				"FIELD_INTEGER"
 				"aura_radius_tooltip_scepter"	"1200"
+				"RequiresScepter"			"1"
 			}
 		}
 	}
@@ -3733,22 +3736,22 @@
 	//=================================================================================================================
 	"sandking_epicenter"
 	{
-		// General
+		// General	
 		//-------------------------------------------------------------------------------------------------------------
 		"ID"					"5105"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
 		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+		"AbilityBehavior"			    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
 		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
 		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
 		"FightRecapLevel"				"2"
+		"AbilitySound"					"Ability.SandKing_Epicenter"
 
 		// Time		
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityCooldown"				"120 110 100"
 		"AbilityDuration"				"3.0 3.0 3.0"
-		"AbilityChannelTime"			"2.0 2.0 2.0"
-		"AbilityCastPoint"				"0.0 0.0 0.0 0.0"
+		"AbilityCastPoint"				"2 1 0.5"
 
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
@@ -3780,6 +3783,7 @@
 			{
 				"var_type"			"FIELD_INTEGER"
 				"epicenter_damage"	"110 110 110"
+				"LinkedSpecialBonus"	"special_bonus_unique_sand_king_5"
 			}
 			"04"
 			{
@@ -3789,13 +3793,9 @@
 			"05"
 			{
 				"var_type"			"FIELD_INTEGER"
-				"epicenter_slow_as"	"-30"
-			}
-			"06"
-			{
-				"var_type"			"FIELD_INTEGER"
-				"epicenter_slow_duration_tooltip"	"3"
-			}			
+				"epicenter_slow_as"	"-30"	
+				"LinkedSpecialBonus"	"special_bonus_unique_sand_king_3"
+			}		
 		}
 	}
 	//=================================================================================================================
@@ -4243,6 +4243,7 @@
 			{
 				"var_type"				"FIELD_INTEGER"
 				"damage"				"90 100 110 120"
+				"LinkedSpecialBonus"		"special_bonus_unique_lich_7"
 			}
 			"02"
 			{
@@ -4285,6 +4286,70 @@
 				"bonus_jump_damage"		"15 20 25"
 			}			
 		}			
+	}
+	//=================================================================================================================
+	// Lich: Ice Spire
+	//=================================================================================================================
+	"lich_ice_spire"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"					"8028"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"AbilitySound"					"Ability.FrostNova"
+		"MaxLevel"						"1"
+		
+		"IsShardUpgrade"				"1"
+		"IsGrantedByShard"				"1"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"750"
+		"AbilityCastPoint"				"0.3"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_5"
+		"AbilityCastGestureSlot"		"DEFAULT"
+		
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"10"
+	
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"150"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"bonus_movespeed"			"-2"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"aura_radius"				"600"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"max_hero_attacks"			"4"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"duration"					"20"
+			}
+			"05"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"slow_duration"				"0.1"
+			}
+				
+		}
 	}
 	//=================================================================================================================
 	// Ability: Crystal Maiden's Crystal Nova
@@ -4927,54 +4992,51 @@
 		}
 	}
 	//=================================================================================================================
-	// Spirit Breaker: Empowering Haste
+	// Ability: Bulldoze
 	//=================================================================================================================
-	"spirit_breaker_empowering_haste"
+	"spirit_breaker_bulldoze"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"ID"							"5354"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_AURA"
-		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"					"7301"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.		
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"FightRecapLevel"				"1"
+		"AbilitySound"					"Hero_Spirit_Breaker.EmpoweringHaste.Cast"
 		"AbilityTextureName"			"ship_boosters"
 
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		
 		// Time		
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"3.5 4.5 5.5 6.5"
-		"precache"
-		{
-			"soundfile"			"soundevents/game_sounds_heroes/game_sounds_spirit_breaker.vsndevts"
-		}
-		// Special
+		"AbilityCooldown"				"22 20 18 16"
+		
+		// Cost
 		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"30 40 50 60"
+
+		
 		"AbilitySpecial"
 		{
 			"01"
 			{
-				"var_type"				"FIELD_INTEGER"
-				"bonus_movespeed_pct_self"	"8 12 16 20"
+				"var_type"						"FIELD_INTEGER"
+				"movement_speed"				"12 18 24 30"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_movespeed_pct_allies"	"4 6 8 10"
+				"status_resistance"			"34 46 58 70"
 			}
 			"03"
 			{
-				"var_type"				"FIELD_INTEGER"
-				"aura_radius"			"1200"
-			}
-			"04"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"bonus_movespeed_pct_extra"		"3 4 5 6"
-			}
-			"05s"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"duration"			"2 3 4 5"
+				"var_type"						"FIELD_FLOAT"
+				"duration"	"8"
 			}
 		}
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_2"
+		"AbilityCastGestureSlot"		"DEFAULT"
 	}
 	//=================================================================================================================
 	// Tinker: Laser
@@ -7570,57 +7632,57 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"far_damage"			"10 20 30"
+				"damage"			"100 150 200"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"far_radius"			"3000"
+				"radius"			"400 800 1200"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"pull_radius"			"2000 3000 5000"
-			}
+				"pull_speed"			"90 180 270"
+			}			
 			"04"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"pull_speed"			"200 300 400"
-			}			
-			"05"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"near_radius"			"200"
-			}			
-			"06"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"near_damage"			"20 40 60"
-			}
-			"07"
 			{
 				"var_type"				"FIELD_FLOAT"
 				"tick_rate"				"0.1 0.1 0.1"
 			}
-			"08"
+			"05"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"duration"				"5 6 7"
+				"duration"				"4.0 4.0 4.0"
 			}
-			"09"
+			"06"
 			{
 				"var_type"				"FIELD_INTEGER"
 				"vision_radius"			"800 800 800"
 			}
-			"10"
+			"07"
 			{
 				"var_type"				"FIELD_FLOAT"
 				"pull_rotate_speed"		"0.25"
 			}
-			"11"
+			"08"
 			{
 				"var_type"				"FIELD_FLOAT"
 				"animation_rate"		"0.2"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"scepter_radius"	"5000"
+			}
+			"11"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"scepter_drag_speed"	"175"
+			}
+			"12"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"scepter_pull_rotate_speed"	"1"
 			}
 		}
 	}
@@ -10541,15 +10603,17 @@
 				"var_type"				"FIELD_INTEGER"
 				"bounce_aoe"			"10000"
 			}
-			"04"
-			{
-				"var_type"				"FIELD_FLOAT"
-				"ministun"			"0.1"
-			}
 			"05"
 			{
+				"var_type"				"FIELD_INTEGER"
+				"scepter_cast_range"			"650"
+				"RequiresScepter"	"1"
+			}
+			"06"
+			{
 				"var_type"				"FIELD_FLOAT"
-				"scepter_ministun"			"0.75"
+				"scepter_cooldown"			"6"
+				"RequiresScepter"	"1"
 			}
 		}
 	}
@@ -10569,6 +10633,8 @@
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
 		"FightRecapLevel"				"1"
 		"MaxLevel"						"1"
+		
+		"HasShardUpgrade"               "1"
 
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
@@ -10599,6 +10665,7 @@
 			{
 				"var_type"					"FIELD_INTEGER"
 				"fissure_range"				"1400"
+				"LinkedSpecialBonus"		"special_bonus_unique_earthshaker_3"
 			}
 			"02"
 			{
@@ -11092,44 +11159,71 @@
 		{
 			"01"
 			{
-				"var_type"				"FIELD_INTEGER"
-				"leap_distance"			"1000 1300 1600"
+				"var_type"					"FIELD_INTEGER"
+				"leap_speed"				"700"
 			}
-			"02"
+			"02" // this should belong to Spring ability but for how it gets called it's simpler to have Tree Jump own it
 			{
-				"var_type"				"FIELD_FLOAT"
-				"leap_speed"			"3000"
+				"var_type"					"FIELD_INTEGER"
+				"spring_leap_speed"			"1300"
 			}
 			"03"
 			{
-				"var_type"				"FIELD_FLOAT"
-				"leap_acceleration"		"7000.0"
+				"var_type"					"FIELD_INTEGER"
+				"give_up_distance"			"1850"
 			}
 			"04"
 			{
-				"var_type"			"FIELD_INTEGER"
-				"leap_speedbonus"	"20 30 40"
+				"var_type"					"FIELD_INTEGER"
+				"ground_jump_distance"		"1000"
+				"LinkedSpecialBonus"		"special_bonus_unique_monkey_king_7"
 			}
 			"05"
 			{
-				"var_type"				"FIELD_INTEGER"
-				"leap_speedbonus_as"	"100 125 150"
-				"LinkedSpecialBonus"	"special_bonus_unique_mirana_1"
+				"var_type"					"FIELD_INTEGER"
+				"perched_jump_distance"		"1000"
+				"LinkedSpecialBonus"		"special_bonus_unique_monkey_king_7"
 			}
 			"06"
 			{
-				"var_type"				"FIELD_FLOAT"
-				"leap_bonus_duration"	"2.5 3 3.5"
+				"var_type"					"FIELD_FLOAT"
+				"jump_damage_cooldown"		"3.0"
 			}
 			"07"
 			{
-				"var_type"				"FIELD_INTEGER"
-				"max_charges"			"3"
+				"var_type"					"FIELD_FLOAT"
+				"perched_day_vision"			"800"
 			}
 			"08"
 			{
-				"var_type"				"FIELD_INTEGER"
-				"charge_restore_time"	"70 60 50"
+				"var_type"					"FIELD_FLOAT"
+				"perched_night_vision"			"400"
+			}
+			"09"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"perched_spot_height"		"192.0"
+			}
+			"10"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"unperched_stunned_duration"	"4.0"
+			}
+			"11"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"top_level_height"			"500"
+			}
+			"12"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"impact_damage_tooltip"		"140 210 280 350"
+				"LinkedSpecialBonus"		"special_bonus_unique_monkey_king_3"
+			}
+			"13"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"impact_movement_slow_tooltip"	"20 40 60 80"
 			}
 		}
 	}
@@ -11262,17 +11356,17 @@
 			"01"
 			{
 				"var_type"			"FIELD_INTEGER"
-				"starfall_radius"	"350"		
+				"starfall_radius"	"650"		
 			}
 			"02"
 			{
 				"var_type"			"FIELD_INTEGER"
-				"starfall_secondary_radius"	"350"
+				"starfall_secondary_radius"	"425"
 			}
 			"03"
 			{
-				"var_type"			"FIELD_FLOAT"
-				"interval_scepter"	"2"
+				"var_type"			"FIELD_INTEGER"
+				"secondary_starfall_damage_percent"	 "75"
 			}
 		}
 	}
@@ -12245,6 +12339,13 @@
 	//=================================================================================================================
 	"slark_pounce"
 	{
+		"ID"							"5495"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"FightRecapLevel"				"1"
+		"AbilitySound"					"Hero_Slark.Pounce.Cast"
+		"HasScepterUpgrade"				"1"
 
 		// Time		`
 		//---------------------------------------------------------------`----------------------------------------------
@@ -13271,6 +13372,16 @@
 				"var_type"			"FIELD_FLOAT"
 				"int_steal_duration"		"20 25 30 35"
 			}
+			04"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"scepter_range"		"600"
+			}
+			"05"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"scepter_bounce_count"		"1"
+			}
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_2"
 	}
@@ -13295,7 +13406,7 @@
 
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"10 20 30 40"
+		"AbilityManaCost"				"0"
 		"AbilityCooldown"				"0"
 		"precache"
 		{
@@ -13313,8 +13424,8 @@
 			}
 			"02"
 			{
-				"var_type"			"FIELD_INTEGER"
-				"counter_duration"	"35"
+				"var_type"				"FIELD_FLOAT"
+				"mana_cost_percentage"	"2"
 			}
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
@@ -16905,7 +17016,29 @@
 	"item_helm_of_the_dominator"		""
 	"item_recipe_hand_of_midas"			""
 	"item_hand_of_midas"				""
-
+	//=================================================================================================================
+	// Ability: Special Bonus
+	//=================================================================================================================
+	"special_bonus_unique_silencer_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"					"6879"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"value"				"15"
+				"ad_linked_ability"			"silencer_glaives_of_wisdom"				// this is the ability this bonus affects.  This line is required for Ability Draft to correctly choose talents.
+			}
+		}
+	}
 	"item_courier"
 	{
 		"ItemPurchasable"				"0"
@@ -17117,37 +17250,6 @@
 	"item_octarine_core"
 	{
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-	}
-	//=================================================================================================================
-	// Remove Dagon
-	//=================================================================================================================
-	"item_dagon"
-	{
-		"ItemPurchasable"				"0"
-	}
-	"item_dagon_1"
-	{
-		"ItemPurchasable"				"0"
-	}
-	"item_dagon_2"
-	{
-		"ItemPurchasable"				"0"
-	}
-	"item_dagon_3"
-	{
-		"ItemPurchasable"				"0"
-	}
-	"item_dagon_4"
-	{
-		"ItemPurchasable"				"0"
-	}
-	"item_dagon_5"
-	{
-		"ItemPurchasable"				"0"
-	}
-	"item_recipe_dagon"
-	{
-		"ItemPurchasable"				"0"
 	}
 	//=================================================================================================================
 	//	Neutral items

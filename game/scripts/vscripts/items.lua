@@ -81,6 +81,7 @@ function COverthrowGameMode:SpecialItemAdd(owner)
 		"item_broom_handle",
 		"item_nether_shawl",
 		"item_possessed_mask",
+		"item_precious_egg",
 	}
 
 	tier[2] =	{

@@ -868,15 +868,11 @@
 		"DOTA_Tooltip_Ability_deathbitch_reincarnation_scepter_duration"				"SCEPTER ALLY DEATH DELAY: "
 		"DOTA_Tooltip_Ability_deathbitch_reincarnation_aura_radius"						"SCEPTER ALLY DEATH RADIUS: "
 		
-		"DOTA_Tooltip_Ability_bitch_stone_form"											"Stone Form"
-		"DOTA_Tooltip_Ability_bitch_stone_form_Description"								"You make yourself into a stone and heal... Pretty self explanitory"
-		"DOTA_Tooltip_Ability_bitch_stone_form_stun_radius"								"STUN RADIUS: "
-		"DOTA_Tooltip_Ability_bitch_stone_form_stun_delay"								"STUN DELAY: "
-		"DOTA_Tooltip_Ability_bitch_stone_form_stun_damage"								"STUN DAMAGE: "
-		"DOTA_Tooltip_Ability_bitch_stone_form_stun_duration"							"STUN DURATION: "
-		"DOTA_Tooltip_Ability_bitch_stone_form_stone_duration"							"STONE DURATION: "
-		"DOTA_Tooltip_Ability_bitch_stone_form_hp_regen"								"HP REGEN: "
-
+		"DOTA_Tooltip_Ability_bitch_angle_form"											"Bitch Repelent"
+		"DOTA_Tooltip_Ability_bitch_angle_form_Description"								"Can't touch me BITCH"
+		"DOTA_Tooltip_Ability_bitch_angle_form_duration"								"DURATION:  "
+		"DOTA_Tooltip_Ability_bitch_angle_form_aghanim_description"						"You get 7 seconds, make them count!"
+		
 		"DOTA_Tooltip_Ability_lycan_howl"												"Call to Arms"
 		"DOTA_Tooltip_Ability_lycan_howl_description"									"You and your scarmy get immense amount of power added to you."
 	}

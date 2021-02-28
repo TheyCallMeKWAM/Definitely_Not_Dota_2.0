@@ -1790,3 +1790,63 @@ Fixed Treasures Not Dropping
 -	Blinkboots: Item Recipe Changed from <Force Boots, Blink Dagger> to <Force Staff, Boots of Speed, Blink Dagger>
 -	Blinkboots: Item Fixed 
 -	Neutral Items: All Neutral Items are Sellable when gotten from chests (not drops)
+
+
+
+[h1]3.0 - The Return[/h1]
+
+[h1]News[/h1]
+-	Hey, whats up fuckers. The game hasn't been updated and I got bored and decided its time to come back to save the game again!
+-	Thank you for 15000+ players like wtf???
+-	Join the discord to help with development [url=https://discordapp.com/invite/hd4WstN] DISCORD LINK [/url]
+- 	Open Source GitHub now avalible [url=https://github.com/TheyCallMeKWAM/Definitely_Not_Dota_2.0] GITHUB LINK [/url] (Feel free to make any pull requests with changes and fixes if you want to help!)
+-	Big thanks to ModDota for all their help :)
+
+[h1]TLDR[/h1]
+-	Shit hopefully works :)
+-	Join the Discord to help
+-	Feel free to use the github to help with development!
+
+[h1]Map Changes[/h1]
+All maps have been renamed.
+-	ahh_there_are_too_many_trees_solo (Solos)
+-	motherfucking_desert_duo (Duos)
+-	possible_three_way_golden_rule (Trios)
+-	temple_of_the_quartet_icefrog (4's)
+-	too_many_based_quintet_players (5's)
+-	way_too_many_based_octet_players (8's)
+
+Timing for each map is based on the amount of players. 
+- 	Less than 4 (12min)
+-	4 Players (15 min)
+-	7 Players (20 min)
+-	16 Players (30 min)
+
+[h1]Hero Changes[/h1]
+[b]Heroes that I think are fixed[/b]
+-	Keep in mind I havn't been able to play test by myself, so things are probably still broken.
+-	Abilities that are supposed to have aghs upgrades, DO, it just doesnt say it for some reason
+
+[b]Phoenix (Bird)[/b]
+[b]Silencer (Infinate Scaling)[/b]
+[b]Arc Warden (Thanos)[/b]
+[b]Spectre (Joy of Painting)[/b]
+[b]Pudge (Pudge Wars)[/b]
+[b]Gyro (Orbitral Cannon)[/b]
+[b]Enigma (Space Man)[/b]
+[b]Lion (Donald Trump)[/b]
+[b]Lich (Pinball Wizard)[/b]
+[b]Weaver (The Swarm)[/b]
+[b]Crystal Maiden (Mei)[/b]
+[b]Terrorblade (Dire Safelane)*melee for some reason, but besides that works*[/b]
+[b]Centaur (Mr.Stompy)[/b]
+[b]Nightstalker (Batman)[/b]
+[b]Wraith King (Death is my Bitch)[/b]
+[b]Earthshaker (Harambe)[/b]
+All other heroes should already be working just fine. 
+
+[h1]Item Changes[/h1]
+- 7.28 Items have been added/removed
+- Netrual Item rotations have been updated
+- More netral items have been added to treasure chests
+
