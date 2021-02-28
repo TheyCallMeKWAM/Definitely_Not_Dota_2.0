@@ -4,7 +4,7 @@
 "DOTAHeroes"
 {
 	//=================================================================================================================
-	// HERO: Skillshot Man
+	// HERO: 
 	//=================================================================================================================
 	"npc_dota_ayy_brewmaster"
 	{
@@ -173,8 +173,8 @@
 		"Ability1"		"phoenix_icarus_dive"
 		"Ability2"		"lina_dragon_slave"
 		"Ability3"		"ember_spirit_searing_chains"
-		"Ability4"		"cawcaw_motherfucker"
-		"Ability6"		"phoenix_icarus_dive_stop"
+		"Ability4"		"phoenix_icarus_dive_stop"
+		"Ability6"		"cawcaw_motherfucker"
 		"Ability10"		"special_bonus_spell_amplify_5"
 		"Ability11"		"special_bonus_hp_175"
 		"Ability12"		"special_bonus_strength_12"
@@ -392,6 +392,7 @@
 		"npc_dota_diretower"
 	{
 		"override_hero"	"npc_dota_hero_terrorblade"
+		"DisableWearables" "1"
 		"ModelScale"		"1.2"
 		"Model"						"models/props_structures/tower_bad.vmdl"
 		"Ability1"		"makemeleecreeps_lua"
@@ -509,7 +510,7 @@
 		"override_hero"	"npc_dota_hero_gyrocopter"
 		"AbilityLayout"		"4"
 		"Ability1"		"tinker_laser"
-		"Ability2"		"spirit_breaker_empowering_haste"
+		"Ability2"		"spirit_breaker_bulldoze"
 		"Ability3"		"medusa_mana_shield"
 		"Ability4"		"luna_lucent_beam"
 		"Ability6"		"luna_eclipse"
@@ -600,6 +601,7 @@
 		"npc_dota_hero_jakiro"
 	{
 		"override_hero"	"npc_dota_hero_jakiro"
+		"DisableWearables" "1"
 		"ModelScale"		"1.4"
 		"Model"						"models/creeps/neutral_creeps/n_creep_golem_a/neutral_creep_golem_a.vmdl"	// Model.
 		"Ability1"		"makedrakes_lua"
@@ -1359,7 +1361,7 @@
 		"AttackRate"		"1.500000"
 		"MovementSpeed"		"275"
 		"AttackRange"		"425"
-		"ProjectileModel"		"particles/units/heroes/hero_weaver/weaver_base_base_attack.vpcf"
+		
 	}
 	//=================================================================================================================
 	// HERO: THIS GAME IS BALANCED
@@ -1561,7 +1563,7 @@
 	{
 		"override_hero"			"npc_dota_hero_night_stalker"	
 		"Ability1"		"beastmaster_wild_axes"
-		"Ability2"		"shredder_timber_chain"
+		"Ability2"		"batman_vanish"
 		"Ability3"		"night_stalker_hunter_in_the_night"
 		"Ability6"		"night_stalker_darkness"
 		"Ability10"		"special_bonus_hp_200"
@@ -1635,7 +1637,7 @@
 		"SoundSet"		"Hero_SkeletonKing"
 		"Ability1"		"necrolyte_death_pulse"
 		"Ability2"		"deathbitch_octarine"
-		"Ability3"		"bitch_stone_form"
+		"Ability3"		"bitch_angle_form"
 		"Ability6"		"deathbitch_reincarnation"
 		"Ability10"		"special_bonus_exp_boost_15"
 		"Ability11"		"special_bonus_movement_speed_20"
@@ -1644,7 +1646,7 @@
 		"Ability14"		"special_bonus_unique_wraith_king_3"
 		"Ability15"		"special_bonus_hp_300"
 		"Ability16"		"special_bonus_attack_damage_120"
-		"Ability17"		"special_bonus_cooldown_reduction_12"
+		"Ability17"		"special_bonus_unique_wraith_king_4"
 	}
 	//=================================================================================================================
 	// HERO: Medusa
