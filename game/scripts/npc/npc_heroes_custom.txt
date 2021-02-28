@@ -408,10 +408,21 @@
 		"Ability15"		"special_bonus_strength_14"
 		"Ability16"		"special_bonus_attack_range_175"
 		"Ability17"		"special_bonus_attack_damage_40"
-		"ProjectileModel"			"particles/units/heroes/hero_dragon_knight/dragon_knight_elder_dragon_fire.vpcf"		
-		"AttributeBaseStrength"		"24"
+		
+		"AttackCapabilities"	"DOTA_UNIT_CAP_RANGED_ATTACK"
+		"BaseAttackSpeed"		"100"
+		"AttackDamageType"		"DAMAGE_TYPE_ArmorPhysical"
 		"AttackDamageMin"		"0"
 		"AttackDamageMax"		"0"
+		"AttackRate"			"1.700000"
+		"AttackAnimationPoint"		"0.750000"
+		"AttackAcquisitionRange"		"600"
+		"AttackRange"					"600"
+		
+		"ProjectileModel"			"particles/units/heroes/hero_dragon_knight/dragon_knight_elder_dragon_fire.vpcf"		
+		"ProjectileSpeed"		"900"
+		"AttributeBaseStrength"		"24"
+
 	}
 	//=================================================================================================================
 	// HERO: Satyr memeer
