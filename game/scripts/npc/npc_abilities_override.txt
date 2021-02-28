@@ -7920,29 +7920,30 @@
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"ID"					"5397"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"MaxLevel"						"3"
+		
+		// Casting
 		"AbilitySpecial"
 		{
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"radius"				"900 900 900 900"
+				"bonus_damage"			"50 100 150"
+				"LinkedSpecialBonus"	"special_bonus_unique_lycan_4"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_damage"			"100 150 200"
-				"LinkedSpecialBonus"	"special_bonus_unique_lycan_4"
-			}
-			"03"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"bonus_hp_regen"		"20 30 40"
+				"bonus_hp_regen"		"10 15 20"
 				"LinkedSpecialBonus"	"special_bonus_unique_lycan_3"
 			}
+
 		}
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_3"
 	}
+
 	//=================================================================================================================
 	// Ability: Necrolyte's Heartstopper Aura
 	//=================================================================================================================
@@ -13372,7 +13373,7 @@
 				"var_type"			"FIELD_FLOAT"
 				"int_steal_duration"		"20 25 30 35"
 			}
-			04"
+			"04"
 			{
 				"var_type"			"FIELD_INTEGER"
 				"scepter_range"		"600"
@@ -17016,29 +17017,7 @@
 	"item_helm_of_the_dominator"		""
 	"item_recipe_hand_of_midas"			""
 	"item_hand_of_midas"				""
-	//=================================================================================================================
-	// Ability: Special Bonus
-	//=================================================================================================================
-	"special_bonus_unique_silencer_3"
-	{
-		// General
-		//-------------------------------------------------------------------------------------------------------------
-		"ID"					"6879"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
-		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
-		
-		// Special
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"					"FIELD_INTEGER"
-				"value"				"15"
-				"ad_linked_ability"			"silencer_glaives_of_wisdom"				// this is the ability this bonus affects.  This line is required for Ability Draft to correctly choose talents.
-			}
-		}
-	}
+
 	"item_courier"
 	{
 		"ItemPurchasable"				"0"
