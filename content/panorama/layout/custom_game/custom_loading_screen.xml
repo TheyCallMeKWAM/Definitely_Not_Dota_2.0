@@ -1,13 +1,90 @@
 <root>
+	<scripts>
+		<include src="s2r://panorama/scripts/custom_game/tips.vjs_c" />
+	</scripts>
 	<styles>
-		<include src="file://{resources}/styles/dotastyles.css" />
-		<include src="file://{resources}/styles/custom_game/custom_loading_screen.css" />
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="s2r://panorama/styles/custom_game/custom_loading_screen.vcss_c" />
+		<include src="s2r://panorama/styles/hudstyles.vcss_c" />
+		<include src="s2r://panorama/styles/hud/hud_reborn.vcss_c" />
+		<include src="s2r://panorama/styles/hud/dota_hud_scoreboard.vcss_c" />
 	</styles>
-	<Panel class="OverthrowLoadingRoot">
-		<Panel id="seq" >
-			<Image id="seq_bg" class="SeqBg" src="file://{images}/custom_game/loading_screen/loading_seq_bg.psd" />
+	<Panel class="DotaLoadingRoot">
+	
+			<Panel class="OverthrowLoadingRoot">
+				<Panel id="seq" >
+					<Image id="seq_bg" class="SeqBg" src="file://{images}/custom_game/loading_screen/loading_seq_bg.psd"/>
+			</Panel>
+					<Panel id="TitlePanel">
+				</Panel>
+					</Panel>
+	
+			<Panel id="LoadingScreenContent">
+			<DOTALoadingScreenBackgroundImage id="LoadingScreenImage" />
+			<Panel id="CustomLoadingScreenContainer" />
+			<Panel id="LoadingScreenSidebarContainer" />
+			<!--
+
+				<Panel class="HeroDescription">
+				<Label id="HeroOverview" class="HeroDescriptionText" text="{s:hero_hype}" />
+			</Panel>-->
+	</Panel>
+		<Panel class="DOTAReturnToDashboardOverlay">
+			<Button class="DOTAShowDashboardButton" onactivate="DOTAShowDashboard()" />
+	</Panel>
+
+
+	<Image class="DotaLoadingIcon"/>
+	<Panel id="DOTA2IMBA">
+		<Image id="DOTA2IMBA_Image"/>	
+		<Label id="DOTA2IMBA_Text" text="#addon_game_name"/>	
+	</Panel>
+							   
+
+	<Panel id="DOTA2IMBA_OP" >
+		<Panel id="DOTA2IMBA_OP1" onactivate="ExternalBrowserGoToURL('https://steamcommunity.com/sharedfiles/filedetails/?id=1634848002')">
+				<Image id="DOTA2IMBA_OP_Image2" />
+				<Label id="DOTA2IMBA_OP_TEXT1" text="#STEAM WORKSHOP"/>	
+		</Panel>	 
+		<Panel id="DOTA2IMBA_OP2" onactivate="ExternalBrowserGoToURL('https://github.com/TheyCallMeKWAM/Definitely_Not_Dota_2.0')">
+				<Image id="DOTA2IMBA_OP_Image2" />	
+				<Label id="DOTA2IMBA_OP_TEXT1" text="#GITHUB"/>	
+
 		</Panel>
-		<Panel id="TitlePanel">
+		<Panel id="DOTA2IMBA_OP3"  onactivate="ExternalBrowserGoToURL('https://discord.gg/hd4WstN')">	
+				<Image id="DOTA2IMBA_OP_Image2"/>	
+				<Label id="DOTA2IMBA_OP_TEXT1" text="#DISCORD"/>	
+		</Panel>
+		<Panel id="DOTA2IMBA_OP5"  onactivate="ExternalBrowserGoToURL('https://twitch.tv/kwam')">
+				<Image id="DOTA2IMBA_OP_Image2"/>	
+				<Label id="DOTA2IMBA_OP_TEXT1" text="#TWITCH"/>	
+	    </Panel>
+	   <Panel id="DOTA2IMBA_OP7">
+				<Image id="DOTA2IMBA_OP_Image3"/>	
+				<Image id="DOTA2IMBA_OP_Image3_1"/>	
+				<Image id="DOTA2IMBA_OP_Image3_2"/>	
+				<Panel id="DOTA2IMBA_TIP">
+					<Label id="DOTA2IMBA_TIP_TEXT" text="Get ready for some STUPID SHIT. This game is fucked"/>
+					<Label id="DOTA2IMBA_TIP_TEXT2" text="Thank you for all the support over the past year! 15800 Players!"/>
+					<Label id="DOTA2IMBA_TIP_TEXT3" text="Be sure to suggest and changes you want to be made"/>
+					<Label id="DOTA2IMBA_TIP_TEXT4" text="Report and bugs or problems to Discord, Github or the Workshop"/>
+					<Label id="DOTA2IMBA_TIP_TEXT5" text="NEWS: Patch 3.1 is LIVE, patch notes on the Workshop"/>
+				</Panel>
+				<Label id="DOTA2IMBA_OP_TEXT2" text="#Welcome to Definitely Not Dota 2.0"/>	
 		</Panel>
 	</Panel>
+	    <Panel id="DOTA2IMBA_HERO_Recommend_Root">
+			<Image id="DOTA2IMBA_HERO_Recommend" src="file://{images}/custom_game/loading_screen/loading_seq_bg.psd "/>	
+			<Label id="DOTA2IMBA_HERO_Recommend_TEXT" text="Photo Provided By DotaIMBA // Submit Art to the Discord!" />
+		</Panel>
+	<!--	
+			<Panel id="TVPanel">
+            <DOTAHTMLPanel id="TV" url="https://twitch.tv/kwam"/>
+         	  <Button id="TVEND" class="CloseButton" onactivate="" />
+       		</Panel>
+	-->
+	</Panel>
+
+
 </root>
+

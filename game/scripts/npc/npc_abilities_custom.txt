@@ -1125,7 +1125,6 @@
 		"FightRecapLevel"				"2"
 
 		"HasScepterUpgrade"			"1"
-		"HasScepterUpgrade"			"1"
 		"AbilitySound"					"Hero_SkeletonKing.Reincarnate"
 		
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_4"
@@ -1532,7 +1531,7 @@
 		"FightRecapLevel"				"1"
 		"AbilityTextureName"			"space_stone"
 
-		"HasScepterUpgrade"			"1"
+		"HasScepterUpgrade"			"0"
 		
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
@@ -4124,7 +4123,7 @@
 		"AbilityTextureName"			"aloha_suicide"
 		"AOERadius"						"%radius"
 		"AbilityCastRange"				"350"
-		"AbilitySound"					"defnotdota.bat_strike"
+		"AbilitySound"					"Snackside.BatSwing"
 
 
 		// Precache
@@ -4194,7 +4193,7 @@
 		{
 			"FireSound"
 			{
-				"EffectName"	"defnotdota.BrewSuicide"
+				"EffectName"	"Snackside.BatSwing"
 				"Target" 		"CASTER"
 			}
 			
@@ -4210,6 +4209,7 @@
 				"Type"			"DAMAGE_TYPE_PHYSICAL"
 				"Damage"		"50000"
 			}
+			
 			
 
 			"ActOnTargets"
@@ -4254,16 +4254,8 @@
 								"Radius"		"%tree_radius"
 							}
 						}
-					}				
+					}					
 				}
-			}
-		}
-		"OnheroKill"
-		{
-			"FireSound"
-			{
-				"EffectName"	"defnotdota.BrewSuicide"
-				"Target" 		"CASTER"
 			}
 		}
 	}
@@ -4993,7 +4985,7 @@
 		"BaseClass"				"ability_datadriven"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
-		"MaxLevel"						"3"
+		"MaxLevel"						"4"
 		"AbilityTextureName"			"dbz_smoke"
 		"AOERadius"						"%radius"
 		"AbilityCastRange"				"500"
@@ -5017,7 +5009,7 @@
 
 		// Time		
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"20 15 10"
+		"AbilityCooldown"				"17 14 11 8 "
 
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
@@ -5039,7 +5031,7 @@
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"duration"					"3 4 5"
+				"duration"					"3 4 5 6"
 			}
 		}
 
@@ -6584,4 +6576,232 @@
 			}
 		}
 	}
+//=================================================================================================================
+// Hero: Medusa (Split Shot)
+//=================================================================================================================	
+	"medusa_moon_glaives"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"luna_moon_glaive"				// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"AbilitySound"					"Hero_Luna.MoonGlaive.Impact"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"range"						"700"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"bounces"					"3 4 5 6"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"damage_reduction_percent"	"30 25 20 15"
+			}
+		}
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_2"
+	}
+
+
+	
+//==============================================================================================================
+// HERO: Drow Ranger (Glass Cannon)
+//==============================================================================================================
+	"drow_ranger_overpower"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ursa_overpower"						// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"AbilitySound"					"Hero_Ursa.Overpower"
+		"AbilityTextureName"			"drow_overpower"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastAnimation"			"ACT_DOTA_OVERRIDE_ABILITY_3"
+		"AbilityCastGestureSlot"		"DEFAULT"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0.3 0.3 0.3 0.3"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"12 10 8 6"
+		"AbilityDuration"				"20"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"30 40 50 60"
+		
+		"precache"
+    	{
+    		"soundfile"	"soundevents/game_sounds_heroes/game_sounds_ursa.vsndevts"
+    	}
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"max_attacks"				"3 4 5 6"
+				"LinkedSpecialBonus"		"special_bonus_unique_ursa_7"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"attack_speed_bonus_pct"	"300 400 500 600"
+			}
+		}
+	}	
+	"drow_ranger_headshot"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"sniper_headshot"													// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"AbilityTextureName"			"drow_headshot"
+		
+		// Damage.
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityDamage"					"20 50 80 110"
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_FLOAT"
+				"slow_duration"					"0.3"
+			}
+			"02"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"proc_chance"					"25"
+			}
+			"03"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"knockback_distance"					"2"
+				"LinkedSpecialBonus"	"special_bonus_unique_sniper_3"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"slow"			"-100"
+			}
+		}
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_2"
+	}
+	
+	"drow_ranger_fervor"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"troll_warlord_fervor"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+ 		"AbilityCastAnimation"			"ACT_INVALID"
+		"AbilityTextureName"			"drow_fevour"
+		
+		// Casting
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"attack_speed"			"15 20 25 30"
+				"LinkedSpecialBonus"		"special_bonus_unique_troll_warlord_5"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_stacks"			"12"
+				"LinkedSpecialBonus"		"special_bonus_unique_troll_warlord_2"
+			}
+		}
+	}
+	
+	"dnd2_drow_ranger_marksmenship"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"drow_ranger_marksmanship"											// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityCastRange"				"400"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"	
+		"AbilityTextureName"			"drow_marksmenship"
+		
+		"HasScepterUpgrade"			"1"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"chance"	"25 30 35"
+				"LinkedSpecialBonus"		"special_bonus_unique_drow_ranger_3"
+			}
+			"02"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"bonus_damage"	"50 70 90"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"03"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"agility_multiplier"		"25 35 45"
+			}
+			"04"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"agility_range"		"1200"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"split_count_scepter"			"4"
+				"RequiresScepter"		"1"
+			}
+			"06"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"scepter_range"					"375"
+				"RequiresScepter"		"1"
+			}
+			"07"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"damage_reduction_scepter"		"20"
+				"RequiresScepter"		"1"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"08"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"disable_range"		"600"
+			}
+		}
+	}
+	
+	
 }

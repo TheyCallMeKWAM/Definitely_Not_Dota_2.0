@@ -353,8 +353,8 @@ function COverthrowGameMode:InitGameMode()
 			GameRules:SendCustomMessage(message, PlayerResource:GetTeam(playerId), -1)
 		end
 
-		if data.text == "-imout" then
-			if tostring(PlayerResource:GetSteamID(data.playerid)) == "76561198054179075" then
+		if data.text == "-safeleave" then
+			if tostring(PlayerResource:GetSteamID(data.playerid)) == "76561198036748162" then
 				GameRules:SetSafeToLeave(true)
 			end
 		end
@@ -367,8 +367,8 @@ function COverthrowGameMode:InitGameMode()
 		if TRUSTED_HOSTS[steamId] and isHost then
 			GameRules:GetGameModeEntity():SetPauseEnabled(true)
 			GameRules:LockCustomGameSetupTeamAssignment(false)
-			GameRules:SetCustomGameSetupAutoLaunchDelay(15)
-			if steamId == "76561198036748162" then --No Bans for Admiral Bulldog
+			GameRules:SetCustomGameSetupAutoLaunchDelay(10)
+			if steamId == "76561198036748162" then --No Bans Phase for Me
 				GameRules:GetGameModeEntity():SetDraftingBanningTimeOverride(0)
 			end
 		end
@@ -561,7 +561,6 @@ function COverthrowGameMode:OnThink()
 				GameRules:SetGameWinner( self.leadingTeam )
 				self.countdownEnabled = false
 			else
-				print_d("Need more time to end game")
 				self.TEAM_KILLS_TO_WIN = self.leadingTeamScore + 1
 				local broadcast_killcount =
 				{
@@ -571,7 +570,6 @@ function COverthrowGameMode:OnThink()
 			end
 		end
 	end
-
 	if GameRules:State_Get() == DOTA_GAMERULES_STATE_GAME_IN_PROGRESS then
 		--Spawn Gold Bags
 		COverthrowGameMode:ThinkGoldDrop()
