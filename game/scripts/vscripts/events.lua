@@ -198,7 +198,7 @@ function COverthrowGameMode:OnNPCSpawned( event )
 		end
 	end)
 
-	if GetMapName() == "desert_octet" and spawnedUnit:GetName() == "npc_dota_hero_warlock" then
+	if GetMapName() == "way_too_many_based_octet_players" and spawnedUnit:GetName() == "npc_dota_hero_warlock" then
 		if spawnedUnit.firstspawn == nil then
 			spawnedUnit.firstspawn = false
 			local hMeteor = spawnedUnit:FindAbilityByName( "warlock_fatal_bonds" )
@@ -211,7 +211,7 @@ function COverthrowGameMode:OnNPCSpawned( event )
 		end
 	end
 
-	if GetMapName() == "core_quartet" then
+	if GetMapName() == "temple_of_the_quartet_icefrog" then
 		local sortedTeams = self:GetSortedTeams()
 		local teamNumber = spawnedUnit:GetTeam()
 		local TeamsKills = GetTeamHeroKills(teamNumber)
@@ -290,7 +290,7 @@ function COverthrowGameMode:OnNPCSpawned( event )
 			--	local courier_spawn = spawnedUnit:GetAbsOrigin() + RandomVector(RandomFloat(100, 100))
 			--	local cr = CreateUnitByName("npc_dota_courier", courier_spawn, true, nil, nil, unitTeam)
 			--
-			--	if GetMapName() == "core_quartet" then
+			--	if GetMapName() == "temple_of_the_quartet_icefrog" then
 			--		cr:AddNewModifier(cr, nil, "modifier_courier_quartet", nil)
 			--	else
 			--		cr:AddNewModifier(cr, nil, "modifier_core_courier", {})
@@ -310,7 +310,7 @@ function COverthrowGameMode:OnNPCSpawned( event )
 			--end)
 
 --			spawnedUnit:SetContextThink("AddCourierUpgrade", function()
---				if GetMapName() == "core_quartet" then
+--				if GetMapName() == "temple_of_the_quartet_icefrog" then
 --					for _,courier in ipairs(Entities:FindAllByClassname("npc_dota_courier")) do
 --						courier:AddNewModifier(courier, nil, "modifier_courier_quartet", nil)
 --					end
@@ -474,7 +474,7 @@ function COverthrowGameMode:OnEntityKilled( event )
 					}
 				CustomGameEventManager:Send_ServerToAllClients( "kill_alert", kill_alert )
 			else
-				if GetMapName() ~= "core_quartet" then
+				if GetMapName() ~= "temple_of_the_quartet_icefrog" then
 					hero:AddExperience( 50, 0, false, false )
 				end
 			end
@@ -508,34 +508,34 @@ function COverthrowGameMode:SetRespawnTime(killedTeam, killedUnit, extraTime)
 		end
 	end
 
-	local baseTime = 10
+	local baseTime = 15
 	local sortedTeams = self:GetSortedTeams()
-	if GetMapName() == "desert_octet" then
+	if GetMapName() == "way_too_many_based_octet_players	" then
 		if killedTeam == sortedTeams[1].team and sortedTeams[1].score - sortedTeams[2].score >= 2 then
-			baseTime = 20
+			baseTime = 25
 		end
 
 		local lastPlace = sortedTeams[#sortedTeams].team
 		if killedTeam == lastPlace then
-			baseTime = 5
+			baseTime = 10
 		end
-	elseif GetMapName() == "core_quartet" then
+	elseif GetMapName() == "temple_of_the_quartet_icefrog" then
 	    local killedTeamScore = GetTeamHeroKills(killedTeam)
 
 		if killedTeamScore == sortedTeams[6].score then
 			baseTime = 3
 		elseif killedTeamScore == sortedTeams[5].score then
-			baseTime = 6
-		elseif killedTeamScore == sortedTeams[4].score then
 			baseTime = 9
-		elseif killedTeamScore == sortedTeams[3].score then
+		elseif killedTeamScore == sortedTeams[4].score then
 			baseTime = 12
-		elseif killedTeamScore == sortedTeams[2].score then
+		elseif killedTeamScore == sortedTeams[3].score then
 			baseTime = 15
-		elseif killedTeamScore == sortedTeams[1].score then
+		elseif killedTeamScore == sortedTeams[2].score then
 			baseTime = 18
+		elseif killedTeamScore == sortedTeams[1].score then
+			baseTime = 21
 		else
-			baseTime = 10
+			baseTime = 15
 		end
 
 	else

@@ -1572,10 +1572,13 @@
 	//=================================================================================================================
 		"npc_dota_hero_night_stalker"
 	{
-		"override_hero"			"npc_dota_hero_night_stalker"	
+		"override_hero"			"npc_dota_hero_night_stalker"
+
+		"AbilityLayout"	"5"
 		"Ability1"		"beastmaster_wild_axes"
 		"Ability2"		"batman_vanish"
 		"Ability3"		"night_stalker_hunter_in_the_night"
+		"Ability4"		"alchemist_berserk_potion"
 		"Ability6"		"night_stalker_darkness"
 		"Ability10"		"special_bonus_hp_200"
 		"Ability11"		"special_bonus_attack_damage_60"
@@ -1585,10 +1588,11 @@
 		"Ability15"		"special_bonus_magic_resistance_25"
 		"Ability16"		"special_bonus_unique_night_stalker_2"
 		"Ability17"		"special_bonus_unique_night_stalker"
+			
 		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
 		"AttackDamageMin"		"22"
 		"AttackDamageMax"		"32"
-		"AttackRate"		"1.500000"
+		"AttackRate"		"1.200000"
 		"ProjectileModel"		"particles/units/heroes/hero_night_stalker/night_stalker_base_attack.vpcf"
 	}
 	//=================================================================================================================
@@ -1678,5 +1682,80 @@
 		"Ability15"		"special_bonus_hp_300"
 		"Ability16"		"special_bonus_attack_damage_120"
 		"Ability17"		"special_bonus_cooldown_reduction_12"
+	}
+	//=================================================================================================================
+	// HERO: Drow Ranger (Glass Cannon)
+	//==============================================================================================================
+	"npc_dota_hero_dnd2_drowranger"
+	{
+		"override_hero"	"npc_dota_hero_drow_ranger"
+		
+		"Role"			"Carry,Disabler,Pusher"
+		"Rolelevels"	"2,1,1"
+		"Complexity"	"1"
+		"Team"			"Good"
+		"SoundSet"		"Hero_DrowRanger"
+		"PickSound"		"drowranger_dro_spawn_03"
+		"BanSound"		"drowranger_dro_anger_01"
+		"NameAliases" 	"drow, drow ranger"
+		
+		"AbilityLayout"	"5"
+		"Ability1"		"drow_ranger_overpower"
+		"Ability2"		"drow_ranger_wave_of_silence"
+		"Ability3"		"drow_ranger_headshot"
+		"Ability4"		"drow_ranger_fervor"
+		"Ability6"		"dnd2_drow_ranger_marksmenship"
+		"Ability10"		"special_bonus_attack_range_150"
+		"Ability11"		"special_bonus_attack_damage_25"
+		"Ability12"		"special_bonus_agility_15"
+		"Ability13"		"special_bonus_unique_drow_ranger_2"
+		"Ability14"		"special_bonus_unique_sniper_3"
+		"Ability15"		"special_bonus_unique_drow_ranger_4"
+		"Ability16"		"special_bonus_unique_troll_warlord_5"
+		"Ability17"		"special_bonus_unique_ursa_7"
+		
+		"ArmorPhysical"		"-5"
+		"AttackAcquisitionRange"		"900"
+		"AttackRange"		"800"
+		"AttributeBaseStrength"		"15"
+		"AttributeStrengthGain"		"0.500000"
+		"AttributeBaseIntelligence"		"22"
+		"AttributeIntelligenceGain"		"2.800000"
+		"AttributeBaseAgility"		"23"
+		"AttributeAgilityGain"		"3.100000"
+		"MovementSpeed"		"300"
+		
+		"precache"
+    	{
+    		"soundfile"	"soundevents/game_sounds_heroes/game_sounds_ursa.vsndevts"
+    		"soundfile"	"soundevents/game_sounds_heroes/game_sounds_enchantress.vsndevts"
+    	}
+	}
+	//=================================================================================================================
+	// HERO: Medusa (Split Shot)
+	//==============================================================================================================
+	"npc_dota_hero_dnd2_medusa"
+	{
+		"override_hero"	"npc_dota_hero_medusa"
+		"Ability1"		"medusa_split_shot"
+		"Ability2"		"medusa_moon_glaives"
+		"Ability3"		"templar_assassin_psi_blades"
+		"Ability4"		"tinker_defense_matrix"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"mars_gods_rebuke"
+		"Ability10"		"special_bonus_unique_medusa_4"
+		"Ability11"		"special_bonus_movement_speed_20"
+		"Ability12"		"special_bonus_agility_14"
+		"Ability13"		"special_bonus_lifesteal_10"
+		"Ability14"		"special_bonus_attack_range_200"
+		"Ability15"		"special_bonus_attack_damage_90"
+		"Ability16"		"special_bonus_all_stats_20"
+		"Ability17"		"special_bonus_unique_mars_gods_rebuke_extra_crit"
+		
+		"AttributeBaseStrength"		"20"
+		"AttributeStrengthGain"		"2.40000"
+		"AttributeBaseIntelligence"		"17"
+		"AttributeIntelligenceGain"		"1.3000"
+		"AttackRange"		"500"
 	}
 }

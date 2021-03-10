@@ -1850,3 +1850,43 @@ All other heroes should already be working just fine.
 - Netrual Item rotations have been updated
 - More netral items have been added to treasure chests
 
+[h1]3.1 - Lets Make Some Changes[/h1]
+
+[h1]Panoramic Changes[/h1]
+- New Loading Screen
+- Added some cool art, would love some more so please submit me some, i'll make my favourite the icon!
+- New Button and Tips on the Loading Screen
+- Custom Team Selection Menu
+- Let me know if the colours are weird and need to be changed! (On Discord Preferably)
+- What's Next: Hopefully something cool for hero Selection!
+[h1]Hero Changes[/h1]
+[b]Pudge (Aloha Snack)[/b]
+- Snackside: Ability Sound effect is working again
+[b]Earthshaker (Harambe)[/b]
+- Burning Rage: Abilty decription addded
+[b]Arc Warden (Thanos)[/b]
+- All Aghanim Scepter Upgrades are visable in the tooltip
+[b]Wraith King (Death is My Bitch)[/b]
+- All Aghanim Scepter Upgrades are visable in the tooltip
+[b]Nightstalker (Batman) Rework[/b] 
+- Darkness: Ability damaged increased from 50/100/150 to 100/200/300
+- Darkness: Ability cooldown reduced from 130/100/70 to 90/70/50
+- New Ability (Smoke Out): Instantly making Nightstalker disappear  
+- New Shard Ability: Beserkes Brew (granting attack speed and hp regen)
+[b]NEW HERO Drow Ranger (Glass Cannon)[/b] 
+- Ability: Overpower (Ursa)
+- Ability: Wave of Silence (Drow Ranger)
+- Ability: Headshot (Sniper)
+- Ability: Fervor (Troll Warlord)
+- Ultimate: Marksmenship (Drow Ranger)
+Hero Change: Base Strength is 15 with a 0.5 Gain Per Level
+[b]NEW HERO Medusa (Split Shot)[/b] 
+- Ability: Split Shot (Medusa)
+- Ability: Mone Glaives (Luna)
+- Ability: Psi Blades (Templar Assassian)
+- Ultimate: Gods Rebuke (Mars)
+- Aghanims Shard: Defence Matrix (Tinker)
+[h1]Item Changes[/h1]
+[b]Aghanim's Shard[/b]
+-	Item stock time now 2 minuets into the game
+
