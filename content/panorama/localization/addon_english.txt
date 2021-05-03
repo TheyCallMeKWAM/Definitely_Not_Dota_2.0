@@ -1,47 +1,5 @@
 "addon"
 {
-	// Common start
-	"patreon_bonus_button_text"						"Free Boots"
-	"patreon_bonus_button_tooltip"					"Support us to get this feature"
-
-	"smart_random_button"							"SMART RANDOM"
-	"smart_random_tooltip_ready"					"Randomly pick from one of your most used heroes"
-	"smart_random_tooltip_cooldown"					"You can use Smart Random only once per 24 hours. Support us to remove the cooldown!"
-	"smart_random_tooltip_no_stats"					"You need to play at least 3 matches to have access to this feature"
-
-	"player_stats_title"							"Your statistics for {s:map_name}"
-	"player_stats_wins_loses"						"Wins/Loses: "
-	"player_stats_average_kda"						"Average KDA: "
-
-	"patreon_perks"									"Supporter Perks"
-	"emblem_supporter"								"Supporter Emblem"
-	"emblem_supporter_description"					"In-game particle effect that follows your player, available in multiple colours."
-	"emblem_enable"									"Enable Emblem"
-	"color_choose"									"Choose Colour:"
-	"boots_free"									"Free Boots"
-	"boots_free_description"						"Start the game with free boots!"
-	"boots_enable"									"Enable Boots"
-	"random_unlimited"								"Unlimited Random"
-	"random_unlimited_description"					"Unlock unlimited use of smart random button!"
-	"patreon_support_patreon"						"Support on Patreon"
-	"patreon_support_payment"						"Support with WeChat Pay or Alipay"
-	"patreon_new_methods_announcement"				"Now you can support us with"
-	"patreon_support_tier_1"						"Basic (¥50)"
-		"patreon_support_tier_1_tooltip"				"- Our Thanks and Appreciation<br>
-		- Items instantly transfer to your inventory when purchased<br>
-- Immunity to kick Troll Item<br>
-- Choose your hero before other players<br>
-- Better Perks! Get Tier One Perks, twice as good as Basic Perks"
-
-		"patreon_support_tier_2"						"Advanced (¥200)"
-		"patreon_support_tier_2_tooltip"				"- Our Thanks and Appreciation<br>
-		- Items instantly transfer to your inventory when purchased<br>
-- Immunity to Kick Troll Item<br>
-- Choose your hero before other players, <font color='#70EA72'>even before basic supporters</font><br>
-- Best Perks! Get <font color='#70EA72'>Tier Two Perks</font>, twice as good as Tier One Perks<br>
-<font color='#70EA72'>- Kick Trolls from the game! Have access to an item that can be used to kick allied players that are trolling (WARNING: This perk will be removed from supporters that are found to be abusing it)</font>"
-	// Common end
-
 	"custom_hud_error_no_coins"						"Ability Can't Be Used Without Coins"
 
 	"PointsToWin"									"+{d:points_to_win} more"

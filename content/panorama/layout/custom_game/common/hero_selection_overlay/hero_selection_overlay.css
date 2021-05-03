@@ -6,20 +6,22 @@
 
 #PlayerStats
 {
-	opacity: 0;
 	vertical-align: bottom;
 	margin-left: 450px;
 	margin-bottom: 150px;
 	flow-children: down;
+	opacity: 0;
 }
 
 #PlayerStatsTitle
 {
 	text-align: center;
 	color: white;
+	opacity: 0;
 }
 
 .PlayerStatsLine
 {
 	flow-children: right;
+	opacity: 0;
 }

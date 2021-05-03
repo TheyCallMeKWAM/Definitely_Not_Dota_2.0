@@ -1,8 +1,7 @@
 Commands = Commands or class({})
 
 local admin_ids = {
-    [104356809] = 1, -- Sheodar
-	[93913347] = 1, -- Darklord
+    [77384229] = 1, -- KWAM
 }
 
 function IsAdmin(player)

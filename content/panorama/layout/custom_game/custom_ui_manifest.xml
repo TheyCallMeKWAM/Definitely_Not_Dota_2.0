@@ -72,6 +72,7 @@
 	</script>
 
 	<Panel>
+		<CustomUIElement type="Hud" 				layoutfile="file://{resources}/layout/custom_game/precache.xml" />
 		<CustomUIElement type="HudTopBar"			layoutfile="file://{resources}/layout/custom_game/multiteam_top_scoreboard.xml" />
 		<CustomUIElement type="Hud"					layoutfile="file://{resources}/layout/custom_game/overthrow_item_notification.xml" />
 		<CustomUIElement type="FlyoutScoreboard"	layoutfile="file://{resources}/layout/custom_game/multiteam_flyout_scoreboard.xml" />

@@ -1850,3 +1850,92 @@ All other heroes should already be working just fine.
 - Netrual Item rotations have been updated
 - More netral items have been added to treasure chests
 
+[h1]3.1 - Lets Make Some Changes[/h1]
+
+[h1]Panoramic Changes[/h1]
+- New Loading Screen
+- Added some cool art, would love some more so please submit me some, i'll make my favourite the icon!
+- New Button and Tips on the Loading Screen
+- Custom Team Selection Menu
+- Let me know if the colours are weird and need to be changed! (On Discord Preferably)
+- What's Next: Hopefully something cool for hero Selection!
+[h1]Hero Changes[/h1]
+[b]Pudge (Aloha Snack)[/b]
+- Snackside: Ability Sound effect is working again
+[b]Earthshaker (Harambe)[/b]
+- Burning Rage: Abilty decription addded
+[b]Arc Warden (Thanos)[/b]
+- All Aghanim Scepter Upgrades are visable in the tooltip
+[b]Wraith King (Death is My Bitch)[/b]
+- All Aghanim Scepter Upgrades are visable in the tooltip
+[b]Nightstalker (Batman) Rework[/b] 
+- Darkness: Ability damaged increased from 50/100/150 to 100/200/300
+- New Ability (Smoke Out): Instantly making Nightstalker disappear  
+- New Shard Ability: Beserkes Brew (granting attack speed and hp regen)
+[b]NEW HERO Drow Ranger (Glass Cannon)[/b] 
+- Ability: Overpower (Ursa)
+- Ability: Wave of Silence (Drow Ranger)
+- Ability: Headshot (Sniper)
+- Ability: Fervor (Troll Warlord)
+- Ultimate: Marksmenship (Drow Ranger)
+Hero Change: Base Strength is 15 with a 0.5 Gain Per Level
+[b]NEW HERO Medusa (Split Shot)[/b] 
+- Ability: Split Shot (Medusa)
+- Ability: Mone Glaives (Luna)
+- Ability: Psi Blades (Templar Assassian)
+- Ultimate: Gods Rebuke (Mars)
+- Aghanims Shard: Defence Matrix (Tinker)
+[h1]Item Changes[/h1]
+[b]Aghanim's Shard[/b]
+-	Item stock time now 2 minuets into the game
+
+
+[[h1]3.2 - Oh Shit New Stuff!!![/h1]
+[h1]Gameplay Changes[/h1]
+- The Fountain now really hurts. I won't tell you how much, you can figure that out for yourself
+[h1]New Heroes[/h1]
+[b]Bounty Hunter (Tax Evader)[/b]
+- Ability: Chump Change
+- Ability: Dollar Bills
+- Ability: Sign My Life Away
+- Ultimate: Gabens Multiroll
+This hero is the perfect support for those team games, every ability gains the hero or the ally it is used on to gain money equivalent to the ability amount.
+[b]Pangolier(Bowling Ball) Inspired by: Arukii in the Discord (join now lmao shameless promo)[/b]
+- Ability: Charge of Darkness (Spirit Breaker)
+- Ability: Bulwark (Mars)
+- Ability: Greater Bash (Sprit Breaker)
+- Ultimate: Omnislash (Juggernaut)
+- Shard: Roll Up (Pangolier)
+I honestly don't know wtf this guy does, he rolls at kids and then curb stomps em. That's really about it. :)
+
+[h1]Hero Changes[/h1]
+[b]Enigma (Space Man)[/b]
+- Chaos Meteor: Ability cooldown changed from 8/7/6/5 to 23/22/21/20 (this is to account for the -15 seconds on Shard)
+[b]Tinker (Artillery)[/b]
+- Rocket Barrage: Ability Fixed
+- Rocket Barrage: Rockets per Second increased from 10 to 15
+- Rocket Barrage: Damage now Pure
+- Flack Cannon: Ability Fixed
+- Chopper Gunner: Now an ultimate ability (can't level it till level 6 now)
+[b]Sniper (Call of Duty)[/b]
+- Surge: Ability Fixed
+- Strafe: Ability Fixed
+- Burning Army (SCEPTER): Ability Removed
+- Concussive Grenade (SHARD): Ability Added
+[b]Pugna (Happy Little Leprecaun)[/b]
+- Give Gold: Ability Fixed
+- Give and Take: Ability Fixed
+- Sunshine and Rainbows: Ability Fixed
+[b]Razor (Weather Man)[/b]
+- Charge of Darkness: Ability Fixed
+- Charge of Darkness: Ability Scepter Added
+[b]Pudge (Pudge Wars)[/b]
+- Meat Hook: Damage increased from 1000/2000/3000/4000 to 2000/4000/6000/8000
+- Meat Hook: Hook speed Increased from 100 to 100/200/300/400
+- Meat Hook: Valve removed 9999 Aghs Damage Hook :)
+[b]Witch Doctor (Death Ward)[/b]
+- Disabled Wearables
+[b]Visage (Rocket Megee)[/b]
+- Disabled Wearables
+- Changed Model to be Rocket Chicken
+- Ball Lightning: Mana Drain per unit reduced from 7% to 3%

@@ -119,7 +119,10 @@
 		"DOTA_Tooltip_ability_item_hand_of_midas_custom_Note0"					"Experience gained by using Transmute is not shared."
 		"DOTA_Tooltip_ability_item_hand_of_midas_custom_bonus_attack_speed"		"+$attack"
 
-	
+		"DOTA_Tooltip_modifier_invis_revealed"									"True Sight"
+		"DOTA_Tooltip_modifier_invis_revealed_Description"						"Being near the treasure slot reveals you to nearby players"	
+		
+		
 		//Chat Wheel
 		"announcers"						"Announcers"
 		"englishannouncer"					"English Announcer"
@@ -274,7 +277,7 @@
 		"npc_dota_hero_techies"										"Cheeki Breeki"
 		"npc_dota_hero_axe"											"Le Balanced Axe Man"
 		"npc_dota_hero_tinker"										"Artillery"
-		"npc_dota_hero_drow_ranger"				"One Shot Lady"
+		"npc_dota_hero_drow_ranger"									"The Glass Cannon"
 		"npc_dota_hero_spirit_breaker"								"Roshan"
 		"npc_dota_hero_Bloodseeker"									"Sonic the Hedgehog"
 		"npc_dota_hero_dark_seer"									"Normal Dark Seer from Dota"
@@ -350,7 +353,9 @@
 		"npc_dota_hero_bristleback"									"Snot Gozzal"
 		"npc_dota_hero_night_stalker"								"Batman"	
 		"npc_dota_hero_clinkz"										"Skeleton King"
-		
+		"npc_dota_hero_medusa"										"Split Shot"
+		"npc_dota_hero_bounty_hunter"								"Tax Evader"
+		"npc_dota_hero_pangolier"									"Bowling Ball"
 		
 		"DOTA_Tooltip_modifier_item_force_boots"	"Force Boots"
 		"DOTA_Tooltip_ability_item_force_boots"                  						"Force Boots"
@@ -444,7 +449,6 @@
 		
 	    "DOTA_Tooltip_ability_alchemist_acid_bomb"                                        "Acid Bomb"
         "DOTA_Tooltip_ability_alchemist_acid_bomb_Description"                            "Hurls a flask of acid at a target. the flask breaks upon impact, splashing a powerful acid on nearby hostile units. Decreases armor; deals slightly less damage over time to nearby targets."
-
 		"DOTA_Tooltip_ability_lion_finger_of_death"						"Finger of Nerf"
 		"DOTA_Tooltip_ability_chaos_knight_chaos_bolt"						"20 Second Stun Lmao"
 		"DOTA_Tooltip_ability_skywrath_mage_concussive_shot"						"GET PUMPED!"
@@ -473,11 +477,7 @@
 		"DOTA_Tooltip_ability_chen_test_of_faith"						"Test of Luck"
 		"DOTA_Tooltip_ability_sniper_assassinate"						"Second Amendment"
 		"DOTA_Tooltip_ability_granite_golem_bash"                                        "Golem Smash!"
-		"DOTA_Tooltip_ability_lone_druid_true_form_battle_cry1"                                       "Harambe's Burning Rage"
-		"DOTA_Tooltip_ability_granite_golem_bash_Description"                            "20% chance to bash and stun the unit for 1.25/2/2.75/3.5 seconds."
-		"DOTA_Tooltip_ability_mirana_leap_description"                                        "With a grunt and a nostril blow, he grabs you, dragging your limp childlike body across the enclosure. This is the most intense erotic pleasure you have ever experienced in your whole life and you immediately cum in mere seconds. After stopping in a moonlit glen of the enclosure, Harambe lifts his massive erect gorilla cock and forces it into your anus, tearing your internal organs to shreds."
-		"DOTA_Tooltip_ability_banana_panic"                                       "Banana Panic"
-		"DOTA_Tooltip_ability_banana_panic_Description"                            "Summon 2/4/6/8 Bananas to lock your foes in place with the power of potassium"
+		"DOTA_Tooltip_ability_granite_golem_bash_Description"                            "20% chance to bash and stun the unit for 1.25/2/2.75/3.5 seconds."		
 		"DOTA_Tooltip_ability_bristleback_warpath"                                        "Too Swole to Control"
 		"DOTA_Tooltip_ability_riki_blink_strike"                                        "*Teleports behind you*"
 		"DOTA_Tooltip_ability_Trump_secretservice"									"Secret Service"
@@ -509,14 +509,12 @@
 		"DOTA_Tooltip_ability_sniper_take_aim_datadriven_bonus_attack_range"									"Range"
 		"DOTA_Tooltip_ability_ogre_magi_bloodlust"									"Rage Mode"
 		"DOTA_Tooltip_ability_ogre_magi_bloodlust_Description"			"Enraged by the noob from his last game of Dota, Bear Man becomes large, fast and scary. His rage subsides quickly though, because he knows deep down, he is a noob too."
-
 		"DOTA_Tooltip_ability_Crit_avatar"									"Avatar of Crit"
 		"DOTA_Tooltip_ability_Crit_avatar_Description"						"Do not try and crit the hero. That's impossible. Instead only try to realize the truth. Then you'll see, that it is not the hero that crits, it is only yourself."
 		"DOTA_Tooltip_ability_Crit_avatar_attackspeed"						"Attackspeed:"
 		"DOTA_Tooltip_ability_Crit_avatar_evasion"						"Evasion:"
 		"DOTA_Tooltip_ability_Crit_avatar_regen"						"Health Regen:"
 		"DOTA_Tooltip_ability_Crit_avatar_movespeed"						"Movespeed:"
-
 		"DOTA_Tooltip_ability_jakiro_macropyre"									"Alizarin Crimson"
 		"DOTA_Tooltip_ability_jakiro_macropyre_Description"						"There are no mistakes, only happy accidents."
 		"DOTA_Tooltip_ability_spectre_spectral_dagger"									"Midnight Black"
@@ -670,7 +668,6 @@
 		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova_Description"					"An icy explosion on the shape of a ball deals damage and slows everyone in the area"
 		"DOTA_Tooltip_ability_dark_seer_vacuum"											"Ball Succ"
 		"DOTA_Tooltip_ability_dark_seer_vacuum_Description"								"Suck enemys from a large area in, so they can enjoy your balls up lose and personal"
-
 		"DOTA_Tooltip_ability_gibmoney_datadriven"										"Give Me Money!"
 		"DOTA_Tooltip_ability_gibmoney_datadriven_Description"							"give yourself some money, shopping is cathartic, so treat yourself :)"
 		"DOTA_Tooltip_ability_gibmoney_datadriven_bonus_gold"							"Bonus Gold:"
@@ -692,13 +689,14 @@
 		"DOTA_Tooltip_ability_sunshine_and_rainbows_heal"								"Heal Per Second:"
 		"DOTA_Tooltip_ability_necronomicon_warrior_last_will"							"Innocence Lost"
 		"DOTA_Tooltip_ability_necronomicon_warrior_last_will_Description"				"The death of a good and kind creature does not go unpunished."
-		
 		"DOTA_Tooltip_ability_alchemist_unstable_concoction"							"20 Second Stun Lmao"
 		"DOTA_Tooltip_ability_alchemist_unstable_concoction_Description"				"Brew up an unstable concoction that he can throw at an enemy hero, to stun and deal damage in an area around the explosion. The longer the concoction brews, the more damage it deals and the longer the stun. After 40 seconds, the brew reaches its maximum damage and stun time. However, after 40 seconds, the concoction will explode on Alchemist himself if not thrown."
 		"DOTA_Tooltip_ability_alchemist_unstable_concoction_throw"						"Don't fuck it up."
 		"DOTA_Tooltip_ability_alchemist_unstable_concoction_throw_Description"			">:|"
 		"DOTA_Tooltip_ability_spawnlord_master_bash"									"Bash"
 		"DOTA_Tooltip_ability_spawnlord_master_bash_Description"						"It's like, just a bash man."
+		"DOTA_Tooltip_ability_spawnlord_master_bash_bash_chance"						"BASH CHANCE: "
+		"DOTA_Tooltip_ability_spawnlord_master_bash_stun_duration"						"STUN DURATION: "
 		"DOTA_Tooltip_ability_troll_warlord_fervor"										"Stay Still and Let Me Hit You!"
 		"DOTA_Tooltip_ability_troll_warlord_fervor_Description"							"With each continuous blow on the same target, gain increased attack speed."
 		"DOTA_Tooltip_ability_alchemist_chemical_rage"									"Focused Pummel"
@@ -811,49 +809,12 @@
 		"DOTA_Tooltip_ability_bristleback_viscous_nasal_gooa_move_slow_per_stack"		"MOVE SLOW PER STACK: "
 		"DOTA_Tooltip_ability_bristleback_viscous_nasal_gooa_stack_limit"				"MAX STACKS: "
 		"DOTA_Tooltip_ability_bristleback_viscous_nasal_gooa_radius_scepter"			"SCEPTER RADIUS: "
-	
-		"DOTA_Tooltip_ability_thanos_starfall"											"Space Stone"
-		"DOTA_Tooltip_ability_thanos_starfall_Description"								"Mirana Starfall: LET SPACE LEAD YOU TO VICTORY!"
-		"DOTA_Tooltip_ability_thanos_starfall_starfall_radius"							"RADIUS: "
-		"DOTA_Tooltip_ability_thanos_starfall_starfall_interval_scepter"				"SCEPTER INTERVAL: "	
-		"DOTA_Tooltip_ability_thanos_starfall_AbilityDamage"							"DAMAGE: "
-		
-		"DOTA_Tooltip_ability_thanos_glaives_of_wisdom"									"Mind Stone"
-		"DOTA_Tooltip_ability_thanos_glaives_of_wisdom_Description"						"Silencer Glavies of Wisdom: LET THE INTELLEGENCE GAIN GUIDE YOU TO IMMORALTILTY"
-		"DOTA_Tooltip_ability_thanos_glaives_of_wisdom_intellect_damage_pct"			"INT TO DAMAGE: "
-	
-		"DOTA_Tooltip_ability_thanos_necromastery"										"Soul Stone"
-		"DOTA_Tooltip_ability_thanos_necromastery_Description"							"Shadow Fiend Necomastery: SUCK THE LIFE OUT OF YOUR OPPONENTS"
-		"DOTA_Tooltip_ability_thanos_necromastery_necromastery_damage_per_soul"     	"DAMAGE PER SOUL: "
-		"DOTA_Tooltip_ability_thanos_necromastery_necromastery_max_souls"				"MAX SOULS: "
-		"DOTA_Tooltip_ability_thanos_necromastery_necromastery_max_souls_scepter"		"SCEPTER MAX SOULS: "
-		
-		"DOTA_Tooltip_ability_thanos_time_lapse"										"Time Stone"
-		"DOTA_Tooltip_ability_thanos_time_lapse_Description"							"Weaver Time Lapse: STUPID HUMAN GET IN YOUR WAY? NO PROBLEM JUST GO BACK!"
-		"DOTA_Tooltip_ability_thanos_time_lapse_cooldown_scepter"						"SCEPTER COOLDOWN: "
-		"DOTA_Tooltip_ability_thanos_time_lapsecast_range_tooltip_scepter"				"SCEPTER ALLY CAST RANGE: "
-		
-		"DOTA_Tooltip_ability_arc_warden_tempest_double"								"Reality Stone"
-		
-		"DOTA_Tooltip_ability_sven_gods_strength"										"Power Stone"	
-		
-		"DOTA_Tooltip_ability_thanos_snap"												"The Snap"
-		"DOTA_Tooltip_ability_thanos_snap_Description"									"Lion Finger of Death: This is what everything has led up to. FINISH THEM"
-		"DOTA_Tooltip_ability_thanos_snap_damage"										"DAMAGE: "
-		"DOTA_Tooltip_ability_thanos_snap_damage_scepter"								"SCEPTER DAMAGE: "
-		"DOTA_Tooltip_ability_thanos_snap_mana_cost_scepter"							"SCEPTER MANA COST: "
-		"DOTA_Tooltip_ability_thanos_snap_cooldown_scepter"								"SCEPTER COOLDOWN: "
-		"DOTA_Tooltip_ability_thanos_snap_splash_radius_scepter"						"SCEPTER RADIUS: "
 
 		"DOTA_Tooltip_ability_spaceman_midnight_pulse"									"Midnight Pulse"
 		"DOTA_Tooltip_ability_spaceman_midnight_pulse_Description"						"The pulse of midnight"
 		"DOTA_Tooltip_ability_spaceman_midnight_pulse_radius"							"RADIUS: "
 		"DOTA_Tooltip_ability_spaceman_midnight_pulse_damage_percent"					"DAMAGE PER SECOND: "
 		"DOTA_Tooltip_ability_spaceman_midnight_pulse_duration"							"DURATION: "
-		
-		"DOTA_Tooltip_ability_beastmaster_wild_axes"									"Batarang"
-		"DOTA_Tooltip_ability_shredder_timber_chain"									"Grapple Hook"
-		"DOTA_Tooltip_ability_night_stalker_hunter_in_the_night"						"Bat Sense"
 		
 		"DOTA_Tooltip_ability_deathbitch_octarine"										"The Will To Live"
 		"DOTA_Tooltip_ability_deathbitch_octarine_Description"							"That feeling that you have to never die grows with in you"
@@ -875,5 +836,191 @@
 		
 		"DOTA_Tooltip_Ability_lycan_howl"												"Call to Arms"
 		"DOTA_Tooltip_Ability_lycan_howl_description"									"You and your scarmy get immense amount of power added to you."
+
+//=================================================================================================================
+// HERO: Night Stalker (Batman) 
+//==============================================================================================================
+		"DOTA_Tooltip_ability_beastmaster_wild_axes"									"Batarang"
+		"DOTA_Tooltip_ability_beastmaster_wild_axes_Description"						"Batman sends out the rangs to deal damage. Please get an aghanims scepter. I cant buff him anymore :)"
+		"DOTA_Tooltip_ability_night_stalker_hunter_in_the_night"						"Bat Sense"
+		
+		"DOTA_Tooltip_ability_night_stalker_darkness"									"The Rise of the Dark Knight"
+		
+		"DOTA_Tooltip_Ability_batman_vanish"											"Smoke Out"
+		"DOTA_Tooltip_Ability_batman_vanish_Description"								"Night stalker smokes out and disapperes infront of everyones eyes"
+		"DOTA_Tooltip_Ability_batman_radius"											"RADIUS: "
+		"DOTA_Tooltip_Ability_batman_duration"											"DURATION: "
+
+//=================================================================================================================
+// HERO: Wraith King (Death is My Bitch)
+//==============================================================================================================
+
+		"DOTA_Tooltip_ability_deathbitch_octarine"										"The Will To Live"
+		"DOTA_Tooltip_ability_deathbitch_octarine_Description"							"That feeling that you have to never die grows with in you"
+		"DOTA_Tooltip_ability_deathbitch_octarine_cooldown"								"Cooldown Reduction:"
+		
+		"DOTA_Tooltip_Ability_deathbitch_reincarnation"									"Death Is My Bitch"
+		"DOTA_Tooltip_Ability_deathbitch_reincarnation_Description"						"SUPRISE IM BACK BITCHESSSSSSS!"				
+		"DOTA_Tooltip_Ability_deathbitch_reincarnation_reincarnate_time"				"REINCARNATION TIME: "
+		"DOTA_Tooltip_Ability_deathbitch_reincarnation_movespeed"						"MOVE SLOW: "
+		"DOTA_Tooltip_Ability_deathbitch_reincarnation_attackslow"						"ATTACK SLOW: "
+		"DOTA_Tooltip_Ability_deathbitch_reincarnation_slow_duration"					"SLOW DURATION: "
+		"DOTA_Tooltip_Ability_deathbitch_reincarnation_scepter_duration"				"SCEPTER ALLY DEATH DELAY: "
+		"DOTA_Tooltip_Ability_deathbitch_reincarnation_aura_radius"						"SCEPTER ALLY DEATH RADIUS: "
+		"DOTA_Tooltip_Ability_deathbitch_reincarnation_scepter_description"				"You get 7 seconds, make them count! (You and your allies enter the ghost realm when you die for 7 seconds before you actually meet the face of death"
+		
+		"DOTA_Tooltip_Ability_bitch_angle_form"											"Bitch Repelent"
+		"DOTA_Tooltip_Ability_bitch_angle_form_Description"								"Can't touch me BITCH"
+		"DOTA_Tooltip_Ability_bitch_angle_form_duration"								"DURATION:  "
+		"DOTA_Tooltip_Ability_bitch_angle_form_scepter_description"						"YOU CAN'T BE TOUCHED BY THE FILTH (Ability affects all teammates globally)"
+
+//=================================================================================================================
+// HERO: Earthshaker (Harambe)
+//==============================================================================================================
+		
+		"DOTA_Tooltip_ability_mirana_leap_description"                                   "With a grunt and a nostril blow, he grabs you, dragging your limp childlike body across the enclosure. This is the most intense erotic pleasure you have ever experienced in your whole life and you immediately cum in mere seconds. After stopping in a moonlit glen of the enclosure, Harambe lifts his massive erect gorilla cock and forces it into your anus, tearing your internal organs to shreds."
+		"DOTA_Tooltip_ability_banana_panic"                                      		 "Banana Panic"
+		"DOTA_Tooltip_ability_banana_panic_Description"                            		 "Summon 2/4/6/8 Bananas to lock your foes in place with the power of potassium"
+		
+		"DOTA_Tooltip_ability_lone_druid_true_form_battle_cry1"                          "Harambe's Burning Rage"
+		"DOTA_Tooltip_ability_lone_druid_true_form_battle_cry1_Description"				 "The fear of losing your banana has you begin to spin out in a burning rage"				
+		"DOTA_Tooltip_ability_lone_druid_true_form_battle_cry1_bonus_damage"			 "BONUS DAMAGE: "
+		"DOTA_Tooltip_ability_lone_druid_true_form_battle_cry1_bonus_armor"				 "BONUS ARMOUR: "
+		"DOTA_Tooltip_ability_lone_druid_true_form_battle_cry1_range"					 "RANGE: "
+		
+//=================================================================================================================
+// HERO: Medusa (Split Shot)
+//==============================================================================================================
+
+		"DOTA_Tooltip_Ability_medusa_moon_glaives"										"Moon Glaives"
+		"DOTA_Tooltip_Ability_medusa_moon_glaives_Description"							"BOUNCE AND BOUNCE AND BOUCE IT GOES"		
+		"DOTA_Tooltip_Ability_medusa_moon_glaives_range"								"BOUNCE RADIUS: "
+		"DOTA_Tooltip_Ability_medusa_moon_glaives_bounces"								"BOUNCES: "
+		"DOTA_Tooltip_Ability_medusa_moon_glaives_damage_reduction_percent"				"DAMAGE REDUCTION PER BOUNCE: "
+
+//=================================================================================================================
+// HERO: Drow Ranger (The Glass Cannon)
+//==============================================================================================================
+
+		"DOTA_Tooltip_Ability_drow_ranger_overpower"									"Drow's Fury"
+		"DOTA_Tooltip_Ability_drow_ranger_overpower_Description"						"Drow drinks some GFuel, not sponsored but hit me up GFuel, to get to optimal gaming position gaining attack speed for the next 3/4/5/6 attacks"
+		"DOTA_Tooltip_Ability_drow_ranger_overpower_AbilityDuration"					"DURATION: "
+		"DOTA_Tooltip_Ability_drow_ranger_overpower_max_attacks"						"MAX ATTACKS: "
+		"DOTA_Tooltip_Ability_drow_ranger_overpower_attack_speed_bonus_pct"				"ATTACK SPEED BONUS: "
+		
+		"DOTA_Tooltip_Ability_drow_ranger_headshot"										"Headshot BABBBBBYYYY"
+		"DOTA_Tooltip_Ability_drow_ranger_headshot_Description"							"just hit them in the 4head lul"
+		"DOTA_Tooltip_Ability_drow_ranger_headshot_proc_chance"							"CHANCE: "
+		"DOTA_Tooltip_Ability_drow_ranger_headshot_knockback_distance"					"KNOCKBACK DISTANCE: "
+		
+		"DOTA_Tooltip_Ability_drow_ranger_fervor"										"Drow's Tunnel Vision"
+		"DOTA_Tooltip_Ability_drow_ranger_fervor_Description"							"Drow sights eyes on a single target increaing her attack speed with each consecutive attack"
+		"DOTA_Tooltip_Ability_drow_ranger_fervor_attack_speed"							"ATTACK SPEED: "
+		"DOTA_Tooltip_Ability_drow_ranger_fervor_max_stacks"							"MAX STACKS: "
+		
+		"DOTA_Tooltip_Ability_dnd2_drow_ranger_marksmenship"							"The Glass Cannon"
+		"DOTA_Tooltip_Ability_dnd2_drow_ranger_marksmenship_Description"				"Sometimes it is all left to chance. If an enemy is not near you, you have a chance to deal a huge amount of bonus damage"
+		"Dota_Tooltip_Ability_dnd2_drow_ranger_marksmenship_scepter_description" 		"The Glass splits into 4 shards dealing less damage to enemies around the original target"
+		"DOTA_Tooltip_Ability_dnd2_drow_ranger_marksmenship_chance"						"CHANCE: "
+		"DOTA_Tooltip_Ability_dnd2_drow_ranger_marksmenship_bonus_damage"				"BONUS DAMAGE: "
+		"DOTA_Tooltip_Ability_dnd2_drow_ranger_marksmenship_agility_multiplier"			"AGI MULTIPLIER: "
+		"DOTA_Tooltip_Ability_dnd2_drow_ranger_marksmenship_agility_range"				"AGI RADIUS: "
+		"DOTA_Tooltip_Ability_dnd2_drow_ranger_marksmenship_split_count_scepter"		"SCEPTER SPLIT COUNT: "
+		"DOTA_Tooltip_Ability_dnd2_drow_ranger_marksmenship_scepter_range"				"SCEPTER SPLIT RANGE: "
+		"DOTA_Tooltip_Ability_dnd2_drow_ranger_marksmenship_damage_reduction_scepter"	"SCEPTER DMG REDUCTION: "
+	
+//=================================================================================================================
+// HERO: Arc Warden (Thanos)
+//==============================================================================================================
+		
+		"DOTA_Tooltip_ability_thanos_starfall"											"Space Stone"
+		"DOTA_Tooltip_ability_thanos_starfall_Description"								"Mirana Starfall: LET SPACE LEAD YOU TO VICTORY!"
+		"DOTA_Tooltip_ability_thanos_starfall_starfall_radius"							"RADIUS: "
+		"DOTA_Tooltip_ability_thanos_starfall_starfall_interval_scepter"				"SCEPTER INTERVAL: "	
+		"DOTA_Tooltip_ability_thanos_starfall_AbilityDamage"							"DAMAGE: "
+		
+		"DOTA_Tooltip_ability_thanos_glaives_of_wisdom"									"Mind Stone"
+		"DOTA_Tooltip_ability_thanos_glaives_of_wisdom_Description"						"Silencer Glavies of Wisdom: LET THE INTELLEGENCE GAIN GUIDE YOU TO IMMORALTILTY"
+		"DOTA_Tooltip_ability_thanos_glaives_of_wisdom_intellect_damage_pct"			"INT TO DAMAGE: "
+		"DOTA_Tooltip_ability_thanos_glaives_of_wisdom_scepter_description"				"Allows your attacks to bounce once to a new target MAKING THEM STUPIDER WITH EVERY HIT"
+	
+		"DOTA_Tooltip_ability_thanos_necromastery"										"Soul Stone"
+		"DOTA_Tooltip_ability_thanos_necromastery_Description"							"Shadow Fiend Necomastery: SUCK THE LIFE OUT OF YOUR OPPONENTS"
+		"DOTA_Tooltip_ability_thanos_necromastery_necromastery_damage_per_soul"     	"DAMAGE PER SOUL: "
+		"DOTA_Tooltip_ability_thanos_necromastery_necromastery_max_souls"				"MAX SOULS: "
+		"DOTA_Tooltip_ability_thanos_necromastery_necromastery_max_souls_scepter"		"SCEPTER MAX SOULS: "
+		"DOTA_Tooltip_ability_thanos_necromastery_scepter_description"					"MORE ROOM FOR SOULS"
+		
+		"DOTA_Tooltip_ability_thanos_time_lapse"										"Time Stone"
+		"DOTA_Tooltip_ability_thanos_time_lapse_Description"							"Weaver Time Lapse: STUPID HUMAN GET IN YOUR WAY? NO PROBLEM JUST GO BACK!"
+		"DOTA_Tooltip_ability_thanos_time_lapse_cooldown_scepter"						"SCEPTER COOLDOWN: "
+		"DOTA_Tooltip_ability_thanos_time_lapse_cast_range_tooltip_scepter"				"SCEPTER ALLY CAST RANGE: "
+		"DOTA_Tooltip_ability_thanos_time_lapse_scepter_description"					"Allows you to use the time stone and restore an ally to their health and position 4 seconds prior"
+		
+		"DOTA_Tooltip_ability_arc_warden_tempest_double"								"Reality Stone"
+		
+		"DOTA_Tooltip_ability_sven_gods_strength"										"Power Stone"	
+		
+		"DOTA_Tooltip_ability_thanos_snap"												"The Snap"
+		"DOTA_Tooltip_ability_thanos_snap_Description"									"Lion Finger of Death: This is what everything has led up to. FINISH THEM"
+		"DOTA_Tooltip_ability_thanos_snap_damage"										"DAMAGE: "
+		"DOTA_Tooltip_ability_thanos_snap_damage_scepter"								"SCEPTER DAMAGE: "
+		"DOTA_Tooltip_ability_thanos_snap_mana_cost_scepter"							"SCEPTER MANA COST: "
+		"DOTA_Tooltip_ability_thanos_snap_cooldown_scepter"								"SCEPTER COOLDOWN: "
+		"DOTA_Tooltip_ability_thanos_snap_splash_radius_scepter"						"SCEPTER RADIUS: "
+		"DOTA_Tooltip_ability_thanos_snap_scepter_description"							"This might make it a little closer to 50%. Maybe 100% depending on how you use it shmiler"
+	
+//=================================================================================================================
+// HERO: Bounty Hunter (Tax Evader)
+//==============================================================================================================
+		
+		"DOTA_Tooltip_ability_bounty_pennycash" 										"Chump Change"
+		"DOTA_Tooltip_ability_bounty_pennycash_description"								"These dollars are the cheap ones that we just need for those regen items that don't exsit"
+		"DOTA_Tooltip_ability_bounty_pennycash_bonus_gold"								"BONUS GOLD: "
+		
+		"DOTA_Tooltip_ability_bounty_dollarbills"										"Throwing those Dollar Bills"
+		"DOTA_Tooltip_ability_bounty_dollarbills_description"							"We all know what those dollar bills are used for ;) Go get yourself a friendly teammate"
+		"DOTA_Tooltip_ability_bounty_dollarbills_bonus_gold"							"BONUS GOLD: "
+		
+		"DOTA_Tooltip_ability_bounty_signthecheck"										"Signing My Life Away"
+		"DOTA_Tooltip_ability_bounty_signthecheck_description"							"Sign some checks and pass those e-transfers over, we really farming money now."
+		"DOTA_Tooltip_ability_bounty_signthecheck_bonus_gold"							"BONUS GOLD: "
+		
+		"DOTA_Tooltip_ability_ogre_magi_multicast_lua"										"Gaben Multirole"
+		"DOTA_Tooltip_ability_ogre_magi_multicast_lua_description"							"Gaben rolls his die to see if he is indeed lucky to recive more dollars for himself or his teammate"
+		"DOTA_Tooltip_modifier_ogre_magi_multicast_lua"										"Gaben's Lucky Chance"
+		"DOTA_Tooltip_modifier_ogre_magi_multicast_lua_description"							"The tax evader uses Gabe's luck to help open the wallets of more Dota Players"
+		"DOTA_Tooltip_ability_ogre_magi_multicast_lua_multicast_2_times_tooltip"			"2X CAST CHANCE"
+		"DOTA_Tooltip_ability_ogre_magi_multicast_lua_multicast_3_times_tooltip"			"3X CAST CHANCE"
+		"DOTA_Tooltip_ability_ogre_magi_multicast_lua_multicast_4_times_tooltip"			"4X CAST CHANCE"
+	
+//=================================================================================================================
+// HERO: Pangolier (Bowling Ball)
+//==============================================================================================================
+
+		"DOTA_Tooltip_ability_pango_charge_of_darkness"										"Flick the Ball"
+		"DOTA_Tooltip_ability_pango_charge_of_darkness_description"							"You give the ball so much power it thrusts towards enemy heroes at a blazing pace."
+		"DOTA_Tooltip_ability_pango_charge_of_darkness_movement_speed"						"CHARGE BONUS SPEED: "
+		"DOTA_Tooltip_ability_pango_charge_of_darkness_stun_duration"						"STUN DURATION: "
+		
+		"DOTA_Tooltip_ability_mars_bulwark"													"Set the Pins"
+		"DOTA_Tooltip_ability_mars_bulwark_description"										"Bowling Ball sets hit pins infront of himeself to proect himself. GET SCEPTER REALLY QUICK BTW!"
+	
+		"DOTA_Tooltip_ability_pango_greater_bash"											"Bumper Guards"
+		"DOTA_Tooltip_ability_pango_greater_bash_description"								"Nobody likes a gutter ball, get rid of those pesky players"
+		"DOTA_Tooltip_ability_pango_greater_bash_chance_pct"								"CHANCE TO BASH: "
+		"DOTA_Tooltip_ability_pango_greater_bash_damage"									"MOVEMENT SPEED AS DAMAGE: "
+		"DOTA_Tooltip_ability_pango_greater_bash_duration"									"STUN DURATION: "
+		"DOTA_Tooltip_ability_pango_greater_bash_knockback_duration"						"KNOCKBACK DURATIONS: "
+	
+		"DOTA_Tooltip_ability_pango_omni_slash"												"Pin Bot"
+		"DOTA_Tooltip_ability_pango_omni_slash_description"									"Some times there are too many pins to hit at once, why not just hit all of them and knock em all down!"
+		"DOTA_Tooltip_ability_pango_omni_slash_attack_rate_multiplier"						"SLASHES RATE MULTIPLIER: "
+		"DOTA_Tooltip_ability_pango_omni_slash_bonus_damage"								"BONUS DAMAGE: "
+		"DOTA_Tooltip_ability_pango_omni_slash_bonus_attack_speed"							"BONUS ATTACK SPEED: "
+		"DOTA_Tooltip_ability_pango_omni_slash_duration"									"DURATION: "
+		"DOTA_Tooltip_ability_pango_omni_slash_omni_slash_radius"							"SLASH JUMP RADIUS: "
+	
 	}
+	
 }

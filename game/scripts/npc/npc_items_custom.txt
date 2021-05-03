@@ -2009,4 +2009,8 @@
 		"ItemPurchasable"				"0"
 		"ItemSellable"					"1"
 	}
+		"item_aghanims_shard"
+	{
+		"ItemInitialStockTime"			"120"
+	}
 }

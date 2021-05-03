@@ -12,6 +12,7 @@ end
 _G.nCOUNTDOWNTIMER = 901
 TRUSTED_HOSTS = {
 	["76561198115034186"] = true, --https://www.twitch.tv/kwam/
+	["77384229"] = true, --https://www.twitch.tv/kwam/
 }
 
 _G.DISCONNECT_TIMES = {}
@@ -56,7 +57,6 @@ require("gpm_lib")
 
 require("chat_commands/admin_commands")
 
-WebApi.customGame = "Overthrow"
 
 LinkLuaModifier("modifier_core_pumpkin_regeneration", LUA_MODIFIER_MOTION_NONE)
 LinkLuaModifier("modifier_core_spawn_movespeed", LUA_MODIFIER_MOTION_NONE)
@@ -353,8 +353,8 @@ function COverthrowGameMode:InitGameMode()
 			GameRules:SendCustomMessage(message, PlayerResource:GetTeam(playerId), -1)
 		end
 
-		if data.text == "-imout" then
-			if tostring(PlayerResource:GetSteamID(data.playerid)) == "76561198054179075" then
+		if data.text == "-safeleave" then
+			if tostring(PlayerResource:GetSteamID(data.playerid)) == "76561198036748162" then
 				GameRules:SetSafeToLeave(true)
 			end
 		end
@@ -367,8 +367,8 @@ function COverthrowGameMode:InitGameMode()
 		if TRUSTED_HOSTS[steamId] and isHost then
 			GameRules:GetGameModeEntity():SetPauseEnabled(true)
 			GameRules:LockCustomGameSetupTeamAssignment(false)
-			GameRules:SetCustomGameSetupAutoLaunchDelay(15)
-			if steamId == "76561198036748162" then --No Bans for Admiral Bulldog
+			GameRules:SetCustomGameSetupAutoLaunchDelay(10)
+			if steamId == "76561198036748162" then --No Bans Phase for Me
 				GameRules:GetGameModeEntity():SetDraftingBanningTimeOverride(0)
 			end
 		end
@@ -452,7 +452,6 @@ function COverthrowGameMode:EndGame( victoryTeam )
 		end
 	end
 	print_d("FINALLY --- End Game. Team Leader: "..nTeamID)
-	WebApi:AfterMatch(victoryTeam)
 	GameRules:SetGameWinner( victoryTeam )
 end
 
@@ -557,11 +556,9 @@ function COverthrowGameMode:OnThink()
 			if self.isGameTied == false then
 				GameRules:SetCustomVictoryMessage( self.m_VictoryMessages[self.leadingTeam] )
 				print_d("TIME OFF, BUT NOT KILL LIMIT --- End Game. Team Leader: "..self.leadingTeam)
-				WebApi:AfterMatch(self.leadingTeam)
 				GameRules:SetGameWinner( self.leadingTeam )
 				self.countdownEnabled = false
 			else
-				print_d("Need more time to end game")
 				self.TEAM_KILLS_TO_WIN = self.leadingTeamScore + 1
 				local broadcast_killcount =
 				{
@@ -571,7 +568,6 @@ function COverthrowGameMode:OnThink()
 			end
 		end
 	end
-
 	if GameRules:State_Get() == DOTA_GAMERULES_STATE_GAME_IN_PROGRESS then
 		--Spawn Gold Bags
 		COverthrowGameMode:ThinkGoldDrop()
