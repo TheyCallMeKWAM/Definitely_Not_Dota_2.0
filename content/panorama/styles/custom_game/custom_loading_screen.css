@@ -54,7 +54,6 @@
     width: 70px;
     height: 70px;
     background-size: 100% 100%;
-    background-image: url("file://{images}/logos/dota_logo_bright_psd.vtex");
 }
 
 #DOTA2IMBA_Text {
@@ -118,7 +117,6 @@
     background-color: #000000e1;
     box-shadow: #00000099 0px 0px 10px 0px;
     border: 3px solid#00000099;
-    background-image: url('file://{images}/custom_game/bar.png');
 }
 
 #DOTA2IMBA_OP_TEXT1 {
@@ -139,7 +137,6 @@
     background-size: 100% 100%;
     box-shadow: #00000099 0px 0px 10px 0px;
     border: 3px solid#00000099;
-    background-image: url('file://{images}/custom_game/388.jpg');
 }
 
 #DOTA2IMBA_OP_TEXT2 {
@@ -165,7 +162,6 @@
     margin-left: 150px;
     margin-top: 10px;
     background-size: 100% 100%;
-    background-image: url('file://{images}/custom_game/other/sitting-dog.png');
 }
 
 #DOTA2IMBA_TIP {
@@ -275,7 +271,6 @@
     margin-top: 600px;
     background-size: 100% 125%;
     background-color: #000000;
-    background-image: url('file://{images}/custom_game/hero/22_jpg.vtex');
     box-shadow: #000000 0px 0px 10px 0px;
     border: 3px solid#00000099;
 }

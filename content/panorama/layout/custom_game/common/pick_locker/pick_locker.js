@@ -5,8 +5,8 @@ var wait_time = [
 ]
 
 var localized_text = [
-	$.Localize("#DOTA_Hero_Selection_LOCKIN"),
-	$.Localize("#DOTA_Hero_Selection_LOCKIN"),
+	$.Localize("#HighSupportersOnly"),
+	$.Localize("#SupportersOnly"),
 	$.Localize("#DOTA_Hero_Selection_LOCKIN"),
 ]
 

@@ -372,7 +372,6 @@ function COverthrowGameMode:OnTeamKillCredit( event )
 	if nKillsRemaining <= 0 then
 		print_d("KILL LIMIT --- End Game. Team Leader: "..nTeamID)
 		GameRules:SetCustomVictoryMessage( self.m_VictoryMessages[nTeamID] )
-		WebApi:AfterMatch(nTeamID)
 		GameRules:SetGameWinner( nTeamID )
 		broadcast_kill_event.victory = 1
 	elseif nKillsRemaining == 1 then
