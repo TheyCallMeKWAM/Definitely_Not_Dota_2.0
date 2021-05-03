@@ -1870,6 +1870,7 @@ All other heroes should already be working just fine.
 - All Aghanim Scepter Upgrades are visable in the tooltip
 [b]Nightstalker (Batman) Rework[/b] 
 - Darkness: Ability damaged increased from 50/100/150 to 100/200/300
+- Darkness: Ability cooldown reduced from 130/100/70 to 90/70/50
 - New Ability (Smoke Out): Instantly making Nightstalker disappear  
 - New Shard Ability: Beserkes Brew (granting attack speed and hp regen)
 [b]NEW HERO Drow Ranger (Glass Cannon)[/b] 
