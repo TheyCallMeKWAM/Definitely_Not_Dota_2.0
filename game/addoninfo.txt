@@ -1,0 +1,40 @@
+"AddonInfo"
+{
+	"IsPlayable"	"1"
+	"HeroGuidesSupported" "1"
+	"PenaltiesEnabled"			"0"
+	"EnablePickRules"    "1"
+	"CheckAFKPlayers"	"0"
+	Default_Keys = 
+	[
+		{
+			Key = "L"
+			Command = "+WheelButton"
+			Name = "CustomCommand"
+		},
+	]
+	"ahh_there_are_too_many_trees_solo"
+	{
+					"MaxPlayers"                    "10"
+	}
+	"motherfucking_desert_duo"
+	{
+					"MaxPlayers"                    "10"
+	}
+	"possible_three_way_golden_rule"
+	{
+					"MaxPlayers"                    "9"
+	}
+	"temple_of_the_quartet_icefrog"
+	{
+					"MaxPlayers"                    "16"
+	}
+	"too_many_based_quintet_players"
+	{
+					"MaxPlayers"                    "15"
+	}
+	"way_too_many_based_octet_players"
+	{
+					"MaxPlayers"                    "24"
+	}
+}

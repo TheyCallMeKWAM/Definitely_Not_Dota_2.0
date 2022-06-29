@@ -1,0 +1,34 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="file://{resources}/styles/custom_game/overthrow_game_info.css" />
+	</styles>
+	<Panel class="OverthrowGameInfo">
+		<Panel id="Title">
+			<Label id="TitleName" text="Definitely Not Dota 2.0" />
+		</Panel>
+		<Label id="ObjectiveHeader" class="Header" html="true" text="Objective:" />
+		<Label id="BriefDescription" text="Reach legendary meme status by proving your hero is the least    balanced!" />
+		<Label id="HowToPlayHeader" class="Header" html="true" text="How To Play:" />
+		<Panel id="ThroneRow" class="InfoRow">
+			<Label id="ThroneText" html="true" text="Approach the <span class='midas_throne'>SALT PILE</span> to earn bonus <span class='gold'>gold</span> and <span class='xp'>experience</span>." />
+			<Image id="ThroneImage" src="file://{images}/custom_game/game_info/throne.psd" />
+		</Panel>
+		<Panel id="CoinsRow" class="InfoRow">
+			<Image id="CoinsImage" src="file://{images}/custom_game/game_info/coins.psd" />
+			<Label id="CoinsText" html="true" text="Snatch up them golden coins as <span class='overboss'>MR SALTY</span> throws them to earn more moola <span class='gold'>gold</span>." />
+		</Panel>
+		<Panel id="ItemsRow" class="InfoRow">
+			<Label id="ItemsText" html="true" text="<span class='midas_throne'>Random Items</span> occassionaly appear on the map, sell them for extra gold or use them to escape those annoying OP heroes." />
+			<Image id="ItemsImage" src="file://{images}/custom_game/game_info/items.psd" />
+		</Panel>
+		<Label id="TipsHeader" class="Header" html="true" text="Tips:" />
+		<Panel id="TipsRow" class="InfoRow">
+			<Label id="TipText01" class="TipText" html="true" text="- The current leader has a CROWN on their heads, kill them to steal their presious money and get to the top!<br>" />
+			<Label id="TipText02" class="TipText" html="true" text="- Valve breaks Custom Games. Some heroes definitely don't work. Please feel free to report them in the discord.<br>" />
+			<Label id="TipText03" class="TipText" html="true" text="-Make sure you figure out which of your opponents is weak, so you can feed on them for easy kills and make them abandon. <br>" />
+			<Label id="TipText04" class="TipText" html="true" text="-Don't let your memes be dreams."/>
+		</Panel>
+	</Panel>
+</root>
+
