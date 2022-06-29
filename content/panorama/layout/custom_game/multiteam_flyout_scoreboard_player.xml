@@ -1,0 +1,95 @@
+<root>
+    <styles>
+ 		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="file://{resources}/styles/custom_game/shared_scoreboard_styles.css" />
+        <include src="file://{resources}/styles/custom_game/multiteam_flyout_scoreboard.css" />
+    </styles>
+	<script>
+		function ToggleMute()
+		{
+			var playerId = $.GetContextPanel().GetAttributeInt( "player_id", -1 );
+			if ( playerId !== -1 )
+			{
+				var newIsMuted = !Game.IsPlayerMuted( playerId );
+				Game.SetPlayerMuted( playerId, newIsMuted );
+				$.GetContextPanel().SetHasClass( "player_muted", newIsMuted );
+
+				GameEvents.SendCustomGameEventToServer("set_mute_player", { disable: newIsMuted, toPlayerId: playerId } );
+			}
+		}
+
+		function ToggleDisableHelp()
+		{
+			var playerId = $.GetContextPanel().GetAttributeInt( "player_id", -1 );
+			if ( playerId !== -1 )
+			{
+				var disable = $("#DisableHelpButton").checked;
+				GameEvents.SendCustomGameEventToServer("set_disable_help", { disable: disable, to: playerId } );
+			}
+		}
+
+
+		function RefreshMuteAndDisableHelpList()
+		{
+			var playerId = $.GetContextPanel().GetAttributeInt( "player_id", -1 );
+			$.GetContextPanel().SetHasClass( "player_muted", Game.IsPlayerMuted( playerId ) );
+
+			var disableHelp = CustomNetTables.GetTableValue("disable_help", Players.GetLocalPlayer());
+			if (disableHelp && disableHelp[playerId]) {
+				$("#DisableHelpButton").checked = true;
+			}
+			var teamates = Game.GetAllTeamIDs()
+			for (var key in teamates) {
+				key = parseInt(key)
+				GameEvents.SendCustomGameEventToServer("set_mute_player", { disable: Game.IsPlayerMuted(key), toPlayerId: key } );
+			}
+		}
+
+		RefreshMuteAndDisableHelpList();
+
+		function ToggleMuteItem( event_data )
+		{
+			var playerId = $.GetContextPanel().GetAttributeInt( "player_id", -1 );
+			if (playerId == event_data["to"])
+			{
+				var newIsMuted = (event_data["mute"] == 1)
+				Game.SetPlayerMuted( playerId, newIsMuted );
+				$.GetContextPanel().SetHasClass( "player_muted", newIsMuted );
+			}
+		}
+
+		GameEvents.Subscribe("set_disable_help_refresh", RefreshMuteAndDisableHelpList);
+		GameEvents.Subscribe("set_mute_refresh", ToggleMuteItem);
+
+	</script>
+	<Panel class="PlayerRow">
+		<Panel id="PlayerRowContainer">
+			<Panel id="Hero" class="ScoreCol_Hero ScoreboardPanel">
+				<Image id="HeroIcon" heroimagestyle="landscape" scaling="stretch-to-fit-preserve-aspect" />
+			</Panel>
+			<Panel id="PlayerDetailsContainer" class="ScoreCol_PlayerDetails ScoreboardPanel">
+				<Panel id="PlayerAndHeroName">
+					<Label id="PlayerName" text="AAAAA" />
+					<Label id="HeroNameAndDescription" text="#custom_scoreboard_hero_name_and_desc" />
+				</Panel>
+				<Label id="TeammateGoldAmount" text="999" />
+				<ToggleButton id="DisableHelpButton" onactivate="ToggleDisableHelp();" onmouseover="DOTAShowTextTooltip(Disable Help)" onmouseout="DOTAHideTextTooltip()" />
+				<Button id="MuteButton" onactivate="ToggleMute();" />
+			</Panel>
+			<Panel id="TeamScoreSpace" class="ScoreCol_TeamScore" />
+			<Panel id="KillsContainer" class="ScoreCol_Kills ScoreboardPanel">
+				<Label id="Kills" text="999" />
+			</Panel>
+			<Panel id="DeathsContainer" class="ScoreCol_Deaths ScoreboardPanel">
+				<Label id="Deaths" text="999" />
+			</Panel>
+			<Panel id="AssistsContainer" class="ScoreCol_Assists ScoreboardPanel">
+				<Label id="Assists" text="999" />
+			</Panel>
+		</Panel>
+		<Panel id="UltimateIndicatorBG" class="UltimateIndicatorShared" />
+		<Panel id="UltimateIndicator" class="UltimateIndicatorShared" />
+	</Panel>
+</root>
+
+
