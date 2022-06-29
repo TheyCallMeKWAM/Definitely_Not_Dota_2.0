@@ -1,0 +1,2265 @@
+changelog
+
+
+1.0-
+
+Fixed Hero Abilities:
+Alchemist: Fervor
+Dragon Knight: Insatiable Hunger
+Sniper Strafe (Double Tap)
+Juggernaut: Omnislash
+Tusk: Jinada
+Phantom Assassin: Blade Dance, Coup de Grace
+Visage: Heat Seeking Missile, Chakra Magic
+Ancient Apparition: Global Silence, Finger of Death
+Medusa: Feral Impulse
+Natures Prophet: Feral Impulse
+
+Broken Hero Abilities:
+Wraith King: Skeleton Tank
+Sniper: Chopper Gun
+
+Disabled Heros:
+Lion: Secret Service ability broken
+Lifestealer: Same as spectre
+
+Maps:
+Desert Duo: Renamed "the_motherfucking_desert_duo"
+Forest Solo: Up Next
+
+Team Names:
+Same as the original
+Remaining ones will apear when the forest solo is added
+
+Upnext:
+Adding Forest Solo
+Adding a new hero (easter egg is hidden in the game somewhere)
+Fixing remaining broken abilites 
+
+Have any problems? Report them to the bug form:
+https://docs.google.com/forms/d/e/1FAIpQLScv__qgoVFVoVX-2XlzAfOlTlYdtBSch1k5_VvNAKgi41DAGA/viewform
+
+1.0a-
+
+Fixed Hero Abilities:
+Axe: Momentum Hexlix, Beserkers Call
+Anti Mage: Anti-Mage Blink
+
+Hero Changes:
+Bloodseeker: Raised threashold of Ultimate
+Juggernaunt: Nerfed Omnislash
+
+Disabled Heros:
+Sniper
+Wraith King
+
+1.0b-
+
+Fixed Hero Abilities:
+Pheonix: Icurus Dive
+Monkey King: Tree Dance, Primal Spring
+Crystal Maiden: Marksmenship, Tricks of the Trade
+
+Hero Changes
+Crystal Madien: Nerfed Marksmenship
+
+Enabled Heros:
+Monkey King
+
+1.0c-
+
+Fixed Hero Abilities:
+IceFrog: Ice Blast, Finger of Death
+Visage: Heat Seeking Missiles
+Io: Bristleback
+
+New Forest Solo Map:
+Delayed by a day or 2 due to minimap issues.
+
+	1.0d-
+
+	Fixed Hero Abilities
+	Phantom Assassin: Mortal Strike
+	Juggernaut: Blink Strike
+	Io: Reactive Armour, Bristleback
+	Dazzle: Sunder
+	Ursa: Fury Swipes, Enrage
+	
+	
+1.1 - Balancing Update
+
+Clockwork (Meepbot):
+	Ministun reduced from 0.2sec to 0.0
+	Ability Damaged reduced from 35 to 25
+	Ability Cooldown increased from 20 to 25
+	
+Alchemist (20 Second Stun LMAO)
+	Chemical Rage: Ultimate move speed increased form -350 to -100
+	Chemical Rage: Durtaion increased from 10 to 25
+	Chemical Rage: Base attack time decreased from 0.8/0.5/0.3 to 0.5/0.25/0.1
+	
+Kunkka (Omega Kunkka)
+	Torrent: Delay increased from 4.5 to 5.5
+	Torrent: Stun decreased from 1.53 to 1.00
+	Ghostship: Cooldown increased from 5/4/3 to 8/7/6
+	
+IO (Spikey Ball Dude)
+	Quill Spray: stack damaged increased from 0 to 4/6/8/10
+	Reactive Armour: reduced from 2 to 1
+
+Chaos Knight (The Big Guy)
+	Firey Soul: Attack speed bonus inscreased from 0 to 5/10/15/20
+	Fiery Soul: Move speed bonus increased from 0 to 5/6/7/8
+	Warpath: Damage per stack increased from 0 to 1/2/3
+	Warpath: Max stacks increased from 100 to 500
+	Warpath: Stack duration increased from 25 to 50
+	
+Ancient Apparition (IceFrog)
+	Ice Blast: Kill percentage decreased from 80/85/90/95 to 70/75/80/85
+	Ice Blast: Ability Cooldown decreased from 60 to 45
+	Finger of Death: Cooldown reduced from 160/150/140 to 130/120/110
+	Finger of Death: Scepter cooldown reduced from 130/120/110 to 100/90/80
+	Finger of Death: Range increased from 500 to 600
+	Finger of Death: Damage Delay increased from 0.35 to 0.6
+	
+Visage (Crazy Chicken)
+	Stone Form: Removed from game
+	Chakra Magic: Cooldown decreased from 10/8/6/4 to 8/6/4/2
+	Chakra Magic: Mana restore rescaled form 100/250/400/650 to 250/300/450/650
+	Heat Seeking Missile: Radius increased from 600/700/800/900 to 800/900/1000/1100
+	Heat Seeking Missile: Targets increased from 1/2/3/4 to 2/3/4/4
+	
+Bloodseeker:
+	Culling Blade: Kill threashold reduced from 450/550/650 to 350/450/550
+	Culling Blade: Kill threashold reduced from 750/850/950 to 650/750/850
+	
+Pugna (Happy Little Leprechaun)
+	Necronomicon Warrior's Last Will: Decreased damaged from 800 to 600
+	
+Dragon Knight: (Life Jew)
+	Moment of Courage: Trigger Chance increased from 0 to 25/50/75/100
+	Spirit Siphon: Charges increased from 0 to 1/2/3/4
+	Spirit Siphon: Damage percentage increased from 0 to 1/2.5/4/5.5
+	
+	
+1.1a - Balancing Patch
+
+Chaos Knight (Big Guy)
+	Firey Soul: Max stack increased from 100 to 500
+	Warpath: Stack Duration incraesed from 50 to 180
+	Concussive Shot: Ability cooldown reduced from 0.5/0.4/0.3/0.2 to 0.3/0.2/0.1/0.05
+
+Clockwork (Meepbot)
+	Battery Assult: Damaged duration decreased from 15 to 10.5
+	Battery Assult: Damage interval increased from 0 to 0.9/0.8/0.7/0.6
+
+Juggernaut (Dragon Ball Z)
+	Omnislash: Bonus damaged reduced from 50/60/70/80 to 10/20/30/40
+	Omnislash: Attack rate multiplier reduced from 1.5 to 1.1
+	
+Kunkka (Omega Kunkka)
+	Ghostship: Cooldown reduced from 8/7/6 to 6/5/4
+	
+Tusk (King Flippy Nips)
+	Walrus Punch: Added cooldown to be 1 second
+	Static Remnant: Fixed ability
+	
+Anti Mage (Blink'n Slammin)
+	Echo Slam: Fixed ability to deal echo damage
+	Echo Slam: Added inital damage of 25
+	
+
+1.1b - Balancing Patch
+
+Juggernaut (Dragon Ball Z)
+	Omnislash: Bonus damaged rescaled from 10/20/30/40 to 30/40/50/60
+	Omnislash: Attack rate multiplier increased from 1.1 to 1.4
+	Sleight of Fist: Fixed ability
+	Blink Strike: Cooldown increased from 0 to 0.5
+	
+Anti Mage (Blink'n Slammin)
+	Aftershock: Damaged increased from 50/75/100 to 75/100/125
+	Mana Break: Ability Removed
+	
+Meepo (Meepobot)
+	Renamed to Meepbot
+	
+Title of the Game has been renamed to "Definitely Not a Remake of Definitely Not Dota" instead of "Definitely Not Dota"
+
+
+1.2 - Patch
+
+Loading Screen:
+-Created a new temporary loading screen (again)
+Feel free to still submit things to me!
+
+Heros:
+
+Venomancer(Torbjorn)
+	frostmourne: Ability Fixed
+	Alacrity: Ability Fixed
+	Plauge Ward: Replaced with Forge Spirit, with same attributes
+	Guardian Angel: Cooldown reduced from 120 to 80
+Talent Tree:
+	Level 15: +1 Forge spirit added
+	Level 20: +35 Alacrity Damage/Speed
+	
+Visage(Ghost Chicken with Rockets)
+	Renamed: Rocket Megee (you're welcome Steven and Evan)
+
+NEW HERO:
+
+Trent Protector (Debuffer)
+	This Hero has the ability to hit heros with an ability, that last till the hero dies.
+Abilities:
+	Viper's Poison Attack
+		Damage per Health Missing: 0.1/0.2/0.3/0.4
+		
+	Huskar's Burning Spear
+		Burn Damage: 0/1/1/2
+		Health Cost: 1
+	
+	Venomancer's Poision Sting
+		Damage per second: 2/3/4/5
+		Slow: 5%
+		
+	Ultimate: Medusa's Split Shot
+		Outgoing Damage: 0%
+		Targets: 9999
+		Range of Split attack 200/400/600 (600 is about half the middle circle)
+		
+Talent Tree:
+	Level 10: Split Shot uses Modifers
+	(this allows it to use Burning Spear and Poison Attack)
+	
+PROS:
+Absolutly beat the shit out of your opponents who are low
+Possible Kill Steal potential
+Burning Spear Stack does not diminish
+Posion attack does more damage the lower the hero
+
+CONS:
+Very Slow
+Very slow attack time
+Doesn't come online till later in the game
+Fountain Regen is a huge counter
+
+Maps:
+
+Forest Solo:
+	Removed some stupid ass trees that were in my way
+	
+NEW MAP:
+
+Desert Quintet:
+	This map is gonna be an absoulte shit show, if you pick it!
+
+Whats Next:
+	New Hero (Wraith King), thats all you get
+	The Readdition of Sniper(Call of Duty)
+	Fixing Hero Selection Menu
+	Fixing Hero Intro Animation
+
+Have a good day everyone, feel free to let me know any problems in the bug report form!
+
+
+
+
+[h1]1.3 - Patch[/h1]
+
+[h1]Heroes:[/h1]
+
+[b]Treant (Debuffer)[/b]
+-       Split Shot: Ability made custom, names "Lay waste to your enemies"
+-       Poision Attack: Rescaled from 0.10/0.20/0.30/0.40 to 0.20/0.40/0.60/0.8
+-       Burning Spear: Rescaled from 0.5/1/1.5/2 to 1/2/3/4
+-       Poison Sting: Rescaled from 2/3/4/5 to 4/5/6/7
+-  [b]Talent Tree:[/b]
+-       Level 10: Both have been changed to Split Shot uses modifiers
+	
+	
+[b]Juggernaut(Dragon Ball Z Character)[/b]
+-	   Omnislash: Attack Rate multiplier increased from 1.4 to 1.6
+
+[b]Chaos Knight(Big Guy)[/b]
+- 	    Warpath: Max stacks nerfed from 500 to 100
+
+[b]Dragon Knight(Life Jew)[/b]
+-	    Named Changed to "Suka your life"
+
+
+[h1]Updated Heroes:[/h1]
+
+[b] Silencer (The Human Snowball) [/b]
+
+-	    Strafe: Ability Removed and Replaced with Arcane Orb
+-	 	Necromastery: Ability removed and replaced with Glaives of Wisdom
+-		Atrophy Aura: Ability removed and replaced with Essence Shift
+
+-		Arcane Orb: Mana pool percent damage: 6/7/8/9
+-		Arcane Orb: Intellegence steal 2/3/4/5
+-		Arcane Orb:	Steal Duration 15/30/45/60
+
+-		Glaives of Wisdom: Intellegence Damage Percentage 30/45/60/75
+-		Glaives of Wisdom: Steal Range 925
+
+-		Essence Shift: Agility gain and stat loss 3/4/5/6
+-		Essence Shift: Duration 15/30/45/60
+
+-  [b]Talent Tree:[/b]
+-		Level 15: +2 Intellegence Stolen (Glavies of Wisdom)
+-		Level 20: +20% Glavies of Wisdom Damage
+-		Level 25: +40 Duel Damage Victory Bonus
+
+[b] Sniper (Call of Duty) [/b]
+-		Added Back to the game
+-		Chopper Gunner: Ability Removed and replaced with Call in the Troops
+-		Noob Tube: Ability Fixed
+-		Extreme Conditioning: Ability Fixed
+-		Double Tap: Ability Fixed
+
+- 	Bring in the Troops (Buring Army)
+-		Max Level: Decreased from 3 to 2
+-		Upgrade Level: Increased form 6/11/18 to 11/20
+-		Range: 800
+-		Duration: 10/15
+-		Count: 5/10
+-		Attack Rate: Decreased from 1.75/1.65/1.55 to 1/0.75
+-		Spawn Rate: Decreased from 0.8 to 0.1
+
+
+- 		Team Name 1kmmr changed to Cardboard 7
+
+[h1]What's Next:[/h1]
+-		New Hero (Wraith King), that's all you get
+- 		Adding new Maps, Including: Quartet, Quintet and maybe regular Dota
+
+Have a good day everyone, feel free to let me know any problems in the[url=https://docs.google.com/forms/d/e/1FAIpQLScv__qgoVFVoVX-2XlzAfOlTlYdtBSch1k5_VvNAKgi41DAGA/viewform] bug report [/url] form!
+
+	
+
+[h1]1.4 - Patch[/h1]
+
+[h1]Shoutout:[/h1]
+
+Thank you [url=https://twitter.com/CaptainBaumi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor] @Baumi [/url] for making a video on my remake, and showing it to everyone
+
+Also a special thanks to all of you for helping us pass 1.7k subcribers on the game, we were at 200 on Saturday (Feb 16th)!!!!
+
+[h1]Heroes:[/h1]
+
+[b]Enigma (Spaceman)[/b]
+-       Chaos Meteor: Ability now fixed
+-       Chaos Meteor: Burn damage time increased from 0 to 10 seconds
+-       Choas Meteor: Impact Damage increased from 4/8/12/16 to 8/12/16/20
+-       Sunstrike: Ability now fixed
+-		Black Hole: Ability duration increased from 4 to 5/6/7 seconds
+-		Black Hole: Range Increased from 2500 to 3000
+	
+[b]Razor (Weather Man)[/b]
+-	    Eye of the Storm: Ability Fixed
+-		Eye of the Storm: It was so broken it deserved a second fix
+
+[b]Enchantress (Impetus)[/b]
+- 	    Impentus: Ability fixed, well I sure as hell hope so beacuse its her ducking (steam doesnt allow swearing) name
+-		Impentus: Scepter Range increased from 0 to 300/400/500
+
+[b]Mirana (Mirana)[/b]
+-	    Barrage of Arrows: Nothing was done to it beacuse it's not broken (Sorry Baumi)
+-		Not Sacred Arrow: Not changing to 3 arrows, because is broken as balls (been there done that)
+
+[h1]Maps:[/h1]
+
+[b]Forest Solo[/b]
+-		Minimap Fixed
+
+[b]Desert Duo[/b]
+-		Minimap Fixed
+
+
+[h1]What's Next:[/h1]
+-		New Hero (Wraith King), that's all you get
+- 		Adding new Maps, Including: Quartet, Quintet and maybe regular Dota
+
+Have a good day everyone, feel free to let me know any problems in the[url=https://docs.google.com/forms/d/e/1FAIpQLScv__qgoVFVoVX-2XlzAfOlTlYdtBSch1k5_VvNAKgi41DAGA/viewform] bug report [/url] form!
+
+	
+	
+[h1]1.4b - Patch[/h1]
+
+[h1]Heroes:[/h1]
+
+[b]Phantom Assassin (Queen Crits Alot)[/b]
+-       Crit Avatar: Ability duration decreased from 6/8/10 to 3/5/7
+-       Crit Avatar: Ability attack speed rescaled from 300 to 200/250/300
+	
+[b]Spectre (The joy of painting with spectre)[/b]
+-		Spectral Dagger: Duration rescaled from 40 to 10/15/20/25
+-		Macropyer: Duration rescaled from 60 to 15/25/35/45
+-		Midnight Pulse: Duration recscaled from 75 to 30/45/60
+-		Midnight Pulse: Cooldown increased from 25 to 30
+
+[h1]1.5 - Patch[/h1]
+
+Thank You EVERYONE SO MUCH for 2000 subscirbers, could not of done this with out you
+With that in mind, i've done something that I will proably regret :)
+
+[h1]Maps:[/h1]
+
+[b]Forest Solo[/b]
+-		Kill Goal reduced from 80 to 25
+
+[b]Desert Duo[/b]
+-		Kill Goal reduced from 80 to 30
+
+[h1]NEW MAP (that im going to regret)[/h1]	
+[b]Desert 10's[/b]
+-		Kill Goal increased from 50 to 100
+-		Ummm this map is 10v10v10 so 30 people can play at once
+-		This is proably a horrible idea, gl valve servers
+
+
+
+[h1]1.5b - Patch[/h1]
+
+[h1]Maps:[/h1]
+
+[b]Desert 10's[/b]
+-		Valve didnt like 30 people so its been reduced to 24
+-		Gamemode is now teams of 8 not teams of 10
+
+
+
+
+
+[h1]1.6 - Patch[/h1]
+
+[h1]News:[/h1]
+-		Valve broke shops for all custom games, sometimes to get your items, you will have to die! (idk when it will be fixed)
+
+[h1]Secret Shit:[/h1]
+-		Some new hints have been added into maps to hint at a new hero, you can find some starting NOW!
+
+[h1]Heroes:[/h1]
+
+[b]Sniper (Call of Duty)[/b]
+-       Noob Tube: Damage rescaled from 100/175/250/325 to 100/250/350/500
+-		Strafe: Bonus attack speed increased from 250 to 300
+-       Burning Army: Army count increased from 5/10 to 10/20
+-		Burning Army: Cooldown reduced from 110 to 90/60
+	
+[b]Enchantress (Impentus)[/b]
+-		Impentus: Distance percent damage rescaled from 18/25/32 to 10/18/25
+-		Impentus: Bonus Scepter Attack Range rescaled from 300/450/500 to 150/250/350
+-		Move Speed: Reduced from 600 to 450
+
+[b]Silencer (The Human Snowball)[/b]
+-		Arcane Orb: Mana cost reduced from 50/70/90/110 to 10/20/30/40
+-		Duel: Duration rescaled from 3/4.75/5.5 to 3.25/4.75/5.5
+-		Duel: Cooldown rescaled from 60 to 45/40/35
+
+[b]Spirit Breaker (Roshan)[/b]
+-		Reincarnation: Cooldown increased from 60/45/60 to 180/120/60
+-		Spell Block: Cooldown increased from 10 to 15
+-		Strenght: Reduced from 55 to 35
+-		Strentgh: G	ain reduced from 6 to 3
+-		Move Speed: Reduced from 260 to 150
+
+[b]Undying (Tombstone)[/b]
+-		Zombies: All values are multiplied by 2
+-		Dismember: Damage increased from 60/90/120 to 90/120/150
+
+[h1]Maps:[/h1]
+
+When pressing the play button, the solo map will automatically be selected.
+
+[b]Forest Solo[/b]
+-		Map Renamed to ahh_there_are_too_many_trees_solo
+-		Max Kills increased from 25 to 35
+-		I've removed some of those stupid ass trees
+
+[b]Desert Duo[/b]
+-		Max Kills increased from 35 to 45
+
+[b]Desert Eights[/b]
+-		Backend Changes, don't worry about it. :)
+
+Have a good day everyone, feel free to let me know any problems in the[url=https://docs.google.com/forms/d/e/1FAIpQLScv__qgoVFVoVX-2XlzAfOlTlYdtBSch1k5_VvNAKgi41DAGA/viewform] bug report [/url] form!
+
+
+
+[h1]1.6b - Patch[/h1]
+
+[h1]News:[/h1]
+-		Someone made a game of "Dota 2 But It's Definitely Not A Ripoff Of Definitely Not A Remake Of Definitely Not Dota" (I love it, more publicity for us <3)
+-		[b]Patch 2.0 [/b]will be the day that I fufill a dream that I have had
+-		Plus like 3 heros
+-		2 maps
+-		Some custom items here and there, u get the idea.
+
+[h1]Heroes:[/h1]
+
+[b]Witch Doctor (Death Ward)[/b]
+-		Chronosphere: Ability Fixed
+-		Chronosphere: Abilty Duraion now reflects the time in the description
+
+[b]Alchemist (20 Second Stun LMAO)[/b]
+-		Fervor: Ability recscaled from 15/25/35/35 to 10/15/20/25
+
+[h1]Misclanious:[/h1]
+
+-		Changed some of the team names
+-		Changed some of the Info about the game to refelect changes made.
+-		Changed some descriptions of hero abilites to reflect their changes (More to come)
+
+Have a good day everyone, feel free to let me know any problems in the[url=https://docs.google.com/forms/d/e/1FAIpQLScv__qgoVFVoVX-2XlzAfOlTlYdtBSch1k5_VvNAKgi41DAGA/viewform] bug report [/url] form!
+	
+
+[h1]1.6c - Patch[/h1]	
+
+[h1]Heroes:[/h1]
+
+[b]Treant (Debuffer)[/b]
+-		Hero Disabled 
+
+
+
+
+[h1]1.7 - Patch[/h1]
+
+[h1]News:[/h1]
+-		Thank you all, for 2400+ Subscribers, I remeber when it was 5 subscribers 2 weeks ago
+-		Patch 2.0 is coming very soon, currently has:
+-		2 New Heroes, plus 1 more in development
+-		2 New Maps
+-		A little suprise from me!
+
+[h1]Heroes:[/h1]
+
+[b]Furion (Korean Micro God)[/b]
+-		Hero Fixed (thanks @ramesh for reporting it)
+-		Shackles: Abilty Fixed
+-		Demonic Conversion: Ability Fixed
+-		Demonic Conversion:	Cooldown reduced from 35 to 25/20
+-		Boar: Ability Fixed
+-		Boar: Duration Increased from 60 to 360
+
+
+[h1]1.721 - Patch THE BIG ONE[/h1] (sorry for the late patch, Steam Server Maintance)
+
+[h1]News:[/h1]
+-		I feel like every day I'm thanking you all for playing, Today 2600+!!!!
+-		I feel like the game could use a little spicing up, so I added a new map today!
+
+[h1] New Heroes:[/h1]
+
+[b]Sand King (Debuffer)[/b]
+Abilites:
+-		Poision Attack (Viper)
+-		Burning Spears (Huskar)
+-		Essence Shift  (Slark)
+-		Overpower	   (Ursa)
+-		Split Shot     (Medusa)(ULTIMATE)
+Talent Tree:
+-		Lvl 10: Split Shot Uses Modifers 
+-		Lvl 10:	+120 Gold/min
+-		Lvl 15:	+250 Health
+-		Lvl 15:	+10 Attack Speed
+-		Lvl 20:	+10 Agility
+-		Lvl 20:	+10 Strenght
+-		Lvl 25: +500 Health
+-		Lvl 25: 10% Lifesteal
+Hero Changes:
+-		Hero readded back into the game
+-		Hero changed from Treant to Sand King
+-		Poision Sting: Ability Removed and replaced with Essence Shift
+-		Essence Shift: Agility Steal reduced from 3/4/5/6 to 1/1/2/3
+-		Essence Shift: Duration Increased from 15/30/45/60 to Until you and your enemy die.
+-		Overpower: New Ability Added
+-		Overpower: Duration reduced from 15 to 10
+-		Overpower: Max attacks increased from 6/7/8/9 to 9
+Tips:
+-		Level 10, get "Split Shot Uses Modifers"
+-		Poison Attack is the best way to tick your enemies down to death (The lower they are, the more damage it does)
+-		Essence Shift Buff lasts until you die
+-		Essence Shift Debuff lasts until the enemie dies.
+
+[b]Treant (Fern Gully)[/b] 
+Abilites:
+-		Sprout 				(Furion)
+-		Permant Invisablity (Riki)
+-		Living Armour       (Treant)
+-		Overgrowth	 		(Treant) (ULTIMATE)
+-		Eyes of the Forest 	(Treant)(Aghanim's Scpeter)
+Talent Tree:
+-		Lvl 10: +2 Living Armour Block Instances
+-		Lvl 10:	10% Cooldown Reduction
+-		Lvl 15:	+500 Health
+-		Lvl 15:	+25 Movement Speed
+-		Lvl 20:	+120 Gold/min
+-		Lvl 20:	+10 Strenght
+-		Lvl 25: +350 Eyes of the Forest/Overgrowth AOE
+-		Lvl 25: Cloak and Dagger does not reveal
+Hero Changes
+-		Hero readded to the game (Original Hero)
+Tips:
+-		Very good hero for team matches
+-		A support hero for an arcade game???
+-		A really good troll hero to keep enemies in place
+-		Level up that heal quick, gotta love infinate regen!
+-		You can place so many stupid trees, the solo map will be flooded
+
+[h1]Heroes:[/h1]
+
+[b]Earthshaker (Harambe)[/b]
+-		Leap: Ability Fixed
+-		Leap: Now has 3 charges
+-		Flaming Lasso: Ability Fixed
+-		Bananas: I really don't know how to fix this one, if you do add me on steam [url=https://steamcommunity.com/id/theycallmekwam HERE [/url]
+
+[b]Spirt Breaker (Roshan)[/b]
+-		Dragon Slave: Width start reduced from 200 to 150
+-		Dragon Slave: Width finish reduced from 275 to 200
+-		Emerge: Damaged reduced from 450 to 400
+-		Spell Block: Cooldown increased from 10 to 15 
+-		Bash: Chance reduced from 25 to 17 percent chance (but is that really a nerf?)
+-		Bash: Stun Duration reduced from 2 to 1
+
+[h1]Maps:[/h1]
+
+[b]Forest Solo[/b]
+-		Time: Increased from 10 to 15 minuets
+
+[b]Desert Duos[/b]
+-		Time: Increased from 10 to 15 minuets
+
+[b]-Time: Increased from 10 to 15 minuets for all maps[/b]
+
+[h1]NEW MAP:[/h1]
+
+[b]Mine Trios[/b]
+-		Will most likly get a few score and time changes in the future
+
+Have a good day everyone, feel free to let me know any problems in the[url=https://docs.google.com/forms/d/e/1FAIpQLScv__qgoVFVoVX-2XlzAfOlTlYdtBSch1k5_VvNAKgi41DAGA/viewform] bug report [/url] form!
+
+
+[h1]1.721b - Patch [/h1] 
+
+[h1]Heroes:[/h1]
+
+[b]Sand King (Debuffer)[/b]
+-		Name now reflected as Debuffer
+
+[b]Treant (Fern Gully)[/b]
+-		Custom Icon now works for Permant Invisablity
+
+[h1]Maps:[/h1]
+
+[b]Mine Trios[/b]
+-		Score and Time adjusted like the other
+
+
+
+
+[h1]1.721c - Patch [/h1]
+
+[h1]News:[/h1]
+-		Going to be adding back heroes that are in the game files, but not in the game.
+-		Including, "Stop Hitting Your Self", Shapeshift and It's Just an Illusion
+-		Aswell, adding my own heroes that I think will make this game just the more stupdi
+
+[h1]Heroes:[/h1]
+
+[b]Wind Ranger (Bouncey Ranger)[/b]
+-		Greater Bash: Ability Fixed (thanks @ramesh)
+-		Greater Bash: Change percentage back to 100 (as intended too)
+
+
+[h1]1.721d - Patch [/h1]
+
+[h1]News:[/h1]
+-		Thank you all so much for 2800+ Players. I literally can't thank you enough!
+-		Next new hero will be on the day that mars is relased!
+-		Will also probably just add Mars at release in the game as they are usually broken.
+
+[h1]Heroes:[/h1]
+
+[b]Puck (Muck *cuz I can't swear on steam*)[/b]
+-		Dream Coil: Ability Fixed (bless your soul @ramesh)
+-		Dream Coil: Ability now has values that were in the old game mode.
+
+[b]Dazzle (Ding Dong Never Die)[/b]
+-		Renamed to "Ding Dong Never Die"
+-		Becaue I'm stupid and changed it back by acciedant
+-		Level 25 Talent: Fixed and changed to +150 gold/min
+
+[b]Techies (Cheeky Bereeki)[/b]
+-		Land Mine: Radius reduced from 200 to 100
+-		Land Mine: Damage rescaled from 300/400/500/600 to 150/300/450/600
+-		Land Mine: Ability Cooldown increased from 2 to 4/3/3/2
+
+[h1]Hot Fix[/h1]
+
+[h1]Heroes:[/h1]
+
+[b]Monkey King (riviting game play)[/b]
+-		Wukongs Command: Ability Fixed
+-		Wukongs Command: Key Bind for Ability is now working
+
+
+[h1]1.8 - Patch [/h1]
+
+[h1]News:[/h1]
+-		Thanks you SOOOOO much for 3000+ Players, this could not be done without you!
+-		In spirit of that, I have added 2 new Heroes to the gamemode, (more below)
+-		With More to come, I'm looking for people to help me fix some of the .lua files, if you know how to. DM me on steam
+
+[h1]Heroes:[/h1]
+
+[b]Earthshaker (Harambe)[/b]
+-		True Form Roar: Ability Fixed for addition of Shapeshifter
+-		True Form Roar: Ability Fixed
+
+[b]Juggernaut (Dragon Ball Z Character)[/b]
+-		Blink Strike: Removed Bonus Damage
+
+[b]Sand King (Debuffer)[/b]
+-		Overpower: Max attacks reduced from 9 to 7
+
+[b]IO (Spiky Ball)[/b]
+-		Quill Spray: Stack damaged reduced from 4/6/8/10 to 2/4/6/8
+
+[b]Lich (Pinball Wizard)[/b]
+-		Vacuum: Ability Fixed
+
+[b]Bloodseeker (Sonic the Hedgehog)[/b]
+-		Scorched Earth: Ability Fixed
+-		Slardar Sprint: Ability Fixed
+-		Keep In Mind: Abilites won't provide bonus movespeed unless thirst is levled!
+
+[h1]New Heroes:[/h1]
+
+[b]Death Prophet (Crowed Here)[/b] 
+Abilites:
+-		Tombstone (Undying)
+-		Exorsim   (Death Prophet)
+-		Swarm 	  (Weaver)
+-		Rearm     (Tinker) (ULTIMATE)
+Talent Tree:
+-		Lvl 10: Tombstone on Death
+-		Lvl 10:	10% Cooldown Reduction
+-		Lvl 15:	+5 Attacks to Destory Tombstone
+-		Lvl 15:	+25 Movement Speed
+-		Lvl 20:	+120 Gold/min
+-		Lvl 20:	+500 Health
+-		Lvl 25: +8 Exorsim Ghosts
+-		Lvl 25: Exorsim Grants Haste
+Hero Changes
+-		Hero readded to the game (Original Hero)
+Tips:
+-		Exorsim can't be used more than once at a time
+-		Go very tanky items, shivas, ac, etc.
+
+[b]Lone Druid (Shapeshifter)[/b] 
+Abilites:
+-		Shapeshift 	(Lycan)
+-		Metamophosis(Terror Blade)
+-		Dragon Form (Dragon Knight)
+-		True Form   (Lone Druid) (ULTIMATE)
+Talent Tree:
+-		Lvl 10: +125 Attack Range
+-		Lvl 10:	10% Cooldown Reduction
+-		Lvl 15:	+500 Health
+-		Lvl 15:	+40% Shapeshift Critital Strike
+-		Lvl 20:	+120 Gold/min
+-		Lvl 20:	+10 Strenght
+-		Lvl 25: 25% Cooldown Reduction
+-		Lvl 25: +300 Metamophosis Attack Range
+Hero Changes
+-		Hero readded to the game (Original Hero)
+Tips:
+-		Damage Damage and more Damage. GL
+
+
+
+
+
+
+[h1]1.8b - Patch [/h1]
+
+[h1]News:[/h1]
+-		Thank you for 3200+ players!!!!
+-		Welcome Mars to Dota 2, and to Definitely not Dota.
+-		Similar to Mirana, sort of. Just a referance to a video. You know what it is if you get it.
+
+[h1]Heroes:[/h1]
+
+[b]Death Prophet (Crowded Here)	[/b]
+-		Exorcism: Spirit Minimum damage reduced from 35 to 5
+-		Exorcism: Spirit Maximum dmage reduced from 65 to 15
+-		Exorcism: Spirit Average damage reduced from 47 to 12
+
+[b]Alchemist (20 Second Stun LMAO)	[/b]
+-		Fervor: Attack speed reduced from 5/10/15/20 to 2.5/5/7.5/10
+
+[b]Lone Druid (Shapeshifter)[/b]
+-		Hero Melee form fixed!
+-		True Form Battle Cry: Bonus Damage increased from 30/60/90/120 to 100/150/200
+-		True Form Battle Cry: Duration rescaled from 10 to 9/11/13
+-		Metamophosis: Now has 5 Levels
+-		Elder Dragon Form: Now has 3 Levels (beacuse dragon bug)
+
+[b]Enchantress (Impentus)[/b]
+-		Overpower: Max attacks reduced from 6/7/8/9 to 3/4/5/6
+
+
+[h1]New Heroes:[/h1]
+
+[b]Mars (IT'S A SPEAR,F*&^ YOU)[/b] 
+Abilites:
+-		Fast Spear     (Mars)
+-		Spear 	  	   (Mars)
+-		Octataine Core (Item)
+-		Arena of Blood (Mars) (ULTIMATE)
+Talent Tree:
+-		Lvl 10: +8 Strenght
+-		Lvl 10:	+20 Movement Speed
+-		Lvl 15:	+25 Damage
+-		Lvl 15:	+8 Armour
+-		Lvl 20:	+150 Spear Damage (works on both)
+-		Lvl 20:	+300 Gold/min
+-		Lvl 25: +25% Magic Resitance
+-		Lvl 25: +100 Hp Regen in Arean of Blood
+
+Tips:
+-		Your ULTIMATE IS KEY
+
+
+
+
+[h1]1.9 - Patch [/h1]
+
+[h1]News:[/h1]
+-		Thank you for 3700+ players!!!!
+-		4 New Heroeos cuz, I was bored
+-		Map Changes will happen later this week!
+
+[h1]Gamemode Changes[/h1]
+-		Kill Streaks are now enabled (Rampage, Godlike, etc.)
+-		Hero Selection Screen altered slightly to fit the addition of new heroes
+-       Fixed Dazzles Name
+
+[h1]New Heroes:[/h1]
+
+[b]Weaver (The Swarm)[/b] 
+Abilites:
+-		Mirror Image   (Naga Siren)
+-		Warcry 	       (Sven)
+-		Wave of Terror (Vengful Spirit)
+-		Juxtapose      (Phantom Lancer)(ULTIMATE)
+Talent Tree:
+-		Lvl 10: -6 Second Wave of Terror Cooldown
+-		Lvl 10:	10% Cooldown Reduction
+-		Lvl 15:	+10% Mirror Image Damage
+-		Lvl 15:	+25 Move Speed
+-		Lvl 20:	+1 Mirror Image
+-		Lvl 20:	+500 Health
+-		Lvl 25: +120 Gold/MIN
+-		Lvl 25: +30% Critical Strike
+Hero Changes
+-		Hero readded to the game (Original Hero)
+
+[b]Zues (This Game is Balanced)[/b] 
+Abilites:
+-		Goblins Greed  (Alchemist)
+-		Thundergod's   (Zues)(ULTIMATE)
+Talent Tree:
+-		Lvl 10: +15% Exp Gain
+-		Lvl 10:	10% Cooldown Reduction
+-		Lvl 15:	+25% Magic Resitance
+-		Lvl 15:	+25 Move Speed
+-		Lvl 20:	+35 Intelligence
+-		Lvl 20:	+500 Health
+-		Lvl 25: +120 Gold/MIN
+-		Lvl 25: +30% Critical Strike
+Hero Changes
+-		Hero readded to the game (Original Hero)
+
+[b]Ember Spirit (Super Kill Myself Man)[/b] 
+Abilites:
+-		Double Edge	   (Centuar Warrunner)
+-		Aphotic Shield (Abbadon)
+-		Dark Pact      (Slark)
+-		Fire Remnant   (Ember Spirit)(ULTIMATE)
+Talent Tree:
+-		Lvl 10: +150 Dark Pact Damage
+-		Lvl 10:	+25 Damage
+-		Lvl 15:	+50% Double Edge Strenght Damage
+-		Lvl 15:	+15% Exp Gain
+-		Lvl 20:	True Strike
+-		Lvl 20:	+10% Spell Amplification
+-		Lvl 25: -25 Remnant Charge Restore Time
+-		Lvl 25: +225 Aphotic Sheild Health
+Hero Changes
+-		Hero readded to the game (Original Hero)
+
+[b]Bristleback (Cluster**** Man)[/b] 
+Abilites:
+-		Nether Swap    (Vengful Spirit)
+-		Fissure		   (Earthshaker)
+-		Ice Shard	   (Tusk)
+-		Warpath        (Bristleback)(ULTIMATE)
+Talent Tree:
+-		Lvl 10: +500 Health
+-		Lvl 10:	+25 Damage
+-		Lvl 15: +400 Fissure Range
+-		Lvl 15:	+15% XP Gain
+-		Lvl 20:	+300 Gold/Min
+-		Lvl 20:	+10% Spell Amplification
+-		Lvl 25: -6 Ice Shards Cooldown
+-		Lvl 25: +30 Warpath Damage/stack
+Hero Changes
+-		Hero readded to the game (Original Hero)
+
+Have a good day everyone, feel free to let me know any problems in the[url=https://docs.google.com/forms/d/e/1FAIpQLScv__qgoVFVoVX-2XlzAfOlTlYdtBSch1k5_VvNAKgi41DAGA/viewform] bug report [/url] form!
+
+
+
+[h1]1.9b - Patch [/h1]
+
+[h1]Heroes:[/h1]
+
+[b]Mars (IT'S A SPEAR)[/b] 
+-		Arena of Blood: Ability cooldown increased from 50/40/30 to 160/120/80
+-		Octarine Core: Cooldown reduction reduced from 10/20/30/40 to 5/10/15/20
+
+[b]Ember Spirit (Super Kill Myself Man)[/b] 
+-		Ability Damage Type: Changed to Pure
+
+[b]Juggernaunt (Dragon Ball Z)[/b] 
+-		Omnislash: Attack Rate Multiplier reduced from 1.6 to 1.3/1.4/1.5
+
+[b]Zues (This Game is Balanced)[/b] 
+-		Name Change is active now
+-		Thundergod's Wrath: Ability Damage increased from 1500/2000/2500/3000 to 2000/2500/3000/3500
+-		Thundergod's Wrath: Ability Cooldown decreased from 250 to 225
+
+[b]Dark Seer (Normal Dark Seer from Dota)[/b]
+-		Reverse Poliarity: Ability Cooldown reduced from 300 to 120 
+
+[b]Lone Druid (Shapeshifter)[/b]
+-		True Form: Bonus Hp increased from 300/600/900 to 1000/1500/2000
+-		Shapeshift: Change to Crit increased from 20% to 70%
+-		Metamophosis: Bonus Damage increased from 60/75/90/105/125 to 80/100/120/140/160
+		
+[b]Brewmaster (Aloha __________)[/b]
+-		Hero Chnaged from Pudge to Brewmaster (for a special reason)
+-		Boom Death: Abilty Damage increased from 1500 to 9999
+-		Boom Death: Explosion Radius decreased from 350 to 50
+-		Hunger: Ability Icon replaced to corrilate with new hero
+
+Have a good day everyone, feel free to let me know any problems in the[url=https://docs.google.com/forms/d/e/1FAIpQLScv__qgoVFVoVX-2XlzAfOlTlYdtBSch1k5_VvNAKgi41DAGA/viewform] bug report [/url] form!
+
+
+
+[h1]Hotfix[/h1]
+-	Hero Selection: You now will be randomed a hero if you fail to select one in time (rather then sit out)
+-	Disabled Lion (President Trump), was fixing him and forgot to remove him again.
+Have a good day everyone, feel free to let me know any problems in the[url=https://docs.google.com/forms/d/e/1FAIpQLScv__qgoVFVoVX-2XlzAfOlTlYdtBSch1k5_VvNAKgi41DAGA/viewform] bug report [/url] form!
+
+
+
+
+
+[h1]1.91 - Quality of Life Patch [/h1]
+
+[h1]News:[/h1]
+
+-Rename: The game has been renamed to Definitely Not Dota 2.0 
+This is because of 2 differant reasons
+1: It searches a lot better, so it is easier to find for new players
+2: The name I originally made was just a funny run on joke!
+If you think it should be reverted to "Definitely Not A Remake of Definitely Not Dota" let me know on the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1634848002steam] workshop page![/url]
+
+[h1]Gamemode Changes[/h1]
+-		Shops: Updated to have all the items that 7.21 released.
+-		Money: Made the automatic gold gain larger, to make the game a faster pace
+-		Exp: Made the automatic exp gain larger, to make the game a faster pace
+-		Workshop Imaage: Changed to reflect the name change.
+-		Removed the title from the loading screen, beacuse it was out of place.
+
+[h1]What's Next:[/h1]
+-		I'm still looking for people to help me with some cool panorama stuff, add me on steam if you can!
+-		2 New heroes are in the works
+-		Working on my first ever custom map!!! (It will probably be really poop(cant swear on steam :)]
+-		Further development on growing the community!!!!
+-		Be sure to tell you friends to come play and give this game a try (more fun with more people)
+
+[h1]FAQ:[/h1]
+Q: Why did you change the exp and gold gain?
+A: It has only been changed outside of the main circle, this is beacuse the game can be very one sided if someone is overpowered in the centre. This allows players to still be in the game even if they can't make it to the centre
+
+Q: Does the centre still provide a bonus?
+A: Yes it still provided a bonus ontop of the changes
+
+Q: Why is dagon banned?
+A: F Dagon, NEXT QUESTION
+AP2: It is banned in regular overthrow.
+
+
+[h1]1.91b - Quality of Life Patch [/h1]
+
+[h1]Gamemode Changes[/h1]
+-		Fountain Regen: Major Increase to help you get back into the game
+-		Fountain Mana Regen: Major Increase to help you get back into the game
+-		Fountain Mana/Health Regen: The exact change is from +0% to +50%
+
+-		Changed the First loading screen in to be the "Players Connecting Screen"
+^Mostly for aseteics and more things to come!, big thanks to @darklord and @EarthSalamander
+
+[h1]Heroes:[/h1]
+
+[b]Sven (Mr.Shouty Man)[/b]
+-		Warcry: Ability Fixed
+
+[b]Weaver (The Swarm)[/b]
+-		Warcry: Ability Fixed
+-		Juxtapose: Max Illusions reduced from 20/30/40 to 10/15/20
+-		Juxtapose: Illustion damage increased from 17% to 34%
+
+[b]Ancient Apparition (OSFROG)[/b]
+-		Enfible: Ability Fixed
+-		Finger of Death: Ability now has the correct key binds for ultimates
+
+
+[h1]Hotfix[/h1]
+
+[h1]Heroes:[/h1]
+
+[b]Ancient Apparition (IceFrog)[/b]
+-I f'd up the first time, and well NOW its fixed.
+
+[b]Zues (Game is Balanced)[/b]
+- Damage is obsude now, cool!
+
+
+dota_launch_custom_game definitely_not_a_remake_of_definitely_not_dota the_motherfucking_desert_duo 
+
+
+[h1]1.92 - Gamechangeing Patch!!![/h1]
+
+[h1]News:[/h1]
+-	Thanks for 4500+ Players!!!!
+-	Rubick will be getting a better ability idea 
+-	Added compatibility for Rubick Arcana on abilities
+
+[h1]Heroes:[/h1]
+
+[b]Zues (Game is Balanced)[/b]
+- 		Thundergod Wrath: Damage is now balanced and is PURE
+-		Thundergod Wrath: Added another levels to the ability
+-		Thundergod Wrath: Ability new levels damage is 5000
+-		Lightning Bolt: Ability Added to Hero so Nibus works
+-		Nimbus: Ability Fixed
+-		Nimbus: Lightning Bolt Interval reduced from 1 to 0.75
+
+[h1] NEW Heroes:[/h1]
+
+[b]Pudge (Pudge Wars)[/b]
+Info
+- A tribute to one of the greatest Dota 2 arcade games, "Pudge Wars"
+- Abilities are the same as the gamemode, with a more "balanced aproch"
+Abilites
+-	Meat Hook   (Pudge)
+-	Earth Bind  (Meepo)
+-	Phase Shift (Puck) Change Log: Already Fixed the Ability, as I broke it :)
+-	Rearm		(Tinker)(ULTIMATE)
+Talent Tree
+-	Lvl 10: +25 Damage
+-	Lvl 10:	+90 Gold/MIN
+-	Lvl 15: +15% XP Gain
+-	Lvl 15:	-4 Second Earth Bind Cooldown
+-	Lvl 20:	+175 Health
+-	Lvl 20:	+15 Movespeed
+-	Lvl 25: 25% Magic Resitance
+-	Lvl 25: 10% Cooldown Reduction
+Tips:
+-Get a scepter, or it wont be as fun!
+-Try to stay in the centre for a while as you need the bonus gold
+
+[b]Rubick (The Grand Magus)[/b]
+Abilites
+-	Spell Steal       (Rubick)
+-	Stolen Ability
+-	Stolen Ability
+-	Arcane Supremancy (Rubick)(ULTIMATE)
+Talent Tree
+-	Lvl 10: +200 Health
+-	Lvl 10:	+60 Damage
+-	Lvl 15: +125 Cast Range
+-	Lvl 15:	+15% Exp Gain
+-	Lvl 20:	+90 Gold/MIN
+-	Lvl 20:	+25% Magic Resitance
+-	Lvl 25: 15% Cooldown Reduction
+-	Lvl 25: +50% Stolen Spell Amplification
+Tips:
+-Get a scepter, more stealing can be done that way.
+-Get Mana items, as you will run out quite quickly.
+
+
+
+[h1]1.92b - Hot Fixes[/h1]
+
+[h1]Gameplay:[/h1]
+-	Loading screen now loads with the background image instead of the hero selection screen, yes it was fixed before, but I broke it again.
+-	Free Courier for you and your team :)
+
+[h1]Heroes:[/h1]
+
+[b]Pudge (Pudge Wars)[/b]
+-	Rearm: Ability gold cost fixed!
+
+
+
+[h1]Hot Fixes[/h1]
+
+[h1]Heroes:[/h1]
+
+[b]Underlord (Boss Fight)[/b]
+-	Firestorm: Ability Fixed (thanks @FEEST BAMP for reporting the bug)
+
+
+
+[h1]1.95 - Gameplay Changes[/h1]
+
+[h1]News:[/h1]
+-	Thank you all for 4700+ Players!!!! So hyped to have you all playing
+-	New Workshop discussions have been added to report bugs and give me hero ideas.
+
+[h1]Gameplay:[/h1]
+-	Some back end panoramic changes, in prep for something BIG!
+-	Removed some tress from too_many_*&%*(*_trees_solo
+
+[h1]Heroes:[/h1]
+
+[b]Tusk (King Flippy Nips)[/b]
+-	Walrus Punch: Critical Multiplier decreased from 120/135/150/165 to 75/85/95/105
+-	Jinada: Gold Steal reduced from 30/40/60 to 10/20/30
+
+[b]Tiny (Annoying Little Spider)[/b]
+-	Drunken Brawler: Ability Fixed
+-	Drunken Brawler: Ability is now an active like the actual ability
+
+[b]Pudge (Pudge Wars)[/b]
+-	Phase Shift: Cooldown increased from 6 to 12/10/8/6
+
+[b]Visage (Rocket Megee)[/b]
+-	Chakra Magic: Mana Gain increased from 100/250/400/650 to 250/500/750/1000
+-	Ball Lightning: Mana Percentage reduced from 3 to 2
+-	Heat Seeking Missle: Damage increased from 60 to 75 
+
+[b]Underlord (Boss Fight)[/b]
+-	Hero Renamed to "Year Beast"
+-   Firestorm: Burn Damage reduced from 4/8/12/16 to 2/4/6/8
+-	Firestorm: Wave damage reduced from 20/40/60/80 to 10/20/30/40
+
+[h1] NEW Heroes:[/h1]
+
+[b]Broodmother (AHHH %^&^ A GIANT SPIDER)[/b]
+Info
+-	An original hero added back into the game, with all the original abilies and stats.
+Abilites
+-	Spin Web 	  (Broodmother)
+-	Pounce        (Slark)
+-	Spiderlings   (Broodmother)
+-	Essence Shift (Slark)
+Talent Tree
+-	Lvl 10: +10 Agility
+-	Lvl 10:	+15% XP Gain
+-	Lvl 15: 20% Cooldown Reduction
+-	Lvl 15:	+7 Armour
+-	Lvl 20:	+300 Health
+-	Lvl 20:	+50 Attack Speed
+-	Lvl 25: +75 Damage
+-	Lvl 25: 30% Lifesteal
+Tips:
+- 	Damage is key, you are a GIANT *^&^ing Spider after all.
+
+
+
+
+[h1]1.96 - Gameplay Changes[/h1]
+
+[h1]News:[/h1]
+-	It's been a while, thank you all so much for 5100+ Players!!!!
+-	I'm looking for some development help, if you would like to join me, Add me on steam!
+
+[h1]Gamemode:[/h1]
+-	Ban Phase has been reduced in time
+
+[h1]Heroes:[/h1]
+
+[b]Overall[/b]
+-	Lots of hero sounds have been fixed and implemented into the game, still lots to go.
+-	Backend changes to prevent every hero from being Arc Warden.
+-	Lots of spelling mistakes have been corrected.
+[b]Brewmaster (Aloha Snackbar)[/b]
+-	Snackside: A new cool custom sound :)
+
+[h1] NEW Heroes:[/h1]
+
+[b]Bristle Back (Snot Gozzal)[/b]
+Abilites
+-	Viscous Nasal Goo	(Bristleback)
+-	Viscous Nasal Goo	(Bristleback)
+-	Viscous Nasal Goo	(Bristleback)
+-	Warpath				(Bristleback)(ULTIMATE)
+Talent Tree
+-	Lvl 10: +20 Movement Speed
+-	Lvl 10:	+200 Health
+-	Lvl 15: +125 Cast Range
+-	Lvl 15:	+60 Damage
+-	Lvl 20:	+15% XP Gain
+-	Lvl 20:	+90 Gold/Min
+-	Lvl 25: +25% Magic Resitance
+-	Lvl 25: 15% Cooldown Reduction
+Tips:
+- 	All 3 abilites gain the scepter upgrade, I would go that first!
+
+[b]Arc Warden (Thanos)[/b]
+Abilites:
+-	Starfall			(Mirana)
+-	Glaves of Wisdom	(Silencer)
+-	Necromastery		(Shadow Fiend)	
+-	Time Lapse			(Weaver)
+-	Tempest Double		(Arc Warden)
+-	God Strenght 		(Sven)(ULTIMATE)
+-	Finger of Death     (Lion)(THE SNAP)
+Talent Tree:
+-	Lvl 10: +20 Movement Speed
+-	Lvl 10:	+200 Health
+-	Lvl 15: +125 Cast Range
+-	Lvl 15:	+60 Damage
+-	Lvl 20:	+15% XP Gain
+-	Lvl 20:	+90 Gold/Min
+-	Lvl 25: +25% Magic Resitance
+-	Lvl 25: 15% Cooldown Reduction
+Tips:
+- 	You're Thanos F*&K 5HlT UP
+
+
+[h1]1.99 - A New Beginning [/h1]
+
+[h1]News:[/h1]
+-	Lots of heroes were broken due to some classic spagetti code, and have now been fixed :)
+-	Updage 2.0 will be coming shortly to add some new aspects to the game aswell as some new fun heroes 
+
+[h1]Fixed Heroes:[/h1]
+[b]Tiny (Ahh ^&%& Annoying Spider[/b]
+[b]Chaos Knight (Big Guy)[/b]
+[b]Earthshaker (Harambe)[/b]
+[b]Ceantar Warrunner (Mr.Stompy)[/b]
+[b]Spirit Breaker (Roshan)[/b]
+[b]Medusa (Dire Safe Lane)[/b]
+[b]Tusk (King Flippy Nips)[/b]
+[b]Enigma (Spaceship)[/b]
+[b]Witch Doctor (Death Ward)[/b]
+[b]Lich (Pinball Wizard)[/b]
+
+Thanks for Sticking with the game even when it was broken, the game is now fully functional again!
+
+
+[h1]2.0 - The Summer Scrub [/h1]
+[h1]News:[/h1]
+-	Hey everyone, today is FINALLY the realese of verison 2.0, Todays update is part 1 of 2 updates. New Maps, New Heroes, aswell as the long awaited Aghanim's Scepter Update, Hope You ENJOY!
+- 	Also both updates will contain bug fixes and quaility of life patches based on your experiances with the game!
+
+[h1]The Aghanim's Scepter Update[/h1]
+[b]Every hero with a scepter has been fixed, as valve changed the way they coded scepters into the game![/b]
+
+[b]Ember Spririt (Super KMS Man)[/b]
+-	Fire Remnant: Ability Scepter Fixed
+[b]Alchemist (20 Second Stun Lmao)[/b]
+-	Chemical Rage: Scepter Synth Fixed, Bonuses Provided!
+[b]Brewmaster (Aloha Snackbar)[/b]
+-	Meat Hook: Ability Scepter Fixed
+-	Hookshot: Ability Scepter Fixed
+[b]Omninight (Bashlord)[/b]
+-	Battle Trance: Ability Scepter Fixed
+[b]Kunnka (Omega Kunkka)[/b]
+-	Ghostship: Ability Scepter Fixed
+[b]Bristleback (Snot Gozzal)[/b]
+-	Viscous Nazel Goo: Ability Scepter Fixed
+[b]Underlord (Year Beast)[/b]
+-	Earth Splitter: Ability Scepter Removed 
+[b]Brewmaster (Aloha Snackbar)[/b]
+-	Meat Hook: Ability Scepter Fixed
+-	Hookshot: Ability Scepter Fixed
+[b]Tiny (Ahh ^&%& Annoying Spider[/b]
+- Enchnat Totem: Abiltiy Scepter Fixed
+[b]Chaos Knight (Big Guy)[/b]
+- Concussive Shot: Ability Scepter Fixed
+[b]Earthshaker (Harambe)[/b]
+-	Flaming Lasso: Ability Scepter Fixed
+[b]Ceantar Warrunner (Mr.Stompy)[/b]
+-	Slithereen Crush: Abiltiy Scepter Fixed
+-	Slithereen Crush: Abiltiy Scepter Added (Puddle)
+-	Stampede: Ability Scepter Fixed
+[b]Venomancer (Torbjorn_[/b]
+-	Guardian Angel
+[b]Ursa (Very Salty Bear Man)[/b]
+-	Enrage
+[b]Razor (Weather Man)[/b]
+-	Eye of the Storm: Ability Scepter Fixed
+[b]Bloodseeker (Sonic)[/b]
+-	Culling Blade: Scepter Removed
+-	Guardian Sprint: Ability Scepter Fixed
+[b]meepo (Meepbot)[/b]
+-	Divided We Stand: Ability Fixed
+[b]Mirana (Mirana)[/b]
+-	Windrun: Ability Fixed
+[b]Sniper (Call of Duty)[/b]
+-	Call Down: Ability Scepter Removed 
+[b]Crystal Madien (Mei)[/b]
+-	Marksmenship: Ability Scepter Fixed
+-	Tricks of the Trade: Ability Fixed
+[b]Lone Druid (Shapeshifter)[/b]
+-	Metamophosis: Ability Scepter Added
+-	Metamophosis: Ability Scepter Fixed
+[b]Tusk (King Flippy Nips)[/b]
+-	Walrus Kick: Ability Scepter Fixed
+[b]Enchantress (Impentus)[/b]
+-	Imentus: Ability Scepter Fixed
+[b]Monkey King (Monkey King)[/b]
+-	Wukongs Command: Ability Scepter Fixed
+[b]Juggernaunt (Dragon Ball Z)[/b]
+-	Omnislash: Ability Scepter Fixed
+[b]Enigma (Spaceship)[/b]
+-	Blackhole: Ability Scepter Fixed
+-	Midnight Pulse: Ability added for Scepter
+[b]Witch Doctor (Death Ward)[/b]
+-	Chronosphere: Ability Scepter Fixed
+[b]Oracle (Crazy Ass Time Guy)[/b]
+-	Time Lapse: Ability Fixed
+[b]Clockwork (Cluster**** Man)[/b]
+-	Nether Swap: Ability Fixed
+[b]Lich (Pinball Wizard)[/b]
+-	Chain Frost: Ability Scepter Fixed
+[b]Zues (This Game is Balanced)[/b]
+-	Nimbus: Ability Fixed
+-	Nimubs: Raduis Reduced
+-	Nimbus: Strike Interval reduced from 2.25 to 1.00
+[b]Arc Warden (Thanos)[/b]
+-	All Other Ability Scepters have been disabled due to the overpowed nature of it.
+-	Thanos Snap: Radius Reduced
+-	Thanos Snap: Insta Kill on Hero Use 
+[b]Spectre (Bob Ross)[/b]
+-	Mystic Flare: Ability Scepter Fixed
+-	Mystic Flare: Now casts second Mystic flare within 700 Raduis
+-	Macropyer: Ability Scepter Fixed
+[b]Rubick (The Grand Magus)[/b]
+-	Spell Steal: Ability Scepter Fixed
+-	Spell Stolen: Now Grants Scepter Bonus
+[b]Gyrocopter (Spaceship)[/b]
+-	Eclipse: Ability Scepter Fixed
+[b]Broodmother (Ahh F&*^ Giant Spider)[/b]\
+-	Spin Web: Abilty Scepter Fixed
+[b]Sven (Really Shouty Man)[/b]
+-	Sonic Wave: Ability Scepter Fixed
+[b]Pudge (Pudge Wars)[/b]
+-	Meat Hook: Ability Scepter Fixed
+[b]Natures Prophet (Korean Micro God)[/b]
+- 	Summon Spirit Bear: Ability Scepter Fixed
+[b]Ancient Apparition (IceFrog)[/b]
+- 	Finger of Death: Ability Scepter Fixed
+[b]Puck (F*&^)[/b]
+- 	Dream Coil: Ability Scepter Fixed
+[b]Dazzle (Ding Dong Never Die)[/b]
+- 	Shallow Grave: Ability Scepter Added
+[b]Death Prophet ([/b]
+-	Exorcism: Ability Scepter Fixed
+[b]Techies (Cheeky Bereeki)[/b]
+-	Electric Vortex: Ability Scepter Fixed
+
+[h1]Bug Fixes[/h1]
+[b]Broodmother (Ahh F&*^ Giant Spider)[/b]
+-	Spin Web: Ability Fixed
+-	Spiderling: Abilty Damage Fixed
+[b]Sven (Really Shouty Man)[/b]
+-	Primal Roar - Ability Fixed 
+-	Primal Roar - Scepter Removed 
+[b]Dazzle (Ding Dong Never Die)[/b]
+- Shallow Grave: Ability Fixed
+[b]Enigma (Spaceship)[/b]
+-	Midnight Pulse: Ability Added
+-	Midnight Pulse: One Level Ability is the same as lvl 4 in Dota
+[b]Techies (Cheeky Bereeki)[/b]
+-	Electric Vortex: Ability Pull Range Fixed
+[b]Sniper (Call of Duty)[/b]
+-	Call Down: Ability Fixed
+[b]Monkey King (Monkey King)[/b]
+-	Wukongs Command: Ability Fixed
+[b]Omninight (Bashlord)[/b]
+-	Battle Trance: Ability Fixed
+[b]Earthshaker (Harambe)[/b]
+-	Flaming Lasso: Ability Fixed
+[b]Ember Spririt (Super KMS Man)[/b]
+-	Fire Remnant: Ability Fixed
+
+
+
+[h1]2.0000001 - The Summer Scrub Hero Fixes[/h1]
+-	After playing a few games with some of you today I have figured out some bugs and hero changes that need to be made to balance the game a little :)
+-	Also, thanks for 6500 Subs to the game, thats absoultly crazy!!!!
+
+[h1]Heroes[/h1]
+[b]Enigma (Spaceman)[/b]
+-	Sunstrike: Added Cataclysm to level 20 talent tree
+-	Sunstike: Damage Reduced by 15 in each Level in support of Cataclysm
+[b]Alchemist (20 Second Stun LMAO)[/b]
+-	Chemical Rage: Ability Number fixed (should be your proper keybind now)
+[b]Venomancer (Torbjorn)[/b]
+-	Talent Tree: Removed Plage Ward Health
+-	Talent Tree: Added Level 25 (+120 Damage)
+[b]Witch Doctor (Death Ward)[/b]
+-	Chronosphere: Scepter Cooldown Reduced from 60 to 30
+[b]Pudge (Pudge Wars)[/b]
+-	Rearm: Gold cost increased from 150/300/450 to 200/400/600
+[b]Phantom Assassin (Queen Crits Alot)[/b]
+-	Crit Avatar: Ability Duration Reduced from 3/5/7 to 3/4/5
+[b]Weaver (The Swarm)[/b]
+-	Juxtapose: Illusion Duration Reduced from 8 to 5 seconds
+-	Juxtapose: Illustion Damage reduced from 33 to 30%
+[b]Monkey King (LONG NAME HERE)[/b]
+-	Talent Tree: Removed Monkey King Talent
+-	Talent Tree: Added at level 25 (+30 Damage)
+[b]Dazzle (Ding Dong Never Die)[/b]
+-	Shallow Grave: Ability Fixed
+[b]-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[/b]
+-	This next change is very much a test to see how this hero would do in a differant aspect of the game, it may change back!
+[b]Dragon Knight (Suca Your Life) [/b]
+-	Primary Attribute: Changed from Strenght to Agility 
+Note: This is because he is very much a lifestealing hero. With no attack speed as Dragon Knights tend to not it is impossible for this hero to do well.
+-	We will see how it goes, feel free to msg me on Discord, Steam, or on the workshop page!
+
+[h1]2.02a - The Summer Scrub Addition Update[/h1]
+[h1]News:[/h1]
+-	Hey everyone, thanks for all your inputs in the last few days it's been fun playing with all of you
+-	Todays update includes some hero changes and FINALLY ITEMS, that I swear I didnt steal 
+- 	2 New heroes are also in the works, Nightstalker and Tinker are the 2 heroes, try and guess what they are!!
+-	Also thanks for 6600 Subs! Couldnt do it without you.
+
+[h1]Gameplay:[/h1]
+-	Treasue Chests: You should now be able to pick up the item with a full inventory
+-	Fountain Regen: Just some general fixes to it
+-	Disconnected Players: They Become invunlnerable so you can't fountain farm the DC (lookin at some of you in particular :)
+
+[h1]New Items[/h1]
+-	Dagon: Item Enabled
+-	Midas: Item Disabled
+-	Tome of Knowlodge: Now Enabled (provides pretty decent exp I would use them!)
+-	Book of Agility: Proivdes 10 Agi on use
+-	Book of Strenght: Provides 10 Strenght on use
+-	Book of Intellegence: Provides 10 Intellegence on use
+-	Swift Boots: Upgraded Phase Boots
+-	Blink Boots: Upgraded Blink Dagger
+-	Force Boots: Upgraded Force Staff
+-	Angel Boots: Upgraded Guardians Greaves
+-	Mega Butterfly: Upgraded Butterfly
+-	Mega Reaver: Upgraded Reaver
+-	Mystic Booster: Upgraded Mystic Staff
+-	Magical Radiance: Upgraded Radiance
+-	Diffuser Blade: Upgraded Diffusal Blade
+
+[h1]Heroes Changes[/h1]
+[b]Rubick (The Grand Magus)[/b]
+-	Arcane Supremancy: Ability Spell Amp increased from 20/30/40 to 35/55/75
+[b]Medusa (Dire Safe Lane)[/b]
+-	Feral Impulse: Bonus Damage increased from 50/100/150 to 100/150/200
+[b]Dragon Knight (Suca Your Life)[/b]
+-	Changes: All Changes made in the previous patch are here to stay
+-	Movespeed: Default movespeed incraesed from 250 to 305
+[b]Sven (Very Shouty Man)[/b]
+-	Primal Roar: Duration reduced from 1 to .5
+[b]Arc Warden (Thanos)[/b]
+-	Aghanims Scepter: All Scepters Enabled
+-	Aghanims Scepter: All Scepter Abilities Fixed
+
+[h1]Hotfix[/h1]
+[h1]News:[/h1]
+-	Come Join the Newly Made Discord for some dumb a.s.s conversations and an easier way to contact me of changes needed/ideas to add!
+-	[url=https://discordapp.com/invite/hd4WstN] DISCORD LINK [/url]
+[h1]Gameplay:[/h1]
+-	Fixed some Panoramic Things, some centering fixes for my OCD :)
+
+
+
+[h1]2.02b - The Summer Scrub Hero Update[/h1]
+
+[h1]News[/h1]
+-	Come Join the Newly Made Discord for some dumb a.s.s conversations and an easier way to contact me of changes needed/ideas to add!
+[url=https://discordapp.com/invite/hd4WstN] DISCORD LINK [/url]
+-	Thanks for 6700 PLayers!!!!
+
+[h1]New Heroes[/h1]
+[b]Lion (President Trump)[/b]
+-	The Return of a living legend Lion is now back in the game!
+
+[b]Night Stalker (Batman)[/b]
+Abilites:
+-	Wild Axes			(Beast Master)
+-	Timber Chain 		(Timbersaw)
+-	Hunter In the Night (Night Stalker)
+-	Dark Assension		(Night Stalker)(ULTIMATE)
+Talent Tree:
+-	Lvl 10: +60 Damage
+-	Lvl 10:	+200 Health
+-	Lvl 15: +15% XP Gain
+-	Lvl 15:	+30 Strenght
+-	Lvl 20:	+25% Magic Resitance
+-	Lvl 20:	+90 Gold/Min
+-	Lvl 25: +140 Hunter in the Night Attack Speed
+-	Lvl 25: -40 Dark Ascension Cooldown
+
+[b]Tinker (Artillery)[/b]
+Abilites:
+-	Rocket Barrage		(Gyrocopter)
+-	Flak Cannon 		(Gyrocopter)
+-	March of the Machines (Tinker)
+-	Chopper				(ULTIMATE)
+Talent Tree:
+-	Lvl 10: +60 Damage
+-	Lvl 10:	+10 Intellegence
+-	Lvl 15: +15% XP Gain
+-	Lvl 15:	+11 Rocket Barrage Damage
+-	Lvl 20:	+25% Magic Resitance
+-	Lvl 20:	+10 March of the Machines Damage
+-	Lvl 25: +150 Gold/Min
+-	Lvl 25: +20% Spell Amplification
+
+[h1]Item Changes[/h1]
+-	Books of Stats: Price Increased from 500 to 1500
+
+[h1]Hero Changes[/h1]
+-	A bunch of heroes voice lines have been fixed
+-	A bunch of heroes auto attack times have been changed to reflect their actual heroes and not my spagetti code!
+
+
+
+[h1]2.02c - The Fall Scrub[/h1]
+
+[h1]News[/h1]
+- 	Make sure to join the discord for some fun games and easier ways to contact me! [url=https://discordapp.com/invite/hd4WstN] DISCORD LINK [/url]
+-	Thanks for 7193 Players! Absolutly Insane!!!!
+-	Whats Next?
+The Return of Skeleton King for Halloween
+Another Halloween Inspired Hero
+A Few New Items are also in the works!
+If im a good enough coder... maybe some map changes ;)
+
+[h1]Hero Changes[/h1]
+-	Many Heros Attack Particals have been fixed!
+-	All Gold Income Talents are removed!
+[b]Axe (Le Balanced Axe Man)[/b]
+-	Counter Helix: Ability Spin Chance Fixed
+[b]Weaver (The Swarm)[/b]
+-	Juxtapose: Illusion Damage decreased from 30% to 15%
+-	Juxtapose: Max Illusions decreased from 10/15/20 to 6/10/14
+-	Base Damage: Reduced by 10
+-	Base Attack Speed Reduced by 0.3 seconds
+-	Level 25 Talent: Replaced 20% Critial Damaged with +50 Damage
+[b]Weaver (The Swarm)[/b]
+-	Eye of the Storm: Armour reduction increased from 0.5 to 1
+-	Eye of the Storm: Damage rescaled from 9/7/6 to 9/8/7
+
+[h1]Item Changes[/h1]
+-	All the following items hav now been fixed!
+Mega Reaver
+Mega Butterfly
+Bling Boots
+Angel Boots
+Force Boots
+Swfit Boots
+Heavens Hailberd
+Manta Style
+
+
+[h1]2.1 - The Diretide We Don't Want[/h1]
+
+[h1]News[/h1]
+-	Happy Spooky Season! Todays update includes 2 new heros aswell as some gameplay changes that needed to happen
+-	2 More Heroes are also reaody to go, but I have some patching to do first. The heros are Necro and Drow Ranger!
+-	Map Changes will also be coming, once I figure them out.
+-	Happy Dire Tide!
+
+[h1]Gameplay Changes[/h1]
+-	Gold Gain: Gain doubled at the beginning of the game and ends up being triple near the end of the game
+-	Coins: The centre coins now appear more freaquently
+-	Sounds: Most (IF NOT ALL) abilities should have sounds to them now. (Thanks @Darkonius for the help)
+-	Lockjaw Courier: Now Replaced with Hallow Jack Couriour till Novemeber 4th
+
+[h1]Bug Fixes[/h1]
+-	An error crashing the game about "UpgradeCell9" has been fixed on the following heroes (Thanks 我的头像是高分男神 for the find!)
+Arc Warden
+Bristle Back
+Spectre
+
+[h1]New Heroes[/h1]
+[b][NEW] Skeleton King (Clinkz)[/b]	
+-	Sets are disabled for him as his model is covered up by items!	
+[b][NEW] Death Is By B I T C H (Wraith King)[/b]	
+-	Why? Beacuse of the voice line, only makes sense to have him be this hero rather than classic Skelton King
+
+[h1]Hero Changes[/h1]
+-	Most (IF NOT ALL) abilities now have sound effects
+[b]Sniper (Call of Duty)[/b]
+-	Call in the Troops: Ability Fixed
+[b]Gyrocopter (Spaceship)[/b]
+-	Eclipse: The ability acting as double fixed
+[b]Wisp (Spikey Ball Dude)[/b]
+-	Reactive Armour: Ability Fixed
+[b]Bristle Back (Snot Gozel)[/b]
+-	Talent Tree: Removed the Rubick Specific Talent and replaced it with +25 Attack Speed
+[b]Arc Warden (Thanos)[/b]
+
+[h1]2.1b - The Diretide that still isn't working[/h1]
+
+[h1]News[/h1]
+-	Thanks for all your reports of bugs and problems, all the noted ones have been fixed and are working again!
+-	Next Update is a balencing update to buff/nerf heroes accordingly. Send your opinions to help me with the balence
+- 	Make sure to join the discord for some fun games and easier ways to contact me! [url=https://discordapp.com/invite/hd4WstN] DISCORD LINK [/url]
+
+[h1]Hero Changes[/h1]
+[b]Silencer (Infiante Scaling)[/b]
+-	Duel: Ability Scepter Fixed
+[b]Jakio (Bob Ross)[/b]
+-	Macropyre: Ability Fixed
+[b]Lion (Donald Trump)[/b]
+-	Second Ammendment: Abilty Fixed
+[b]Dark Seer (Dark Seer From Normal Dota)[/b]
+- 	Flame Guard: Ability Fixed
+-	Ion Shell: Abilty Fixed
+-	Blade Fury: Ability Fixed
+-	Reverse Poliarity: Ability Fixed
+[b]Anceint Apparition (Ice Frog)[/b]
+-	Finger of Death: Ability Scepter Fixed
+[b]Arc Warden (Thaos)[/b]
+-	Finger of Death: Ability Fixed
+-	Finger of Death: Ability Scepter Fixed
+[b]Gyrocopter(Space Ship)[/b]
+-	Items: He can buy items now
+-	Empowering Haste: Ability Fixed
+
+[h1]2.2 - A New Age[/h1]
+
+[h1]News[/h1]
+-	Hey Everyone! It has been a while but I finally got around to fixing most (if not all) of the current abilities that are in the game
+-	Also Thanks so much for 8200 Players!! Even when the game wasn't working fully!!!!!
+[b]Next Week![/b]
+-	2 New Heroes
+-	Hero Updates (For Awful Abilities Now)
+-	Hopefully Fix the Courier's that are Broken 
+
+
+[h1]Hero Changes[/h1]
+Fixed Treasures Not Dropping
+
+[h1]Hero Changes[/h1]
+-	Removed Stout Sheild 
+
+[h1]Hero Changes[/h1]
+[b]Puck (F^&*)[/b]
+-	Dream Coil: Ability Fixed for 7.23
+[b]Anceint Apparition (IceFrog[/b]
+-	Ice Blast: Ability Fixed for 7.23
+-	Enfeeble: Ability Fixed for 7.23
+[b]Brewmaster (Aloha)[/b]
+-	Hookshot: Ability Fixed for 7.23
+-	Hookshot: Scepter Effect Removed (You Still will get Overclocking with No Gamemode Changes)
+[b]Lich (Pinball Wizard)[/b]
+-	Vacuum: Ability Fixed for 7.23
+-	Vacuum: Ability Scepter Added (Cooldown Reduction)
+-	Chain Frost: Ability Fixed for 7.23
+-	Chain Frost: Ability Scepter Removed
+[b]Dazzle (Ding Dong Never Die)[/b]
+-	Shallow Grave: Abilty Fixed for 7.23
+-	Shallow Grave: Abilty Scepter Removed
+[b]Lone Druid (Shapeshifter)[/b]
+-	Elder Dragon Form: Ability Fixed for 7.23
+-	True Form: Ability Fixed for 7.23
+[b]Crystal Maiden (Mei)[/b]
+-	Marksmanship: Ability Fixed for 7.23
+[b]Enchantress (Sproink)[/b]
+-	Impetus: Ability Fixed for 7.23
+[b]Oracle (Crazy Ass Time Guy)[/b]
+-	Time Walk: Ability Fixed for 7.23
+-	Time Walk Scepter Added
+[b]Witch Doctor (Death Ward)[/b]
+-	Chronosphere: Ability Fixed for 7.23
+-	Chronosphere: Ability Scepter Removed 
+[b]Enigma (Space Man)[/b]
+-	Sunstike: Scepter Now Adds Cataclysm 
+-	Cataclysm: Talent Tree Removed (Replaced with GPM)
+[b]Kunnka (SO MANY SHIPS)[/b]
+-	Ghostship: Ability Fixed for 7.23
+-	Ghostship: Ability Scepter Removed 
+-	Torrent: Ability Fixed for 7.23
+-	Torrent: Ability Scepter Added (Torrent Storm)
+[b]Clinkz (Skeleton King)[/b]
+-	Howl: Abilty Fixed for 7.23
+[b]Axe (Le Most Balanced Hero)[/b]
+-	Skewer: Ability Fixed
+-	Skewer: Ability Scepter Added
+[b]Razor (Weather Man)[/b]
+-	Eye of the Storm: Ability Fixed for 7.23
+-	Eye of the Storm: Ability Passive Strike Added
+[b]Silencer (Infinate Scaling)[/b]
+-	Glaives of Wisdom: Ability Fixed for 7.23
+-	Arcane Orb: Ability Fixed for 7.23
+[b]Broodmother (GIANT SPIDER)[/b]
+-	Pounce: Ability Fixed for 7.23
+-	Pounce: Ability Scepter Added
+[b]Lion (Trump)[/b]
+-	Finger of Death: Ability Fixed
+[b]Sven (Shouty Man)[/b]
+-	Warcry: Ability Fixed for 7.23
+[b]Arc Warden (Thanos)[/b]
+-	God Strenght: Ability Fixed for 7.23
+[b]Techies (Cheeki Bereeki)[/b]
+-	Land Mines: Ability Fixed for 7.23
+-	Land Mines: Ability Scepter Added
+[b]Treant Protector (Fern Gully)[/b]
+-	Living Armour: Abilty Fixed for 7.23
+-	Overgrowth: Ability Fixed for 7.23
+[b]Centuar Warrunner (Mr.Stompy)[/b]
+-	Earthshock: Ability Fixed for 7.23
+[b]Clockwork (Cluster****)[/b]
+-	Nether Swap: Ability Fixed for 7.23
+-	Nether Swap: Ability Scepter Fixed
+[b]Sand King (Debuffer)[/b]
+-	Poison Attack: Ability Fixed for 7.23
+[b]Tiny (Tiny Spider)[/b]
+-	Shukuchi: Ability Fixed for 7.23
+[b]Dragon Knight (Suca ur Life)[/b]
+-	Vampiric Aura: Ability Fixed for 7.23
+
+[h1]2.1b - The Diretide that still isn't working[/h1]
+
+[h1]News[/h1]
+-	Thanks for all your reports of bugs and problems, all the noted ones have been fixed and are working again!
+-	Next Update is a balencing update to buff/nerf heroes accordingly. Send your opinions to help me with the balence
+- 	Make sure to join the discord for some fun games and easier ways to contact me! [url=https://discordapp.com/invite/hd4WstN] DISCORD LINK [/url]
+
+[h1]Hero Changes[/h1]
+[b]Medusa (Dire Safe Lane)[/b]
+-	Hero is now Terrorblade to make room for new Medusa
+[b]Techies (Cheeki Berrki)[/b]
+-	Land Mine: Ability Charge Restore Time Fixed (thanks @Жирная тварь for submiting the problem)
+
+
+[h1]2.2 - The Jungle Has Opened![/h1]
+
+[h1]News[/h1]
+-	Thanks for 9000+ Players!!!!!!
+- 	Make sure to join the discord for some fun games and easier ways to contact me! [url=https://discordapp.com/invite/hd4WstN] DISCORD LINK [/url]
+-	Still working on the new Medusa and another special character
+[h1]Gameplay Changes[/h1]
+-	Item Chests: Items that are literally useless have been removed from the list (like orb of venom)
+-	Item Chests: Select Neutral Items have been added to the different teirs of items
+-	Item Chests: How they Work - First Place: Tier 1 Item (Worst), Last Place: Tier 4 Item (Best) and the other teirs in between are determined on the number of teams!
+
+[h1]Hero Changes[/h1]
+
+[b]Techies (Cheeki Berrki)[/b]
+-	Perma Invis: Ability Changed to Regular 4 Point Ability
+[b]Ursa (Salty Bear Man)[/b]
+-	Bloodlust: Ability Fixed
+[b]Crystal Maiden (Mel)[/b]
+-	Blizzard: Ability Fixed
+-	Blizzard: Ability Updated to 7.23
+-	Fervor: Ability Fixed
+[b]Enigma (Space Man)[/b]	
+-	Talent Tree: Cataclysm Talent Removed because it comes with Scepter 
+-	Talent Tree: Cataclysm replaced with 20% Spell Amp
+[b]Sven (Really Shouty Man)[/b]
+-	WarCry: Abilty Cooldown Reduced
+-	Savage Roar: Abilty Cooldown Reduced
+
+[h1]Item Changes[/h1]
+-	Forceboots: Item Removed (it broke, idk how to fix it)
+-	Blinkboots: Item Recipe Changed from <Force Boots, Blink Dagger> to <Force Staff, Boots of Speed, Blink Dagger>
+-	Blinkboots: Item Fixed 
+-	Neutral Items: All Neutral Items are Sellable when gotten from chests (not drops)
+
+
+
+[h1]3.0 - The Return[/h1]
+
+[h1]News[/h1]
+-	Hey, whats up fuckers. The game hasn't been updated and I got bored and decided its time to come back to save the game again!
+-	Thank you for 15000+ players like wtf???
+-	Join the discord to help with development [url=https://discordapp.com/invite/hd4WstN] DISCORD LINK [/url]
+- 	Open Source GitHub now avalible [url=https://github.com/TheyCallMeKWAM/Definitely_Not_Dota_2.0] GITHUB LINK [/url] (Feel free to make any pull requests with changes and fixes if you want to help!)
+-	Big thanks to ModDota for all their help :)
+
+[h1]TLDR[/h1]
+-	Shit hopefully works :)
+-	Join the Discord to help
+-	Feel free to use the github to help with development!
+
+[h1]Map Changes[/h1]
+All maps have been renamed.
+-	ahh_there_are_too_many_trees_solo (Solos)
+-	motherfucking_desert_duo (Duos)
+-	possible_three_way_golden_rule (Trios)
+-	temple_of_the_quartet_icefrog (4's)
+-	too_many_based_quintet_players (5's)
+-	way_too_many_based_octet_players (8's)
+
+Timing for each map is based on the amount of players. 
+- 	Less than 4 (12min)
+-	4 Players (15 min)
+-	7 Players (20 min)
+-	16 Players (30 min)
+
+[h1]Hero Changes[/h1]
+[b]Heroes that I think are fixed[/b]
+-	Keep in mind I havn't been able to play test by myself, so things are probably still broken.
+-	Abilities that are supposed to have aghs upgrades, DO, it just doesnt say it for some reason
+
+[b]Phoenix (Bird)[/b]
+[b]Silencer (Infinate Scaling)[/b]
+[b]Arc Warden (Thanos)[/b]
+[b]Spectre (Joy of Painting)[/b]
+[b]Pudge (Pudge Wars)[/b]
+[b]Gyro (Orbitral Cannon)[/b]
+[b]Enigma (Space Man)[/b]
+[b]Lion (Donald Trump)[/b]
+[b]Lich (Pinball Wizard)[/b]
+[b]Weaver (The Swarm)[/b]
+[b]Crystal Maiden (Mei)[/b]
+[b]Terrorblade (Dire Safelane)*melee for some reason, but besides that works*[/b]
+[b]Centaur (Mr.Stompy)[/b]
+[b]Nightstalker (Batman)[/b]
+[b]Wraith King (Death is my Bitch)[/b]
+[b]Earthshaker (Harambe)[/b]
+All other heroes should already be working just fine. 
+
+[h1]Item Changes[/h1]
+- 7.28 Items have been added/removed
+- Netrual Item rotations have been updated
+- More netral items have been added to treasure chests
+
+[h1]3.1 - Lets Make Some Changes[/h1]
+
+[h1]Panoramic Changes[/h1]
+- New Loading Screen
+- Added some cool art, would love some more so please submit me some, i'll make my favourite the icon!
+- New Button and Tips on the Loading Screen
+- Custom Team Selection Menu
+- Let me know if the colours are weird and need to be changed! (On Discord Preferably)
+- What's Next: Hopefully something cool for hero Selection!
+[h1]Hero Changes[/h1]
+[b]Pudge (Aloha Snack)[/b]
+- Snackside: Ability Sound effect is working again
+[b]Earthshaker (Harambe)[/b]
+- Burning Rage: Abilty decription addded
+[b]Arc Warden (Thanos)[/b]
+- All Aghanim Scepter Upgrades are visable in the tooltip
+[b]Wraith King (Death is My Bitch)[/b]
+- All Aghanim Scepter Upgrades are visable in the tooltip
+[b]Nightstalker (Batman) Rework[/b] 
+- Darkness: Ability damaged increased from 50/100/150 to 100/200/300
+- Darkness: Ability cooldown reduced from 130/100/70 to 90/70/50
+- New Ability (Smoke Out): Instantly making Nightstalker disappear  
+- New Shard Ability: Beserkes Brew (granting attack speed and hp regen)
+[b]NEW HERO Drow Ranger (Glass Cannon)[/b] 
+- Ability: Overpower (Ursa)
+- Ability: Wave of Silence (Drow Ranger)
+- Ability: Headshot (Sniper)
+- Ability: Fervor (Troll Warlord)
+- Ultimate: Marksmenship (Drow Ranger)
+Hero Change: Base Strength is 15 with a 0.5 Gain Per Level
+[b]NEW HERO Medusa (Split Shot)[/b] 
+- Ability: Split Shot (Medusa)
+- Ability: Mone Glaives (Luna)
+- Ability: Psi Blades (Templar Assassian)
+- Ultimate: Gods Rebuke (Mars)
+- Aghanims Shard: Defence Matrix (Tinker)
+[h1]Item Changes[/h1]
+[b]Aghanim's Shard[/b]
+-	Item stock time now 2 minuets into the game
+
+
+[[h1]3.2 - Oh Shit New Stuff!!![/h1]
+[h1]Gameplay Changes[/h1]
+- The Fountain now really hurts. I won't tell you how much, you can figure that out for yourself
+[h1]New Heroes[/h1]
+[b]Bounty Hunter (Tax Evader)[/b]
+- Ability: Chump Change
+- Ability: Dollar Bills
+- Ability: Sign My Life Away
+- Ultimate: Gabens Multiroll
+This hero is the perfect support for those team games, every ability gains the hero or the ally it is used on to gain money equivalent to the ability amount.
+[b]Pangolier(Bowling Ball) Inspired by: Arukii in the Discord (join now lmao shameless promo)[/b]
+- Ability: Charge of Darkness (Spirit Breaker)
+- Ability: Bulwark (Mars)
+- Ability: Greater Bash (Sprit Breaker)
+- Ultimate: Omnislash (Juggernaut)
+- Shard: Roll Up (Pangolier)
+I honestly don't know wtf this guy does, he rolls at kids and then curb stomps em. That's really about it. :)
+
+[h1]Hero Changes[/h1]
+[b]Enigma (Space Man)[/b]
+- Chaos Meteor: Ability cooldown changed from 8/7/6/5 to 23/22/21/20 (this is to account for the -15 seconds on Shard)
+[b]Tinker (Artillery)[/b]
+- Rocket Barrage: Ability Fixed
+- Rocket Barrage: Rockets per Second increased from 10 to 15
+- Rocket Barrage: Damage now Pure
+- Flack Cannon: Ability Fixed
+- Chopper Gunner: Now an ultimate ability (can't level it till level 6 now)
+[b]Sniper (Call of Duty)[/b]
+- Surge: Ability Fixed
+- Strafe: Ability Fixed
+- Burning Army (SCEPTER): Ability Removed
+- Concussive Grenade (SHARD): Ability Added
+[b]Pugna (Happy Little Leprecaun)[/b]
+- Give Gold: Ability Fixed
+- Give and Take: Ability Fixed
+- Sunshine and Rainbows: Abi*lity Fixed
+[b]Razor (Weather Man)[/b]
+- Charge of Darkness: Ability Fixed
+- Charge of Darkness: Ability Scepter Added
+[b]Pudge (Pudge Wars)[/b]
+- Meat Hook: Damage increased from 1000/2000/3000/4000 to 2000/4000/6000/8000
+- Meat Hook: Hook speed Increased from 100 to 100/200/300/400
+- Meat Hook: Valve removed 9999 Aghs Damage Hook :)
+[b]Witch Doctor (Death Ward)[/b]
+- Disabled Wearables
+[b]Visage (Rocket Megee)[/b]
+- Disabled Wearables
+- Changed Model to be Rocket Chicken
+- Ball Lightning: Mana Drain per unit reduced from 7% to 3%
+
+
+
+[h1]3.3- I release shit for twitch stream Part 1.[/h1]
+
+[h1]New Heroes[/h1]
+
+[b]Dawnbreaker (Devistating 4th Blow) Created by Arukii[/b]
+The name says it all, everything will go to shit really quick when its the 4th hit.
+- Ability: Frostmourne (Abbadon)
+- Ability: Bash of the Deep (Slardar)
+- Ability: Lumionosity (Dawnbreaker)
+- Ultimate: Jingu Mastery (Monkey King)
+
+[b]Terrorblade (Illusion  Bitch) Created by ARandomClown [/b]
+Just run from this kid once he gets meta up, its not worth it bro. I choose life.
+- Ability: Mirror Image (Naga)
+- Ability: Doppelganger (Phantom Lancer)
+- Ability: Conjour Image (Terrorblade)
+- Ability: Juxtapose (Phantom Lancer)
+- Ultimate: Metamophosis (Terrorblade)
+
+[b]Lifestealer (Passive Agressive Dude) Created by ARandomClown [/b]
+This kid just legit has passives, i think you can guess how to counter him easily :)
+- Ability: Dragon Blood (Dragon Knight)
+- Ability: Feast (Lifestealer)
+- Ability: Ghoul Frenzy (Lifestealer)
+- Ability: Retalitate (Ceantar Warrunner)
+- Ability: Dispersion (Spectre)
+- Ultimate: Flesh Heap (Pudge)
+
+[h1]Hero Changes[/h1]
+
+[b]Doom (Dire Safelane)[/b]
+- Hero Changed: Terrorblade to Doom (to make room for a new hero)
+- Primary Attribute: Changed from agility to strengh
+[b]Huskar (Debuffer)[/b]
+- Hero Changed: Sand King for Huskar (to make room for a new hero)
+- Split Shot: Ability Fixed
+- Split Shot: Range increased from 150/300 to 300/450
+- Attack Range: Decreased by 100
+- Primary Attribute: Changed from agility to strengh
+[b]Bloodseeker (Sanic)[/b]
+- Guardian Sprint: Ability Fixed
+- Guardian Sprint: Ability Scepter Added (Puddle)
+- Culling Blade: Damage Increased from 150/250/350 to 200/300/400
+- Culling Blade: Kill Threshold Incread from 350/400/450 to 400/500/600
+- Talent Tree: The talent tree has been updated and features better talents for the hero
+- Strenght Bonus: Gains 1 bonus strengh per level (was orginally 0)
+[b]Bristleback(Snot Gozzal)[/b]
+- Warpath: Max stacks decrased from 100 to 18/24/30
+- Aghanims Scepter: Max Stacks increased from 8 to 100
+- All Goo's: Max stackes reduced from 100 to 15
+
+
+
+[h1]3.4 Welcome to the Jungle #LakadMatatag[/h1]
+- Added Tribute to Dunoo
+[h1]News[/h1]
+- Thank you all for still playing even when the game isnt updated as much as I would hope it to be!
+- Another Valve patch, as well. it didnt really do much
+- This update is a lot of back end clean up changes that need to be made 
+- List of Back End Changes:
+Deleting Unnessecary Code/Files
+Fixing Scoreboard Placement, Colouring, Icons
+Fixing all Icons in the Game
+Adding Old Neutral Items Into the Game
+Reverting the Team Selection Screen Back (didnt work all the time)
+Fixing ALL THE BUTTONS (fuck me I hated this)
+AND SOME OTHER THINGS I DONT REMEMBER
+
+[h1]Gameplay Changes[/h1]
+- Added Anceint Creep Camps throughout the maps. (With the wide selection of items, might as well add someway to get them)
+- Camps spawn on the minuet and can be stacked like regular Dota matches (if +30 seconds is added, the camp spawn time becomes the 30 second mark instead of the minuet) 
+- Bunch of behind the scenes panoramic updates
+- Scoreboard now has a Mute Option
+- Scoreboard now has a Disable Help Option
+- Re-Enabled Scorestreaks
+
+[h1]Neutral Items[/h1]
+- A bunch of new Neutral Items have been added to the rotation, including the new 7.30 Patch, Silbreaker, Previous Patches etc.
+- Enjoy these new (basic, as in not complelty fucked to shit yet) items in the game.
+- Shop Page has been updated to account for the new items. (Even though it shows 5 items, if a sixth is collected *from chests* they will be in the tier section, just take another item first and it should appear)
+
+[h1]Hero Changes[/h1]
+[b]Drow Ranger (Glass Cannon)[/b]
+- Removed 4 levels from basic abilities to help for level 30
+[b]Dawnbreaker (Devastating 4th Blow)[/b]
+- Fixed Ultimate's Text (because i'm smart and made it a differnt name in the english file)
+[b]Phantom Assassin (Queen Crits A Lot)[/b]
+- Mortal Strike - Ability Fixed
+[b]Arc Warden (Thanos)[/b]
+- Removed 2 levels from basic abilities to help for level 30
+- Necromastery - Ability Fixed
+[b]Lion (Trump)[/b]
+- Removed 1 level from basic abilities to help for level 30
+
+[h1]3.5 Your Work, Not Mine[/h1]
+[h1]News[/h1]
+- Today's updates are strictly your ideas!!! I took all your great ideas and threw them all together into the game. I hope I did your ideas proudly!
+- Not sure why you idiots keep playing this game, but there are now 17,600 of you so good job.
+- IM LOOKING FOR ARTWORK (GAMEMODE, ABILITIES ETC. drop some stuff in the discord if you want your art in the game)
+- The Update Includes
+3 New Heroes
+Venomancer is no longer complete Dogshit
+Undigging heroes that I nerfed into the ground
+
+[h1]Hero Changes[/h1]
+[b]Venomancer (Torbjorn)[/b]
+- Plague Ward: Ability replaced with Forge Spirit
+- Curse of Avernus: Ability replaced with Mortimer Kisses (Molten Core)
+- Molten Core: Ability Scepter Removed
+- Sidekick: Ability Added
+- Sidekick: Can not target Heroes, but the effect is still applied to heroes when used on a turret
+
+[b]Phantom Assassin (Queen Crits A Lot)[/b]
+- Crits have been balanced around, I nerfed her into the ground and I want her somewhat out
+- Phantom Strike: New Ability Added
+
+[b]Elder Titan (Roshan)[/b]
+- Hero changed from Spirit Breaker to Elder Titan to make room for new Hero
+
+[h1]New Hero[/h1]
+[b]Warlock (Warlock Golem) - Created by Arukii[/b]
+What if you were the golem summoning Warlocks to fight for you instead???
+- Ability: Flaming Fists (Warlock Golem)
+- Ability: Permanent Immolation (Warlock Golem)
+- Ultimate: Chaotic Offering (Warlock)
+- Golem Ability: Fatal Bonds (Warlock)
+- Golem Ability: Shadow Word (Warlock)
+- Golem Ability: Upheaval (Warlock)
+
+[b]Storm Spirit (Tesla Coil) - Created by Old Game Files[/b]
+- Ability: Static Remnant (Storm Spirit)
+- Ability: Jingu Mastery (Monkey King)
+- Ability: Overload (Storm Spirit)
+- Ultimate: Eye of the Storm (Razor)
+
+[b]Bane (Hold that Thought) - Created by ARandomClown[/b]
+- Ability: Fiends Grip (Bane)
+- Ability: Ensnare (Naga Siren)
+- Ability: Nightmare (Bane)
+- Ultimate: Song of the Siren (Naga Siren)
+
+[h1]3.6 Fixing the Bugs that Need Fixing[/h1]
+
+[h1]News[/h1]
+- It's been a few months, thank you all for the recent influx of support for the game
+- 18600+ of you idiots who still play this garbage game mode
+- New Content will be coming as I come up with it. If you have any ideas submit them in the Discord, and ill add them. IDC LMAO
+- Continue to Report Bugs to the Discord if you ever want it fixed, I don't know if it exists unless you tell me
+
+[h1]Gameplay Fixes[/h1]
+- Games with 1-3 Players are now extended to 15 min instead of 10
+- Added New Shop Items from the most recent patch
+- Fixed all text errors (not showing correct info
+- Fixed Treasure Chests Spawning in Center of Map on 4's,5's and 8's (Players Map Respectively)
+- Added A Cool Minimap Border
+- Fix Team Select Page, with a lovely new image featured
+- Fixed Info Page
+- Fixed Mr. Salty and Lockjaw from being Missing Textures for Some Players
+- Fixed Minimaps that were missing for Some Players
+- Neutral Items have been removed from drops and only appear in Chests now
+
+[h1]Hero Changes[/h1]
+[b]Dawnbreaker (Devastating 4th Blow)[/b]
+- Luminosity: Ability Fixed, won't crash your game anymore
+- Level 25 Talent: +30 Damage replaced with -1 Luminosity Attacks Required
+
+[b]Brewmaster (Aloha)[/b]
+- Level 25 Talent: Removed Broken Talent and added +252 Damage
+- Level 15 Talent: Removed Attack Damage and added Mana Regen
+- Mobile Snack: Ability Shard Added
+- Mobile Snack: Ability Fixed
+
+[b]Omniknight (Bashlord)[/b]
+- Talents Tree Reworked
+- Degen Aura: Moved to Shard
+- Degen Aura: Ability Fixed
+- Hammer of Purity: New Ability
+- Drop the Hammer: Added another Level (2 -> 3)
+- Skill Bash: Removed a Level (2 -> 1)
+- Skill Bash: Increased Percentage from 10% -> 17%
+- Skill Bash: Increased Damage from 100 to 500
+- Skill Bash: Min Level to Learn is 12
+
+[b]Phoenix (Burd)[/b]
+- Talent Tree Reworked
+- Caw Caw (Icarus Dive): Damage Rescaled from 15/20/25/30 to 15/35/55/75
+- Caw! Caw! (Searing Chains): Ability Fixed
+
+[b]Wraith King (Death is My Bitch)[/b]
+- Talent Tree Reworked
+- Guardian Angel: Ability Fixed
+
+[b]Treant Protector (Fern Gully)[/b]
+- Talent Tree Reworked
+- Sprout: Ability Fixed
+- Living Armour: Ability Fixed
+
+[b]Kunkka (Omega Kunkka)[/b]
+- Talent Tree Reworked
+- Torrent: Ability Fixed
+- Torrent Storm: Ability Fixed
+
+[b]Sven (Really Shouty Man)[/b]
+- Talent Tree Reworked
+- Warcry: Ability Fixed
+- Warcry: Ability Shard Added
+- Savage Roar: Ability Fixed
+- Savage Roar: Ability Shard Added
+
+[b]Bristleback (Snot Gozzal)[/b]
+- Hero Reworked: Have fun finding out his new meta
+- All Goo's: Ability Fixed
+- Warpath: Movespeed and Damage per stack reduced to compensate for new talent at 25
+
+[b]Underlord (Year Beast)[/b]
+- Split Earth: Ability Fixed
+- Disabled Wearables for Underlord
+- Model Scale Reduced by .1
+
+[b]Anti-Mage (Blinkin Slammin)[/b]
+- Talent Tree Reworked
+- Echo Slam: Added 4th Level Values
+- Aftershock: Ability Fixed
+- QOP Blink: Shard Added
+- QOP Blink: Blink Range Fixed
+
+[b]Oracle (Crazy Ass Time Guy)[/b]
+- Talent Tree Reworked
+- Time Walk: Ability Fixed
+- Reverse Time Walk: Shard Added
+- Shards and Scepters Added
+
+[b]Enchantress (Impentus)[/b]
+- Talent Tree Reworked
+- Take Aim: Ability Fixed
+- Overpower: Ability Fixed
+- Impentus: Ability Fixed
+
+[b]Tiny (Annoying Little Spider)[/b]
+- Talent Tree Reworked
+- Drunken Brawler: Ability Fixed
+- Drunken Brawler: Ability Shard Added
+- Tree Volley: Ability Added
+
+[b]Witch Doctor (Death Ward)[/b]
+- Talent Tree Reworked
+- Moon Glaives: Ability Fixed
+- Voodoo Restoration: Ability Fixed
+- Maledict: Ability Fixed
+
+[b]Enigma (SPACEMAN)[/b]
+- Talent Tree Fixed
+- Magic Missle: Ability Fixed
+
+[b]Monkey King (Monkey King)[/b]
+- Boundless Strike: Ability Fixed
+
+[b]Clinkz (Skeleton King)[/b]
+- Howl: Ability Rescaled to account for ability being changed by Valve
+
+
+[h1]3.6b A Few Quick Fixes[/h1]
+
+[h1]Backend Fixes[/h1]
+- Fixed Loading Screen
+- Fixed Title
+- Fixed Team Logo's
+
+[h1]Gameplay Changes[/h1]
+- Shard is now purchaseable after 3 minutes
+- All Exp Boosts have been removed from Talent Trees
+- Tome of Knowledge: Restocked Every 2 min
+- Tome of Knowledge: EXP Bonus increased from 375/135recurring to 1000/500recurring
+- Books of Agi/Int/Sten cost reduced from 1500 to 500
+
+[h1]Hero Changes[/h1]
+[b]Ember Sprit (Super KMS Man)[/b]
+- I got dumpstered by this hero so im nerfing him into the ground out of spite
+- Talent Tree Reworked
+- Dark Pact: Ability Self Damage Fixed (35%)
+- Dark Pact: Damage reduced from 250/500/750/1000 to 100/150/200/250
+- Aphotic Sheild: Damage absorb reduced from 250/500/750/1000 to 100/200/300/400
+
+[h1]3.6c The Road to A Functional Game[/h1]
+[h1]News[/h1]
+- Thank you for your continued help in the Discord in finding these bugs, couldn't do it without you!
+- The roadmap for the Next Update will be a part of the 3.6d Patch Notes
+- Im still looking for artwork to replace the current logo and background screen. DM me on Discord if you have any ideas
+- Hero / Gameplay Suggestions are also still wanted. Throw them in the Discord. There is nothing too stupid here
+
+[h1]Shop Changes[/h1]
+- Removed all Tier 2 Items
+List of Removed Items:
+- Book of Strength, Int and Agi
+- Mana Booster
+- Magic Booster
+- Radiance 2
+- Diffusal 2
+- Butterfly 2
+- Reaver 2
+- Phase Boots 2
+- Healing Boots
+- Angel Boots
+Reasoning: Looking to create some of my custom items for the next update. These items also broke, so I'm just removing them all now
+
+[h1]Hero Changes[/h1]
+[b]Ursa (Very Salty Bear Man)[/b]
+- All Abilities Fixed
+
+
+[h1]3.6c Preparing for the Future[/h1]
+
+[h1]News[/h1]
+- Take a Look at the new [url=https://kwammers.notion.site/Definitely-Not-Dota-2-0-823fb341ace2433b9511427d6920c564] Definitely Not Dota 2.0 Road Map[/url] to see what progress is next on my TO-DO List.
+
+[h1]Hero Changes[/h1]
+[b]Venomancer (Torbjorn)[/b]
+- All Abilities Fixed
+- Phase Boot Ability Added (Summoning the 5 Turrets got Veno Stuck)
+- Sidekick: Ability Level Reduced from 4 to 3 to make room for Phase Boots

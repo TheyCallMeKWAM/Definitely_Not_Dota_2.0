@@ -1,0 +1,28 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="file://{resources}/layout/custom_game/common/custom_pings/custom_pings.css" />
+	</styles>
+	
+ 	<scripts>
+		<include src="file://{resources}/layout/custom_game/common/utils.js" />
+		<include src="file://{resources}/layout/custom_game/common/custom_pings/custom_pings_const.js" />
+		<include src="file://{resources}/layout/custom_game/common/custom_pings/custom_pings.js" />
+	</scripts>
+
+	<snippets>
+		<snippet name="CustomPing">
+			<Image class="CustomPing" hittest="false">
+				<Image id="CustomPing_Marker" src="file://{resources}/images/custom_game/import_dota/ping_icon_friendlyward_psd_png.png" hittest="false"/>
+				<Image id="CustomPing_HeroImage" hittest="false"/>
+			</Image>
+		</snippet>
+	</snippets>
+	
+ 	<Panel class="WheelPingFixRoot" hittest="false">
+		<Panel id="CustomPings_Minimap" hittest="false"/>		
+		<Panel id="MapOverlay" hittest="false">
+			<Label id="MapOverlayText" text="Definitely Not Dota 2.0" hittest="false"/>
+		</Panel>
+	</Panel>
+</root>

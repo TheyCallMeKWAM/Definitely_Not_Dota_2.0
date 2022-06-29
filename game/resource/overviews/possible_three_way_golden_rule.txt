@@ -1,0 +1,8 @@
+possible_three_way_golden_rule
+{
+	material materials/overviews/possible_three_way_golden_rule.vmat
+	pos_x -5632
+	pos_y 5632
+	scale 11.000
+}
+

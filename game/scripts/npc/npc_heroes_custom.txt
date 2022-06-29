@@ -1,0 +1,2284 @@
+// Dota Heroes File
+// NOTE: This is not for creating new heroes, this is for taking a currently existing hero as a template and overriding
+// the specified key-value combinations.  Use override_hero <hero_to_override> for this.
+"DOTAHeroes"
+{
+	//=================================================================================================================
+	// HERO: 
+	//=================================================================================================================
+	"npc_dota_hero_dnd2_brewmaster"
+	{
+		"override_hero"				"npc_dota_hero_brewmaster"
+		
+		"NameAliases" 				"brew, brewmaster"
+		
+		"Ability1"					"techies_suicide"
+		"Ability2"					"rattletrap_hookshot"
+		"Ability3"					"elder_titan_natural_order"
+		"Ability4"					"suicide_datadriven"
+		"Ability6"					"pudge_meat_hook"
+		"Ability10"					"special_bonus_movement_speed_15"
+		"Ability11"					"special_bonus_strength_8"
+		"Ability12"					"special_bonus_movement_speed_25"
+		"Ability13"					"special_bonus_mp_regen_3"
+		"Ability14"					"special_bonus_movement_speed_50"
+		"Ability15"					"special_bonus_strength_20"
+		"Ability16"					"special_bonus_cooldown_reduction_25"
+		"Ability17"					"special_bonus_attack_damage_252"
+		"ModelScale"				"0.50000"
+		"MovementSpeed"		"300"
+		"AttributeBaseStrength"		"22"
+		"AttributeStrengthGain"		"2"
+	}
+	//=================================================================================================================
+	// HERO: drow one shot
+	//=================================================================================================================
+	"npc_dota_hero_dnd2_mirana"
+	{
+		"override_hero"					"npc_dota_hero_mirana"
+		
+		"NameAliases"			"mirana"
+		
+		"Ability1"		"normal_arrow"
+		"Ability2"		"mirana_arrow"
+		"Ability3"		"windrunner_windrun"
+		"Ability6"		"arrow_barrage"
+		"Ability10"					"special_bonus_movement_speed_15"
+		"Ability11"					"special_bonus_agility_8"
+		"Ability12"					"special_bonus_cooldown_reduction_12"
+		"Ability13"					"special_bonus_attack_range_150"
+		"Ability14"					"special_bonus_agility_20"
+		"Ability15"					"special_bonus_spell_amplify_10"
+		"Ability16"					"special_bonus_attack_speed_40"
+		"Ability17"					"special_bonus_unique_mirana_2"
+	}
+	//=================================================================================================================
+	// HERO: ultratechies
+	//=================================================================================================================
+	"npc_dota_hero_dnd2_techies"
+	{
+		"override_hero"				"npc_dota_hero_techies"
+		
+		"NameAliases"				"techies"
+		
+		
+		"AbilityLayout"				"4"
+		"Ability1"					"techies_land_mines"
+		"Ability2"					"riki_permanent_invisibility"
+		"Ability3"					"techies_stasis_trap"
+		"Ability4"					"built_in_dagon"
+		"Ability6"					"storm_spirit_electric_vortex"
+		"Ability10"					"special_bonus_movement_speed_15"
+		"Ability11"					"special_bonus_strength_6"
+		"Ability12"					"special_bonus_hp_500"
+		"Ability13"					"special_bonus_attack_damage_50"
+		"Ability14"					"special_bonus_magic_resistance_20"
+		"Ability15"					"special_bonus_cooldown_reduction_12"
+		"Ability16"					"special_bonus_attack_speed_40"
+		"Ability17"					"special_bonus_cooldown_reduction_20"
+		"MovementSpeed"		"600"
+		"AttributeBaseStrength"		"8"
+		"AttributeStrengthGain"		"0"
+	}
+	//=================================================================================================================
+	// HERO: Bloodseeker
+	//=================================================================================================================
+	"npc_dota_hero_dnd2_bloodseeker"
+	{
+		"override_hero"				"npc_dota_hero_bloodseeker"
+		
+		"NameAliases"			"bs, bloodseeker"
+		
+		
+		"Ability1"	    "slardar_sprint"
+		"Ability2"		"doom_bringer_scorched_earth"
+		"Ability3"		"bloodseeker_thirst"
+		"Ability6"		"axe_culling_blade"
+		"Ability10"					"special_bonus_cast_range_250"
+		"Ability11"					"special_bonus_all_stats_20"
+		"Ability12"					"special_bonus_cooldown_reduction_15"
+		"Ability13"					"special_bonus_hp_300"
+		"Ability14"					"special_bonus_unique_axe_5"
+		"Ability15"					"special_bonus_strength_25"
+		"Ability16"					"special_bonus_hp_500"
+		"Ability17"					"special_bonus_attack_damage_150"
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackAcquisitionRange"		"600"
+		"MovementSpeed"		"350"
+		"AttributeBaseStrength"		"1"
+		"AttributeStrengthGain"		"1"
+		"ArmorPhysical"		"20"
+				
+		"MagicalResistance"		"20"
+		"AttackDamageMin"		"61"
+		"AttackDamageMax"		"69"
+	}
+	//=================================================================================================================
+	// HERO: Axe
+	//=================================================================================================================
+	"npc_dota_hero_dnd2_axe"
+	{
+		"override_hero"				"npc_dota_hero_axe"
+		
+		"NameAliases"				"axe"
+		
+		"AbilityLayout"				"5"
+		"Ability1"		"axe_counter_helix"
+		"Ability2"		"magnataur_skewer"
+		"Ability3"		"helix_deliberate"
+		"Ability4"		"helix_stun"
+		"Ability6"		"axe_berserkers_call"
+		"Ability10"					"special_bonus_strength_6"
+		"Ability11"					"special_bonus_armor_5"
+		"Ability12"					"special_bonus_movement_speed_35"
+		"Ability13"					"special_bonus_strength_14"
+		"Ability14"					"special_bonus_strength_20"
+		"Ability15"					"special_bonus_magic_resistance_25"
+		"Ability16"					"special_bonus_armor_15"
+		"Ability17"					"special_bonus_spell_lifesteal_20"
+		"MagicalResistance"		"5"
+	}
+	//=================================================================================================================
+	// HERO: dark seet
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_dark_seer"
+	{
+		"override_hero"			"npc_dota_hero_dark_seer"
+		
+		"NameAliases"			"ds, dark seer"
+		
+		
+		"Ability1"		"ember_spirit_flame_guard"
+		"Ability2"		"dark_seer_ion_shell"
+		"Ability3"		"juggernaut_blade_fury"
+		"Ability6"		"magnataur_reverse_polarity"
+		"Ability10"					"special_bonus_movement_speed_35"
+		"Ability11"					"special_bonus_armor_8"
+		"Ability12"					"special_bonus_magic_resistance_25"
+		"Ability13"					"special_bonus_strength_20"
+		"Ability14"					"special_bonus_unique_ember_spirit_1"
+		"Ability15"					"special_bonus_unique_juggernaut"
+		"Ability16"					"special_bonus_unique_dark_seer"
+		"Ability17"					"special_bonus_spell_lifesteal_70"
+		"MovementSpeed"		"365"
+		"AttributeBaseStrength"		"27"
+	}
+	//=================================================================================================================
+	// HERO: The Forest
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_treeant"
+	{
+		"override_hero"	"npc_dota_hero_meepo"
+		
+		"NameAliases"	"meepo"
+		
+		
+		"Model"		"models/heroes/rattletrap/rattletrap.vmdl"
+		"Ability1"		"rattletrap_battery_assault"
+		"Ability2"		"rattletrap_rocket_flare"
+		"Ability3"		"meepobot_datadriven"
+		"Ability4"		"selfdestruct_datadriven"
+		"Ability6"		"meepo_divided_we_stand"
+		"Ability10"		"special_bonus_armor_4"
+		"Ability11"		"special_bonus_attack_damage_15"
+		"Ability12"		"special_bonus_lifesteal_15"
+		"Ability13"		"special_bonus_movement_speed_20"
+		"Ability14"		"special_bonus_evasion_10"
+		"Ability15"		"special_bonus_attack_speed_25"
+		"Ability16"		"special_bonus_hp_500"
+		"Ability17"		"special_bonus_cooldown_reduction_20"	
+		"AttributeBaseStrength"		"30"
+	}
+	//=================================================================================================================
+	// HERO: burd
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_phoenix"
+	{
+		"override_hero"	"npc_dota_hero_phoenix"
+		
+		"NameAliases"	"bird, phoenix"
+		
+		"Ability1"		"phoenix_icarus_dive"
+		"Ability2"		"lina_dragon_slave"
+		"Ability3"		"ember_spirit_searing_chains"
+		"Ability4"		"phoenix_icarus_dive_stop"
+		"Ability6"		"cawcaw_motherfucker"
+		"Ability10"		"special_bonus_spell_amplify_5"
+		"Ability11"		"special_bonus_unique_phoenix_6"
+		"Ability12"		"special_bonus_strength_12"
+		"Ability13"		"special_bonus_spell_amplify_10"
+		"Ability14"		"special_bonus_unique_ember_spirit_2"
+		"Ability15"		"special_bonus_cooldown_reduction_10"
+		"Ability16"		"special_bonus_unique_phoenix_4"
+		"Ability17"		"special_bonus_spell_lifesteal_20"	
+		"AbilityLayout"		"4"
+		"AttributeBaseStrength"		"14"
+	}
+	//=================================================================================================================
+	// HERO: Bashlord
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_omniknight"
+	{
+		"override_hero"	"npc_dota_hero_omniknight"
+		
+		"NameAliases"	"omni, omniknight"
+		
+		
+		"Ability1"		"omniknight_hammer_of_purity"
+		"Ability2"		"omni_emergency"
+		"Ability3"		"slardar_bash"
+		"Ability4"		"ultra_bash_datadriven"
+		"Ability5"		"omniknight_degen_aura"
+		"Ability6"		"troll_warlord_battle_trance"
+		"Ability10"		"special_bonus_attack_speed_30"
+		"Ability11"		"special_bonus_strength_8"
+		"Ability12"		"special_bonus_lifesteal_30"
+		"Ability13"		"special_bonus_unique_slardar_2"
+		"Ability14"		"special_bonus_attack_damage_50"
+		"Ability15"		"special_bonus_unique_omniknight_3"
+		"Ability16"		"special_bonus_unique_troll_warlord_4"
+		"Ability17"		"special_bonus_unique_omniknight_4"
+		"AttributeBaseStrength"		"29"
+		"AttributeStrengthGain"		"5.5"
+		"MagicalResistance"		"25"
+	}
+	//=================================================================================================================
+	// HERO: rob schneider in the animal
+	//=============================================================================================================
+		"npc_dota_hero_dnd2_furion"
+	{
+		"override_hero"	"npc_dota_hero_furion"
+		
+		"NameAliases" "np, natures prophet"
+		
+		"AbilityLayout"		"6"
+		"Ability1"		"beastmaster_call_of_the_wild_boar"
+		"Ability2"		"enigma_demonic_conversion"
+		"Ability3"		"lone_druid_spirit_bear"
+		"Ability4"		"phase_datadriven"
+		"Ability5"		"shadow_shaman_shackles"
+		"Ability6"		"lycan_feral_impulse"
+		"Ability10"		"special_bonus_intelligence_35"
+		"Ability11"		"special_bonus_hp_175"
+		"Ability12"		"special_bonus_unique_shadow_shaman_2"
+		"Ability13"		"special_bonus_mp_regen_6"
+		"Ability14"		"special_bonus_attack_speed_35"
+		"Ability15"		"special_bonus_unique_enigma"
+		"Ability16"		"special_bonus_armor_15"
+		"Ability17"		"special_bonus_cooldown_reduction_25"
+		"AttributeStrengthGain"		"3.5"
+		"AttackRange"		"950"
+	}
+	//=================================================================================================================
+	// HERO: Karateman
+	//=============================================================================================================
+		"npc_dota_hero_dnd2_juggernaut"
+	{
+		"override_hero"		"npc_dota_hero_juggernaut"
+		
+		"NameAliases"		"jugg, juggernaut, kwam"
+		
+		"AbilityLayout"		"5"
+		"Ability1"	"riki_blink_strike"
+		"Ability2"	"juggernaut_omni_slash"
+		"Ability3"	"bloodseeker_bloodrage"
+		"Ability4"	"jugg_vanish"
+		"Ability6"	"ember_spirit_sleight_of_fist"
+		"Ability10"		"special_bonus_hp_150"
+		"Ability11"		"special_bonus_attack_damage_20"
+		"Ability12"		"special_bonus_attack_speed_20"
+		"Ability13"		"special_bonus_armor_6"
+		"Ability14"		"special_bonus_movement_speed_20"
+		"Ability15"		"special_bonus_all_stats_10"
+		"Ability16"		"special_bonus_attack_damage_75"
+		"Ability17"		"special_bonus_cooldown_reduction_25"
+		"AttributeStrengthGain"		"1.5"
+		"AttributeAgilityGain"		"3.2"
+		"MovementSpeed"		"375"
+	}
+	//=================================================================================================================
+	// HERO: Call of duty
+	//=============================================================================================================
+		"npc_dota_hero_dnd2_sniper"
+	{
+		"override_hero"		"npc_dota_hero_sniper"
+		
+		"NameAliases"		"sniper"
+		
+		"ProjectileModel"		"particles/econ/items/sniper/sniper_charlie/sniper_assassinate_charlie.vpcf"
+		"Ability1"	"sniper_noobtube"
+		"Ability2"	"dark_seer_surge"
+		"Ability3"	"clinkz_strafe"
+		"Ability6"	"gyrocopter_call_down"
+		"Ability10"		"special_bonus_strength_6"
+		"Ability11"		"special_bonus_attack_speed_15"
+		"Ability12"		"special_bonus_attack_damage_25"
+		"Ability13"		"special_bonus_hp_200"
+		"Ability14"		"special_bonus_unique_clinkz_12"
+		"Ability15"		"special_bonus_cooldown_reduction_25"
+		"Ability16"		"special_bonus_attack_range_100"
+		"Ability17"		"special_bonus_unique_gyrocopter_5"
+		"AttackRange"		"650"
+		"AttributeStrengthGain"		"2"
+	}
+	//=================================================================================================================
+	// HERO: Time Man
+	//=============================================================================================================
+		"npc_dota_hero_dnd2_oracle"
+	{
+		"override_hero"		"npc_dota_hero_oracle"
+		
+		"NameAliases"		"oracle"
+		
+		
+		"Ability1"		"weaver_time_lapse"
+		"Ability2"		"faceless_void_time_walk"
+		"Ability3"		"storm_spirit_overload"
+		"Ability5" 		"faceless_void_time_walk_reverse"
+		"Ability6"		"chaos_knight_chaos_strike"
+		"Ability10"		"special_bonus_cooldown_reduction_12"
+		"Ability11"		"special_bonus_unique_chaos_knight_6"
+		"Ability12"		"special_bonus_cooldown_reduction_15"
+		"Ability13"		"special_bonus_attack_speed_40"
+		"Ability14"		"special_bonus_unique_storm_spirit_7"
+		"Ability15"		"special_bonus_unique_chaos_knight_5"
+		"Ability16"		"special_bonus_attack_damage_150"
+		"Ability17"		"special_bonus_unique_faceless_void_7"
+		"AttributeAgilityGain"		"3.2"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"AttackRange"		"500"
+	}
+	//=================================================================================================================
+	// HERO: AAAAAAH FUCK GIANT SPIDER
+	//=============================================================================================================
+		"npc_dota_ayy_hero_dnd2_broodmother"
+	{
+		"override_hero"		"npc_dota_hero_broodmother"
+		
+		"NameAliases" 		"broodmother, brood"
+		
+		
+		"Ability1"			"broodmother_spin_web"
+		"Ability2"		"slark_pounce"
+		"Ability3"		"broodmother_spawn_spiderlings"
+		"Ability6"		"slark_essence_shift"
+		"Ability10"		"special_bonus_agility_10"
+		"Ability11"		"special_bonus_attack_damage_30"
+		"Ability12"		"special_bonus_cooldown_reduction_20"
+		"Ability13"		"special_bonus_armor_7"
+		"Ability14"		"special_bonus_hp_300"
+		"Ability15"		"special_bonus_attack_speed_50"
+		"Ability16"		"special_bonus_attack_damage_75"
+		"Ability17"		"special_bonus_lifesteal_30"
+		"ModelScale"		"2.5"
+		"AttackDamageMin"		"25"
+		"AttackDamageMax"		"20"
+		"AttributeBaseStrength"		"22"
+	}
+	//=================================================================================================================
+	// HERO: roshan
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_elder_titan"
+	{
+		"override_hero"	"npc_dota_hero_elder_titan"
+		
+		"NameAliases"	"et, elder titan"   
+		"DisableWearables"			"1"
+		
+		"ModelScale"		"0.9"
+		"Model"						"models/creeps/roshan/roshan.vmdl"
+		"Ability1"		"roshan_flames"
+		"Ability2"		"roshan_emerge"
+		"Ability3"		"roshan_slam"
+		"Ability4"		"roshan_bash"		
+		"Ability5"		"roshan_spell_block"		
+		"Ability6"		"skeleton_king_reincarnation"
+		"Ability7"		"roshan_rage"
+		"Ability10"		"special_bonus_all_stats_5"
+		"Ability11"		"special_bonus_movement_speed_15"
+		"Ability12"		"special_bonus_attack_damage_20"
+		"Ability13"		"special_bonus_all_stats_10"
+		"Ability14"		"special_bonus_all_stats_20"
+		"Ability15"		"special_bonus_magic_resistance_15"
+		"Ability16"		"special_bonus_spell_lifesteal_20"
+		"Ability17"		"special_bonus_cooldown_reduction_15"
+		"AttributeBaseStrength"		"35"
+		"AttributeStrengthGain"		"3"
+		"MovementSpeed"		"260"
+		"ArmorPhysical"		"4"
+		"AttackDamageMin"		"20"
+		"AttackDamageMax"		"30"
+		"MagicalResistance"		"30"
+	}
+	//=================================================================================================================
+	// HERO: deathward
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_witch_doctor"
+	{
+		"override_hero"	"npc_dota_hero_witch_doctor"
+		
+		"NameAliases" 	"wd, witch doctor, OHHHHHH YAAAAAA"
+		
+		
+		"ModelScale"		"1"
+		"Model"						"models/heroes/witchdoctor/witchdoctor_ward.vmdl"
+		"DisableWearables"			"1"
+		"Ability1"		"luna_moon_glaive"
+		"Ability2"		"witch_doctor_voodoo_restoration"
+		"Ability3"		"witch_doctor_maledict"
+		"Ability6"		"faceless_void_chronosphere"
+		"Ability10"		"special_bonus_unique_witch_doctor_4"
+		"Ability11"		"special_bonus_attack_damage_20"
+		"Ability12"		"special_bonus_unique_witch_doctor_6"
+		"Ability13"		"special_bonus_hp_200"
+		"Ability14"		"special_bonus_unique_luna_7"
+		"Ability15"		"special_bonus_unique_witch_doctor_7"
+		"Ability16"		"special_bonus_attack_range_175"
+		"Ability17"		"special_bonus_attack_damage_120"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"ProjectileModel"			"particles/units/heroes/hero_witchdoctor/witchdoctor_ward_attack.vpcf"		
+		"AttributeBaseStrength"		"1"
+		"AttributeStrengthGain"		"0"
+		"AttackRate"		"0.2"
+		"AttackAnimationPoint"		"0.1"
+		"AttackDamageMin"		"0"
+		"AttackDamageMax"		"0"
+		"AttackRange"		"450"
+	}
+	//=================================================================================================================
+	// HERO: Doom (Dire Safe Lane)
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_doom_bringer"
+	{
+		"override_hero"	"npc_dota_hero_doom_bringer"
+		
+		"NameAliases"	"doom, db, doom bringer"
+		
+		"DisableWearables" "1"
+		"ModelScale"		"1.2"
+		"Model"						"models/props_structures/tower_bad.vmdl"
+		"Ability1"		"makemeleecreeps_lua"
+		"Ability2"		"makerangedcreeps_lua"
+		"Ability3"		"makecatapults_lua"
+		"Ability4"		"phase_datadriven"
+		"Ability6"		"lycan_feral_impulse"
+		"Ability10"		"special_bonus_movement_speed_15"
+		"Ability11"		"special_bonus_all_stats_5"
+		"Ability12"		"special_bonus_hp_175"
+		"Ability13"		"special_bonus_attack_speed_20"
+		"Ability14"		"special_bonus_attack_range_100"
+		"Ability15"		"special_bonus_strength_14"
+		"Ability16"		"special_bonus_attack_range_175"
+		"Ability17"		"special_bonus_attack_damage_40"
+		
+		"AttackCapabilities"	"DOTA_UNIT_CAP_RANGED_ATTACK"
+		"BaseAttackSpeed"		"100"
+		"AttackDamageType"		"DAMAGE_TYPE_ArmorPhysical"
+		"AttackDamageMin"		"0"
+		"AttackDamageMax"		"0"
+		"AttackRate"			"1.700000"
+		"AttackAnimationPoint"		"0.750000"
+		"AttackAcquisitionRange"		"600"
+		"AttackRange"					"600"
+		
+		"ProjectileModel"			"particles/units/heroes/hero_dragon_knight/dragon_knight_elder_dragon_fire.vpcf"		
+		"ProjectileSpeed"		"900"
+		"AttributeBaseStrength"		"24"
+
+	}
+	//=================================================================================================================
+	// HERO: Satyr memeer
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_chaos_knight"
+	{
+		"override_hero"	"npc_dota_hero_chaos_knight"
+		
+		"NameAliases"	"ck, chaos knight"
+		
+		"Ability1"		"skywrath_mage_concussive_shot"
+		"Ability2"		"lina_fiery_soul"
+		"Ability3"		"pudge_flesh_heap"
+		"Ability6"		"bristleback_warpath"
+		"Ability10"		"special_bonus_attack_speed_15"
+		"Ability11"		"special_bonus_intelligence_7"
+		"Ability12"		"special_bonus_movement_speed_15"
+		"Ability13"		"special_bonus_strength_10"
+		"Ability14"		"special_bonus_lifesteal_30"
+		"Ability15"		"special_bonus_all_stats_12"
+		"Ability16"		"special_bonus_cooldown_reduction_20"
+		"Ability17"		"special_bonus_unique_pudge_1"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+	}
+	//=================================================================================================================
+	// HERO: Mr Stompy
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_centaur"
+	{
+		"override_hero"	"npc_dota_hero_centaur"
+		
+		"NameAliases"	"cent, cw, centaur warrunner"
+		
+		"Ability1"		"centaur_hoof_stomp"
+		"Ability2"		"slardar_slithereen_crush"
+		"Ability3"		"ursa_earthshock"
+		"Ability4"		"centaur_stampede"
+		"Ability6"		"sandking_epicenter"
+		"Ability10"		"special_bonus_attack_damage_30"
+		"Ability11"		"special_bonus_strength_6"
+		"Ability12"		"special_bonus_magic_resistance_15"
+		"Ability13"		"special_bonus_strength_14"
+		"Ability14"		"special_bonus_spell_amplify_10"
+		"Ability15"		"special_bonus_strength_20"
+		"Ability16"		"special_bonus_unique_centaur_2"
+		"Ability17"		"special_bonus_spell_lifesteal_70"
+		"MovementSpeed"		"240"
+		"AttributeBaseStrength"		"25"
+		"AttributeStrengthGain"		"3"
+	}
+	//=================================================================================================================
+	// HERO: pinball wizard
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_lich"
+	{
+		"override_hero"	"npc_dota_hero_lich"
+		
+		"NameAliases"	"lich"
+		
+		"Ability1"		"lich_chain_frost"
+		"Ability2"		"crystal_maiden_crystal_nova"
+		"Ability3"		"pinball_octarine"
+		"Ability4"		"lich_frost_armor"
+		"Ability6"		"dark_seer_vacuum"
+		"Ability10"		"special_bonus_hp_125"
+		"Ability11"		"special_bonus_movement_speed_15"
+		"Ability12"		"special_bonus_cast_range_100"
+		"Ability13"		"special_bonus_armor_12"
+		"Ability14"		"special_bonus_attack_damage_150"
+		"Ability15"		"special_bonus_unique_crystal_maiden_2"
+		"Ability16"		"special_bonus_spell_lifesteal_70"
+		"Ability17"		"special_bonus_unique_lich_2"
+	}
+	//=================================================================================================================
+	// HERO: tiny spider
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_tiny"
+	{
+		"override_hero"	"npc_dota_hero_tiny"
+		
+		"NameAliases" 	"tiny"
+		
+		"ModelScale"		"0.2"
+		"Model"						"models/items/broodmother/spiderling/thistle_crawler/thistle_crawler.vmdl"
+		"Ability1"		"phantom_assassin_stifling_dagger"
+		"Ability2"		"brewmaster_drunken_brawler"
+		"Ability3"		"weaver_shukuchi"
+		"Ability6"		"earthshaker_enchant_totem"
+		"Ability10"		"special_bonus_unique_weaver_1"
+		"Ability11"		"special_bonus_attack_damage_15"
+		"Ability12"		"special_bonus_lifesteal_10"
+		"Ability13"		"special_bonus_movement_speed_15"
+		"Ability14"		"special_bonus_unique_earthshaker_totem_damage"
+		"Ability15"		"special_bonus_all_stats_10"
+		"Ability16"		"special_bonus_unique_weaver_6"
+		"Ability17"		"special_bonus_unique_phantom_assassin_5"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"		"15"
+		"AttributeStrengthGain"		"1.5"
+		"MovementSpeed"		"500"
+		"BoundsHullName"		"DOTA_HULL_SIZE_SMALL"
+	}		
+	//=================================================================================================================
+	// HERO: Space Ship
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_gyrocopter"
+	{
+		"override_hero"	"npc_dota_hero_gyrocopter"
+		
+		"NameAliases"	"gyro, gyrocopter"
+		
+		
+		"AbilityLayout"		"4"
+		"Ability1"		"tinker_laser"
+		"Ability2"		"spirit_breaker_bulldoze"
+		"Ability3"		"medusa_mana_shield"
+		"Ability4"		"luna_lucent_beam"
+		"Ability6"		"luna_eclipse"
+		"Ability10"		"special_bonus_intelligence_10"
+		"Ability11"		"special_bonus_attack_damage_15"
+		"Ability12"		"special_bonus_attack_speed_20"
+		"Ability13"		"special_bonus_evasion_10"
+		"Ability14"		"special_bonus_spell_amplify_10"
+		"Ability15"		"special_bonus_mp_500"
+		"Ability16"		"special_bonus_spell_lifesteal_20"
+		"Ability17"		"special_bonus_unique_tinker"
+		"MovementSpeed"		"270"
+		"AttributeBaseStrength"		"15"
+		"AttributeStrengthGain"		"0"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+		"ProjectileModel"			"particles/units/heroes/hero_tinker/tinker_missile.vpcf"
+		"ProjectileSpeed"		"1500"		
+	}
+	//=================================================================================================================
+	// HERO: REALLY SHOUTY MAN
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_sven"
+	{
+		"override_hero"	"npc_dota_hero_sven"
+		
+		"NameAliases"	"sven"
+		
+		"Ability1"		"sven_warcry"
+		"Ability2"		"lone_druid_savage_roar"
+		"Ability3"		"beastmaster_primal_roar"
+		"Ability6"		"queenofpain_sonic_wave"
+		"Ability10"		"special_bonus_cast_range_175"
+		"Ability11"		"special_bonus_unique_sven_5"
+		"Ability12"		"special_bonus_hp_275"
+		"Ability13"		"special_bonus_unique_lone_druid_2"
+		"Ability14"		"special_bonus_unique_sven_7"
+		"Ability15"		"special_bonus_unique_sven_6"
+		"Ability16"		"special_bonus_cooldown_reduction_15"
+		"Ability17"		"special_bonus_spell_lifesteal_20"
+	}
+	//=================================================================================================================
+	// HERO: King Flippy Nips
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_tusk"
+	{
+		"override_hero"	"npc_dota_hero_tusk"
+		
+		"NameAliases"	"tusk"
+		
+		"Ability1"		"tusk_walrus_punch"
+		"Ability2"		"storm_spirit_static_remnant"
+		"Ability3"		"brewmaster_storm_wind_walk"
+		"Ability4"		"tusk_launch_snowball"
+		"Ability5"		"tusk_walrus_kick"
+		"Ability6"		"bounty_hunter_jinada"
+		"Ability10"		"special_bonus_unique_bounty_hunter_4"
+		"Ability11"		"special_bonus_attack_damage_30"
+		"Ability12"		"special_bonus_strength_15"
+		"Ability13"		"special_bonus_attack_speed_30"
+		"Ability14"		"special_bonus_armor_6"
+		"Ability15"		"special_bonus_unique_bounty_hunter"
+		"Ability16"		"special_bonus_hp_500"
+		"Ability17"		"special_bonus_unique_tusk"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"AttackDamageMin"		"25"
+		"AttackDamageMax"		"30"
+		"AttackRate"		"2"
+	}
+	//=================================================================================================================
+	// HERO: happy leprechaun
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_pugna"
+	{
+		"override_hero"	"npc_dota_hero_pugna"
+		
+		"NameAliases"	"pugna"
+		
+		"Model"						"models/courier/greevil/gold_greevil.vmdl"
+		"DisableWearables" "1"
+		"Ability1"		"gibmoney_datadriven"
+		"Ability2"		"giveandtake"
+		"Ability3"		"paytowin"
+		"Ability4"		"necronomicon_warrior_last_will"
+		"Ability6"		"sunshine_and_rainbows"
+		"Ability10"		"special_bonus_attack_speed_30"
+		"Ability11"		"special_bonus_hp_150"
+		"Ability12"		"special_bonus_attack_range_100"
+		"Ability13"		"special_bonus_strength_10"
+		"Ability14"		"special_bonus_all_stats_10"
+		"Ability15"		"special_bonus_cooldown_reduction_12"
+		"Ability16"		"special_bonus_lifesteal_30"
+		"Ability17"		"special_bonus_cooldown_reduction_25"
+		"ProjectileModel"			"particles/winter_fx/winter_present_projectile.vpcf"
+	}
+	//=================================================================================================================
+	// HERO: ancient camp
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_jakiro"
+	{
+		"override_hero"	"npc_dota_hero_jakiro"
+		
+		"NameAliases"	"jakrio"
+		
+		"DisableWearables" "1"
+		"ModelScale"		"1.4"
+		"Model"						"models/creeps/neutral_creeps/n_creep_golem_a/neutral_creep_golem_a.vmdl"	// Model.
+		"Ability1"		"makedrakes_lua"
+		"Ability2"		"granite_golem_bash"
+		"Ability3"		"granite_golem_hp_aura"
+		"Ability4"		"phase_datadriven"
+		"Ability6"		"makedragons_lua"
+		"Ability10"		"special_bonus_all_stats_5"
+		"Ability11"		"special_bonus_attack_speed_15"
+		"Ability12"		"special_bonus_hp_200"
+		"Ability13"		"special_bonus_attack_damage_25"
+		"Ability14"		"special_bonus_hp_regen_50"
+		"Ability15"		"special_bonus_attack_range_175"
+		"Ability16"		"special_bonus_cooldown_reduction_25"
+		"Ability17"		"special_bonus_lifesteal_30"
+		"MovementSpeed"		"265"
+		"AttackAcquisitionRange"		"575"
+		"ProjectileModel"			"particles/units/heroes/hero_brewmaster/brewmaster_hurl_boulder.vpcf"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"AttackRange"		"575"
+		"MagicalResistance"				"50"
+	}
+	//=================================================================================================================
+	// HERO: Queen Critsalot
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_phantom_assassin"
+	{
+		"override_hero"	"npc_dota_hero_phantom_assassin"
+		
+		"NameAliases" 	"pa, phantom assassin"
+		
+		"AbilityLayout"		"6"
+		"Ability1"		"phantom_assassin_coup_de_grace"
+		"Ability2"		"phantom_assassin_phantom_strike"
+		"Ability3"		"juggernaut_blade_dance"
+		"Ability6"		"Crit_avatar"
+		"Ability10"		"special_bonus_hp_150"
+		"Ability11"		"special_bonus_attack_damage_15"
+		"Ability12"		"special_bonus_lifesteal_10"
+		"Ability13"		"special_bonus_attack_damage_40"
+		"Ability14"		"special_bonus_attack_speed_50"
+		"Ability15"		"special_bonus_attack_damage_75"
+		"Ability16"		"special_bonus_attack_damage_150"
+		"Ability17"		"special_bonus_lifesteal_30"
+		"AttackDamageMin"		"20"
+		"AttackDamageMax"		"25"
+		"AttributeStrengthGain"		"2.5"
+		"AttributeAgilityGain"		"4.15"
+	}
+	//=================================================================================================================
+	// HERO: spin to win
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_alchemist"
+	{
+		"override_hero"	"npc_dota_hero_alchemist"
+		
+		"NameAliases"	"alch, alchemist"
+		
+		"Ability1"		"alchemist_unstable_concoction"
+		"Ability2"		"troll_warlord_fervor"
+		"Ability3"		"spawnlord_master_bash"
+		"Ability6"		"alchemist_chemical_rage"
+		"Ability4"		"alchemist_unstable_concoction_throw"
+		"Ability10"		"special_bonus_attack_damage_15"
+		"Ability11"		"special_bonus_armor_4"
+		"Ability12"		"special_bonus_cast_range_75"
+		"Ability13"		"special_bonus_all_stats_6"
+		"Ability14"		"special_bonus_cast_range_175"
+		"Ability15"		"special_bonus_cooldown_reduction_12"
+		"Ability16"		"special_bonus_lifesteal_30"
+		"Ability17"		"special_bonus_evasion_20"
+		"AttackDamageMin"		"0"
+		"AttackDamageMax"		"0"
+	}														
+	//=================================================================================================================
+	// HERO: Omega Kunnka
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_kunkka"
+	{
+		"override_hero"	"npc_dota_hero_kunkka"
+		
+		"NameAliases"	"kunkka"
+		
+		"Ability1"		"kunkka_torrent"
+		"Ability2"		"morphling_waveform"
+		"Ability3"		"tidehunter_ravage"
+		"Ability6"		"kunkka_ghostship"
+		"Ability10"		"special_bonus_all_stats_6"
+		"Ability11"		"special_bonus_spell_amplify_5"
+		"Ability12"		"special_bonus_unique_kunkka_2"
+		"Ability13"		"special_bonus_movement_speed_15"
+		"Ability14"		"special_bonus_cast_range_250"
+		"Ability15"		"special_bonus_spell_amplify_10"
+		"Ability16"		"special_bonus_cooldown_reduction_25"
+		"Ability17"		"special_bonus_unique_kunkka_3"
+	}
+	//=================================================================================================================
+	// HERO: rocket meegee
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_visage"
+	{
+		"override_hero"		"npc_dota_hero_visage"	
+		
+		"NameAliases"	"visage"
+		
+		
+		"Model"			"models/items/courier/mighty_chicken/mighty_chicken_flying.vmdl"	
+		"ModelScale"	"1.45"
+		"DisableWearables"	"1"
+		"Ability1"		"storm_spirit_ball_lightning"
+		"Ability2"		"tinker_heat_seeking_missile"
+		"Ability3"		"keeper_of_the_light_chakra_magic"
+		"Ability4"		"generic_hidden"
+		"Ability6"		"gyrocopter_homing_missile"
+		"Ability10"		"special_bonus_spell_amplify_5"
+		"Ability11"		"special_bonus_cast_range_75"
+		"Ability12"		"special_bonus_attack_damage_50"
+		"Ability13"		"special_bonus_cast_range_100"
+		"Ability14"		"special_bonus_hp_250"
+		"Ability15"		"special_bonus_cast_range_250"
+		"Ability16"		"special_bonus_spell_amplify_20"
+		"Ability17"		"special_bonus_spell_lifesteal_20"
+		"ArmorPhysical"		"-3"
+		"AttributeStrengthGain"		"0"
+		"MovementSpeed"		"600"
+	}
+	//=================================================================================================================
+	// HERO: Blinkin' 'n' Slamin
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_antimage"
+	{
+		"override_hero"		"npc_dota_hero_antimage"
+		
+		"NameAliases"		"am, anti mage"
+		
+		"AbilityLayout"		"5"		
+		"Ability1"		"earthshaker_echo_slam"
+		"Ability2"		"antimage_blink"
+		"Ability3"		"queenofpain_blink"
+		"Ability4"		"generic_hidden"
+		"Ability6"		"earthshaker_aftershock"
+		"Ability10"		"special_bonus_spell_amplify_5"
+		"Ability11"		"special_bonus_attack_damage_20"
+		"Ability12"		"special_bonus_unique_earthshaker_6"
+		"Ability13"		"special_bonus_hp_250"
+		"Ability14"		"special_bonus_unique_earthshaker_2"
+		"Ability15"		"special_bonus_all_stats_10"
+		"Ability16"		"special_bonus_unique_earthshaker_5"
+		"Ability17"		"special_bonus_cooldown_reduction_25"
+		"AttributeStrengthGain"		"1"
+		"AttackRate"		"1.4"
+	}
+	//=================================================================================================================
+	// HERO: weatherman
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_razor"
+	{
+		"override_hero"		"npc_dota_hero_razor"	
+		
+		"NameAliases"		"razor"
+		
+		"Ability1"		"zuus_lightning_bolt"
+		"Ability2"		"spirit_breaker_charge_of_darkness"
+		"Ability3"		"brewmaster_storm_cyclone"
+		"Ability6"		"razor_eye_of_the_storm"
+		"Ability10"		"special_bonus_movement_speed_15"
+		"Ability11"		"special_bonus_armor_5"
+		"Ability12"		"special_bonus_spell_amplify_5"
+		"Ability13"		"special_bonus_movement_speed_30"
+		"Ability14"		"special_bonus_spell_amplify_10"
+		"Ability15"		"special_bonus_spell_lifesteal_20"
+		"Ability16"		"special_bonus_cooldown_reduction_15"
+		"Ability17"		"special_bonus_movement_speed_35"
+	}
+	//=================================================================================================================
+	// HERO: Life Jew
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_dragon_knight"
+	{
+		"override_hero"		"npc_dota_hero_dragon_knight"
+		
+		"NameAliases"	"dk, dragon knight, davion"
+		
+		"Ability1"		"death_prophet_spirit_siphon"
+		"Ability2"		"skeleton_king_vampiric_aura"
+		"Ability3"		"legion_commander_moment_of_courage"
+		"Ability6"		"broodmother_insatiable_hunger"
+		"Ability10"		"special_bonus_unique_wraith_king_2"
+		"Ability11"		"special_bonus_attack_speed_20"
+		"Ability12"		"special_bonus_movement_speed_15"
+		"Ability13"		"special_bonus_attack_speed_30"
+		"Ability14"		"special_bonus_attack_speed_40"
+		"Ability15"		"special_bonus_strength_20"
+		"Ability16"		"special_bonus_attack_damage_75"
+		"Ability17"		"special_bonus_attack_speed_50"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeStrengthGain"		"3"
+		"AttributeAgilityGain"		"5"
+		"MovementSpeed"		"305"
+	}
+	//=================================================================================================================
+	// HERO: Space Man
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_enigma"
+	{
+		"override_hero"		"npc_dota_hero_enigma"
+		
+		"NameAliases" "enigma"
+		
+		"Ability1"		"invoker_chaos_meteor"
+		"Ability2"		"invoker_sun_strike"
+		"Ability3"		"vengefulspirit_magic_missile"
+		"Ability4"		"spaceman_midnight_pulse"
+		"Ability6"		"enigma_black_hole"
+		"Ability10"		"special_bonus_intelligence_10"
+		"Ability11"		"special_bonus_cast_range_250"
+		"Ability12"		"special_bonus_hp_regen_25"
+		"Ability13"		"special_bonus_hp_350"
+		"Ability14"		"special_bonus_spell_amplify_20"
+		"Ability15"		"special_bonus_cooldown_reduction_15"
+		"Ability16"		"special_bonus_attack_damage_150"
+		"Ability17"		"special_bonus_spell_lifesteal_70"
+		"MovementSpeed"		"350"
+	}
+	//=================================================================================================================
+	// HERO: Omega Enchantress
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_enchantress"
+	{
+		"override_hero"			"npc_dota_hero_enchantress"
+		
+		"NameAliases"	"enchantress"		
+		
+		"Ability1"		"sniper_take_aim"
+		"Ability2"		"sniper_take_aim_datadriven"
+		"Ability3"		"ursa_overpower"
+		"Ability6"		"enchantress_impetus"
+		"Ability10"		"special_bonus_all_stats_5"
+		"Ability11"		"special_bonus_intelligence_8"
+		"Ability12"		"special_bonus_attack_range_100"
+		"Ability13"		"special_bonus_attack_damage_40"
+		"Ability14"		"special_bonus_unique_enchantress_4"
+		"Ability15"		"special_bonus_attack_range_150"
+		"Ability16"		"special_bonus_unique_ursa_7"
+		"Ability17"		"special_bonus_attack_range_175"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseAgility"		"0"
+		"AttackRange"		"400"
+		"MovementSpeed"		"450"
+	}
+	//=================================================================================================================
+	// HERO: Mei
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_crystal_maiden"
+	{
+		"override_hero"			"npc_dota_hero_crystal_maiden"
+		
+		"NameAliases"	"cm, crystal maiden, ice bitch"
+		
+		"AbilityLayout"		"5"
+		"Ability1"		"ghost_frost_attack"
+		"Ability2"		"Mei_fervor"
+		"Ability3"		"drow_ranger_marksmanship"
+		"Ability4"		"winter_wyvern_cold_embrace"	
+		"Ability6"		"riki_tricks_of_the_trade"
+		"Ability10"		"special_bonus_movement_speed_15"
+		"Ability11"		"special_bonus_all_stats_5"
+		"Ability12"		"special_bonus_hp_175"
+		"Ability13"		"special_bonus_attack_speed_20"
+		"Ability14"		"special_bonus_agility_20"
+		"Ability15"		"special_bonus_strength_20"
+		"Ability16"		"special_bonus_lifesteal_30"
+		"Ability17"		"special_bonus_unique_drow_ranger_3"
+		"AttackDamageMin"		"0"
+		"AttackDamageMax"		"0"
+		"AttackRange"		"500"
+		"AttackRate"		"2"
+		"ProjectileModel"		"particles/units/heroes/hero_crystalmaiden/maiden_base_attack.vpcf"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"ProjectileSpeed"		"1200"
+	}
+	//=================================================================================================================
+	// HERO: torbjorn
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_venomancer"
+	{
+		"override_hero"			"npc_dota_hero_venomancer"
+		
+		"NameAliases"	"veno, venomancer"
+		
+		"Ability1"		"torbjorn_forge_spirit"
+		"Ability2"		"snapfire_mortimer_kisses"
+		"Ability3"		"marci_guardian"
+		"Ability4"		"phase_datadriven"
+		"Ability6"		"omniknight_guardian_angel"
+		"Ability10"		"special_bonus_unique_invoker_1"
+		"Ability11"		"special_bonus_movement_speed_20"
+		"Ability12"		"special_bonus_all_stats_20"
+		"Ability13"		"special_bonus_cast_range_150"
+		"Ability14"		"special_bonus_unique_snapfire_1"
+		"Ability15"		"special_bonus_movement_speed_35"
+		"Ability16"		"special_bonus_cooldown_reduction_25"
+		"Ability17"		"special_bonus_attack_damage_120"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+	}
+	//=================================================================================================================
+	// HERO: extremely angry bear
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_ursa"
+	{
+		"override_hero"		"npc_dota_hero_ursa"
+		
+		"NameAliases"	"ursa"
+		
+		"ModelScale"		"0.5"
+		"Ability1"		"ursa_fury_swipes"
+		"Ability2"		"ogre_magi_bloodlust"
+		"Ability3"		"huskar_berserkers_blood"
+		"Ability6"		"ursa_enrage"
+		"Ability10"		"special_bonus_attack_damage_25"
+		"Ability11"		"special_bonus_magic_resistance_8"
+		"Ability12"		"special_bonus_armor_5"
+		"Ability13"		"special_bonus_agility_20"
+		"Ability14"		"special_bonus_unique_ursa_8"
+		"Ability15"		"special_bonus_hp_250"
+		"Ability16"		"special_bonus_all_stats_14"
+		"Ability17"		"special_bonus_unique_ursa_3"
+		"MovementSpeed"		"150"
+		"AttackRate"		"0.5"
+		"AttackDamageMin"		"0"
+		"AttackDamageMax"		"0"
+		"AttributeBaseStrength"		"12"
+	}
+	//=================================================================================================================
+	// HERO: does not die
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_dazzle"
+	{
+		"override_hero"		"npc_dota_hero_dazzle"
+		
+		"NameAliases"	"dazzle"
+		
+		"Ability1"		"dazzle_shallow_grave"
+		"Ability2"		"centaur_double_edge"
+		"Ability3"		"pudge_rot"
+		"Ability6"		"terrorblade_sunder"
+		"Ability10"		"special_bonus_attack_damage_20"
+		"Ability11"		"special_bonus_movement_speed_15"
+		"Ability12"		"special_bonus_unique_pudge_2"
+		"Ability13"		"special_bonus_movement_speed_35"
+		"Ability14"		"special_bonus_spell_amplify_10"
+		"Ability15"		"special_bonus_cooldown_reduction_12"
+		"Ability16"		"special_bonus_cooldown_reduction_25"
+		"Ability17"		"special_bonus_attack_speed_30"
+		"AttributeStrengthGain"		"0"
+		"AttributeAgilityGain"		"0"
+		"AttributeBaseAgility"		"0"
+		"AttributeBaseStrength"		"0"
+		"AttributeIntelligenceGain"		"0.5"
+		"AttackDamageMin"		"0"
+		"AttackDamageMax"		"0"
+	}
+	//=================================================================================================================
+	// HERO: Spike Ball
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_wisp"
+	{
+		"override_hero"		"npc_dota_hero_wisp"
+		
+		"NameAliases"	"io, wisp"	
+		
+		"Ability1"		"bristleback_quill_spray"
+		"Ability2"		"nyx_assassin_spiked_carapace"
+		"Ability3"		"bristleback_bristleback"
+		"Ability6"		"shredder_reactive_armor"
+		"Ability10"		"special_bonus_hp_350"
+		"Ability11"		"special_bonus_spell_amplify_5"
+		"Ability12"		"special_bonus_spell_amplify_10"
+		"Ability13"		"special_bonus_unique_timbersaw_2"
+		"Ability14"		"special_bonus_hp_500"
+		"Ability15"		"special_bonus_cooldown_reduction_15"
+		"Ability16"		"special_bonus_hp_regen_50"
+		"Ability17"		"special_bonus_unique_nyx_6"
+		"AttributeBaseStrength"		"26"
+		"AttributeStrengthGain"		"4"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+	}
+	//=================================================================================================================
+	// HERO: infinate scaling
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_silencer"
+	{
+		"override_hero"		"npc_dota_hero_silencer"
+		
+		"NameAliases"	"silencer"
+		
+		"Model"						"models/particle/snowball.vmdl"
+		"ProjectileModel"		"particles/econ/events/snowball/snowball_projectile.vpcf"
+		"Ability1"		"obsidian_destroyer_arcane_orb"
+		"Ability2"		"silencer_glaives_of_wisdom"
+		"Ability3"		"scaling_essence_shift"
+		"Ability6"		"legion_commander_duel"
+		"Ability10"		"special_bonus_movement_speed_15"
+		"Ability11"		"special_bonus_attack_speed_20"
+		"Ability12"		"special_bonus_unique_silencer_2"
+		"Ability13"		"special_bonus_hp_175"
+		"Ability14"		"special_bonus_evasion_15"
+		"Ability15"		"special_bonus_unique_silencer_3"
+		"Ability16"		"special_bonus_unique_legion_commander"
+		"Ability17"		"special_bonus_attack_speed_40"
+		"AttributeStrengthGain"		"0.5"
+	}
+	//=================================================================================================================
+	// HERO: final boss
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_abyssal_underlord"
+	{
+		"override_hero"		"npc_dota_hero_abyssal_underlord"
+		
+		"NameAliases"		"underlord, au, abyssal underlord"
+			
+		"ModelScale"		"1.1"
+		"DisableWearables"	"1"
+		"Model"						"models/creeps/nian/nian_creep.vmdl"
+		"BoundsHullName"		"DOTA_HULL_SIZE_HERO"
+		"AttackRange"		"350"
+		"Ability1"		"elder_titan_earth_splitter"
+		"Ability2"		"blinding_light2_datadriven"
+		"Ability3"		"abyssal_underlord_firestorm"
+		"Ability6"		"leshrac_split_earth"
+		"Ability10"		"special_bonus_mp_regen_6"
+		"Ability11"		"special_bonus_hp_150"
+		"Ability12"		"special_bonus_cooldown_reduction_12"
+		"Ability13"		"special_bonus_intelligence_35"
+		"Ability14"		"special_bonus_all_stats_10"
+		"Ability15"		"special_bonus_cast_range_100"
+		"Ability16"		"special_bonus_cooldown_reduction_25"
+		"Ability17"		"special_bonus_spell_lifesteal_70"
+		"AttackDamageMin"		"0"
+		"AttackDamageMax"		"0"
+		"AttributeBaseStrength"		"50"
+		"MagicalResistance"		"35"
+		"ArmorPhysical"		"6"
+	}
+	//=================================================================================================================
+	// HERO: tombstone
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_undying"
+	{
+		"override_hero"		"npc_dota_hero_undying"
+
+		"NameAliases"		"undying"
+		
+		"Model"						"models/heroes/undying/undying_tower.vmdl"
+		"Ability1"		"makezombies1_lua"
+		"Ability2"		"makezombies2_lua"
+		"Ability3"		"satyr_hellcaller_unholy_aura"
+		"Ability4"		"phase_datadriven"
+		"Ability6"		"pudge_dismember"
+		"Ability10"		"special_bonus_hp_regen_25"
+		"Ability11"		"special_bonus_strength_14"
+		"Ability12"		"special_bonus_cooldown_reduction_15"
+		"Ability13"		"special_bonus_hp_300"
+		"Ability14"		"special_bonus_spell_amplify_10"
+		"Ability15"		"special_bonus_hp_regen_50"
+		"Ability16"		"special_bonus_armor_15"
+		"Ability17"		"special_bonus_cast_range_250"
+		"AttributeBaseStrength"		"28"
+		"MovementSpeed"		"280"
+	}
+	//=================================================================================================================
+	// HERO: trump
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_lion"	
+	{
+		"override_hero"		"npc_dota_hero_lion"
+		
+		"NameAliases"		"lion"
+		
+		"AbilityLayout"				"6"		
+		"Ability1"		"bounty_hunter_track"
+		"Ability2"		"bounty_hunter_shuriken_toss"
+		"Ability3"		"Trump_secretservice"
+		"Ability4"		"earthshaker_fissure"
+		"Ability6"		"sniper_assassinate"
+		"Ability10"		"special_bonus_spell_amplify_10"
+		"Ability11"		"special_bonus_attack_speed_30"
+		"Ability12"		"special_bonus_cooldown_reduction_15"
+		"Ability13"		"special_bonus_30_crit_2"
+		"Ability14"		"special_bonus_spell_lifesteal_20"
+		"Ability15"		"special_bonus_all_stats_20"
+		"Ability16"		"special_bonus_cooldown_reduction_25"
+		"Ability17"		"special_bonus_hp_500"
+		"AttributeBaseStrength"		"21"
+	}
+	//=================================================================================================================
+	// HERO: Icefrog
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_ancient_apparition" 
+	{
+		"override_hero"		"npc_dota_hero_ancient_apparition"
+		
+		"NameAliases"		"aa, ancient apparition"
+		
+		"Model"						"models/courier/frog/frog.vmdl"		
+		"Ability1"		"ancient_apparition_ice_blast"
+		"Ability2"		"bane_enfeeble"
+		"Ability3"		"silencer_global_silence"
+		"Ability5"		"ancient_apparition_ice_blast_release"
+		"Ability6"		"lion_finger_of_death"
+		"Ability10"		"special_bonus_hp_175"
+		"Ability11"		"special_bonus_attack_damage_45"
+		"Ability12"		"special_bonus_hp_300"
+		"Ability13"		"special_bonus_attack_speed_40"
+		"Ability14"		"special_bonus_attack_damage_120"
+		"Ability15"		"special_bonus_hp_500"
+		"Ability16"		"special_bonus_cooldown_reduction_25"
+		"Ability17"		"special_bonus_attack_damage_150"
+	}
+	//=================================================================================================================
+	// HERO: harambe
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_earthshaker"	
+	{
+		"override_hero"		"npc_dota_hero_earthshaker"
+		
+		"NameAliases"	"earthshaker, es"
+		
+		"Ability1"		"banana_panic"
+		"Ability2"		"batrider_flaming_lasso"
+		"Ability3"		"lone_druid_true_form_battle_cry1"
+		"Ability6"		"mirana_leap"
+		"Ability10"		"special_bonus_attack_damage_25"
+		"Ability11"		"special_bonus_hp_150"
+		"Ability12"		"special_bonus_cooldown_reduction_12"
+		"Ability13"		"special_bonus_unique_mirana_1"
+		"Ability14"		"special_bonus_all_stats_10"
+		"Ability15"		"special_bonus_cast_range_100"
+		"Ability16"		"special_bonus_cooldown_reduction_25"
+		"Ability17"		"special_bonus_cast_range_250"
+		"ArmorPhysical"		"6"
+	}
+	//=================================================================================================================
+	// HERO: Fuck
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_puck"	
+	{
+		"override_hero"		"npc_dota_hero_puck"
+		
+		"NameAliases" "puck"
+		
+		"Ability1"		"puck_illusory_orb"
+		"Ability2"		"mirana_starfall"
+		"Ability3"		"puck_phase_shift"
+		"Ability4"		"puck_ethereal_jaunt"
+		"Ability6"		"puck_dream_coil"
+		"Ability10"		"special_bonus_attack_speed_25"
+		"Ability11"		"special_bonus_hp_150"
+		"Ability12"		"special_bonus_attack_damage_40"
+		"Ability13"		"special_bonus_movement_speed_20"
+		"Ability14"		"special_bonus_spell_amplify_8"
+		"Ability15"		"special_bonus_magic_resistance_20"
+		"Ability16"		"special_bonus_spell_lifesteal_20"
+		"Ability17"		"special_bonus_cooldown_reduction_20"
+		"MovementSpeed"		"350"
+		"ArmorPhysical"		"-4"
+		"AttributeBaseStrength"		"8"
+	}
+	//=================================================================================================================
+	// HERO: Bouncey Boi
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_windrunner"
+	{
+		"override_hero"		"npc_dota_hero_windrunner"
+		
+		"NameAliases"	"wind ranger, wind runner, wr, slack's worst knightmare"
+		
+		"Ability1"		"spirit_breaker_greater_bash"
+		"Ability2"		"legion_commander_press_the_attack"
+		"Ability3"		"blinding_light_datadriven"
+		"Ability6"		"windrunner_focusfire"
+		"Ability10"		"special_bonus_attack_damage_15"
+		"Ability11"		"special_bonus_strength_6"
+		"Ability12"		"special_bonus_hp_150"
+		"Ability13"		"special_bonus_movement_speed_20"
+		"Ability14"		"special_bonus_attack_range_150"
+		"Ability15"		"special_bonus_hp_500"
+		"Ability16"		"special_bonus_lifesteal_30"
+		"Ability17"		"special_bonus_attack_range_175"
+		"AttackRate"		"1.4"
+	}	
+	//=================================================================================================================
+	// HERO: Bob ross
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_spectre"
+	{
+		"override_hero"		"npc_dota_hero_spectre"
+		
+		"NameAliases"	"spectre"
+		
+		"Ability1"		"spectre_spectral_dagger"
+		"Ability2"		"jakiro_macropyre"
+		"Ability3"		"riki_smoke_screen"
+		"Ability4"		"enigma_midnight_pulse"
+		"Ability6"		"skywrath_mage_mystic_flare"
+		"Ability10"		"special_bonus_cast_range_75"
+		"Ability11"		"special_bonus_intelligence_10"
+		"Ability12"		"special_bonus_cooldown_reduction_12"
+		"Ability13"		"special_bonus_intelligence_35"
+		"Ability14"		"special_bonus_movement_speed_15"
+		"Ability15"		"special_bonus_cast_range_100"
+		"Ability16"		"special_bonus_cooldown_reduction_25"
+		"Ability17"		"special_bonus_spell_lifesteal_70"		
+		"AttributeIntelligenceGain"		"3.6"
+		"AttributeBaseIntelligence"		"27"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+	}
+	//=================================================================================================================
+	// HERO: Monkey man
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_monkey_king"
+	{
+		"override_hero"		"npc_dota_hero_monkey_king"
+		
+		"NameAliases"	"mk, monkey king"
+		
+		"Ability1"		"monkey_king_boundless_strike"
+		"Ability2"		"monkey_king_tree_dance"
+		"Ability3"		"monkey_king_primal_spring"
+		"Ability4"		"throw_poop"
+		"Ability5"		"monkey_king_mischief"
+		"Ability7"		"monkey_king_untransform"
+		"Ability6"		"monkey_king_wukongs_command"
+		"Ability10"		"special_bonus_attack_speed_20"
+		"Ability11"		"special_bonus_unique_monkey_king_9"
+		"Ability12"		"special_bonus_unique_monkey_king_7"
+		"Ability13"		"special_bonus_agility_20"
+		"Ability14"		"special_bonus_attack_damage_40"
+		"Ability15"		"special_bonus_unique_monkey_king_10"
+		"Ability16"		"special_bonus_unique_monkey_king_8"
+		"Ability17"		"special_bonus_unique_monkey_king_6"
+		"AttackDamageMin"		"10"
+		"AttackDamageMax"		"20"
+	}	
+	//=================================================================================================================
+	// HERO: Debuffer
+	//=================================================================================================================
+		"npc_dota_hero_dnd2_huskar"	
+	{
+		"override_hero"			"npc_dota_hero_huskar"	
+		
+		"NameAliases"	"huskar"
+		
+		"Ability1"		"viper_poison_attack"
+		"Ability2"		"huskar_burning_spear"
+		"Ability3"		"stolen_eshift"	
+		"Ability4" 		"debuffer_overpower"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"debuffer_split_shot"
+		"Ability10"		"special_bonus_unique_medusa_4"
+		"Ability11"		"special_bonus_attack_speed_30"
+		"Ability12"		"special_bonus_hp_250"
+		"Ability13"		"special_bonus_attack_speed_10"
+		"Ability14"		"special_bonus_agility_10"
+		"Ability15"		"special_bonus_strength_10"
+		"Ability16"		"special_bonus_lifesteal_10"
+		"Ability17"		"special_bonus_hp_500"
+		"AttackDamageMin"		"21"
+		"AttackDamageMax"		"26"
+		"AttackRange"		"180"
+		"AttackRate"		"1.6"
+		"ProjectileModel"		"particles/units/heroes/hero_huskar/huskar_base_attack.vpcf"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+	}		
+	//=================================================================================================================
+	// HERO: Fern Gully
+	//=================================================================================================================
+		"npc_dota_hero_dnd2_treant"	
+	{
+		"override_hero"			"npc_dota_hero_treant"	
+		
+		"NameAliases"	"treant protector, tree"
+		
+		"Ability1"		"furion_sprout"
+		"Ability2"		"ferngully_perm_invis"
+		"Ability3"		"treant_living_armor"	
+		"Ability6"		"treant_overgrowth"
+		"Ability10"		"special_bonus_unique_treant_8"
+		"Ability11"		"special_bonus_cooldown_reduction_10"
+		"Ability12"		"special_bonus_unique_furion_4"
+		"Ability13"		"special_bonus_movement_speed_25"
+		"Ability14"		"special_bonus_unique_treant_13"
+		"Ability15"		"special_bonus_unique_furion_7"
+		"Ability16"		"special_bonus_unique_treant_7"
+		"Ability17"		"special_bonus_unique_treant_11"
+		"AttackDamageMin"		"0"
+		"AttackDamageMax"		"0"
+		"AttackRange"		"128"
+		"AttackRate"		"1"
+		"ProjectileModel"		"particles/units/heroes/hero_treant/treant_base_attack.vpcf"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+	}
+	//=================================================================================================================
+	// HERO: Shapeshifter
+	//=================================================================================================================
+		"npc_dota_hero_dnd2_lone_druid"	
+	{
+		"override_hero"			"npc_dota_hero_lone_druid"	
+		
+		"NameAliases"	"ld, lone druid"
+		
+		"Ability1"		"lycan_shapeshift"
+		"Ability2"		"terrorblade_metamorphosis"
+		"Ability3"		"dragon_knight_elder_dragon_form"
+		"Ability6"		"lone_druid_true_form"
+		"Ability10"		"special_bonus_attack_range_125"
+		"Ability11"		"special_bonus_cooldown_reduction_10"
+		"Ability12"		"special_bonus_hp_500"
+		"Ability13"		"special_bonus_unique_lycan_5"
+		"Ability14"		"special_bonus_agility_10"
+		"Ability15"		"special_bonus_strength_10"
+		"Ability14"		"special_bonus_attack_speed_30"
+		"Ability17"		"special_bonus_unique_terrorblade_3"
+		"AbilityDraftIgnoreCount" "7"
+		"AbilityDraftDisabled"		"0"
+		"ArmorPhysical"		"-2"
+		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+		"AttackDamageMin"		"33"
+		"AttackDamageMax"		"45"
+		"AttackRate"		"1.700000"
+		"AttackAnimationPoint"		"0.330000"
+		"AttackAcquisitionRange"		"600"
+		"AttackRange"		"550"
+		"ProjectileModel"		"particles/units/heroes/hero_lone_druid/lone_druid_base_attack.vpcf"
+		"ProjectileSpeed"		"900"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"		"18"
+		"AttributeStrengthGain"		"2.400000"
+		"AttributeBaseAgility"		"20"
+		"AttributeAgilityGain"		"5.4"
+		"AttributeBaseIntelligence"		"13"
+		"AttributeIntelligenceGain"		"1.400000"
+		"StatusHealthRegen"		"0.25"
+		"MovementSpeed"		"325"
+		"MovementTurnRate"		"0.500000"
+		"particle_folder"		"particles/units/heroes/hero_lone_druid"
+		"GameSoundsFile"		"soundevents/game_sounds_heroes/game_sounds_lone_druid.vsndevts"
+		"VoiceFile"		"soundevents/voscripts/game_sounds_vo_lone_druid.vsndevts"
+	}
+	//=================================================================================================================
+	// HERO: Crowded Here
+	//=================================================================================================================
+		"npc_dota_hero_dnd2_death_prophet"
+	{
+		"override_hero"			"npc_dota_hero_death_prophet"	
+		
+		"NameAliases"	"dp, death prophet"
+		
+		"Ability1"		"undying_tombstone"
+		"Ability2"		"death_prophet_exorcism"
+		"Ability3"		"weaver_the_swarm"
+		"Ability6"		"tinker_rearm"
+		"Ability10"		"special_bonus_unique_undying_3"
+		"Ability11"		"special_bonus_cooldown_reduction_10"
+		"Ability12"		"special_bonus_unique_undying_5"
+		"Ability13"		"special_bonus_movement_speed_25"
+		"Ability14"		"special_bonus_intelligence_10"
+		"Ability15"		"special_bonus_hp_500"
+		"Ability14"		"special_bonus_attack_speed_30"
+		"Ability17"		"special_bonus_unique_death_prophet"
+		"AttackDamageMin"		"35"
+		"AttackDamageMax"		"43"
+		"AttackRange"		"150"
+		"MovementSpeed"		"300"
+		"AttackRate"		"1.7"
+		"ProjectileModel"		"particles/units/heroes/hero_death_prophet/death_prophet_base_attack.vpcf"
+	}			
+	//=================================================================================================================
+	// HERO: ITS A SPEAR
+	//=================================================================================================================
+		"npc_dota_hero_dnd2_mars"
+	{
+		"override_hero"			"npc_dota_hero_mars"	
+		
+		"NameAliases"	"mars"
+		
+		"Ability1"		"mars_fast_spear"
+		"Ability2"		"mars_spear"
+		"Ability3"		"mars_octarine"
+		"Ability6"		"mars_arena_of_blood"
+		"Ability10"		"special_bonus_strength_8"
+		"Ability11"		"special_bonus_movement_speed_20"
+		"Ability12"		"special_bonus_attack_damage_35"
+		"Ability13"		"special_bonus_armor_8"
+		"Ability14"		"special_bonus_unique_mars_spear_bonus_damage"
+		"Ability15"		"special_bonus_attack_speed_30"
+		"Ability16"		"special_bonus_magic_resistance_25"
+		"Ability17"		"special_bonus_unique_mars_arena_of_blood_hp_regen"
+		"AttackDamageMin"		"35"
+		"AttackDamageMax"		"43"
+		"AttackRange"		"250"
+		"MovementSpeed"		"310"
+		"AttackRate"		"1.8"
+		"ProjectileModel"		"particles/units/heroes/hero_mars/mars_base_base_attack.vpcf"
+	}						
+	//=================================================================================================================
+	// HERO: THE SWARM
+	//=================================================================================================================
+		"npc_dota_hero_dnd2_weaver"
+	{
+		"override_hero"			"npc_dota_hero_weaver"	
+		
+		"NameAliases"	"weaver"
+		
+		"Ability1"		"naga_siren_mirror_image"
+		"Ability2"		"swarm_warcry"
+		"Ability3"		"vengefulspirit_wave_of_terror"
+		"Ability6"		"phantom_lancer_juxtapose"
+		"Ability10"		"special_bonus_unique_vengeful_spirit_6"
+		"Ability11"		"special_bonus_cooldown_reduction_10"
+		"Ability12"		"special_bonus_unique_naga_siren_4"
+		"Ability13"		"special_bonus_movement_speed_25"
+		"Ability14"		"special_bonus_unique_naga_siren"
+		"Ability15"		"special_bonus_hp_500"
+		"Ability16"		"special_bonus_attack_speed_30"
+		"Ability17"		"special_bonus_attack_damage_50"
+		"AttackDamageMin"		"26"
+		"AttackDamageMax"		"36"
+		"AttackRate"		"1.500000"
+		"MovementSpeed"		"275"
+		"AttackRange"		"425"
+		
+	}
+	//=================================================================================================================
+	// HERO: THIS GAME IS BALANCED
+	//=================================================================================================================
+		"npc_dota_hero_dnd2_zuus"
+	{
+		"override_hero"			"npc_dota_hero_zuus"	
+		
+		"NameAliases"	"zues"
+		
+		"Ability1"		"alchemist_goblins_greed"
+		"Ability2"		"zuus_lightning_bolt"
+		"Ability3"		"generic_hidden"
+		"Ability6"		"zuus_thundergods_wrath"
+		"Ability10"		"special_bonus_30_crit_2"
+		"Ability11"		"special_bonus_cooldown_reduction_10"
+		"Ability12"		"special_bonus_magic_resistance_25"
+		"Ability13"		"special_bonus_movement_speed_25"
+		"Ability14"		"special_bonus_intelligence_35"
+		"Ability15"		"special_bonus_hp_500"
+		"Ability16"		"special_bonus_attack_speed_30"
+		"Ability17"		"special_bonus_30_crit_2"
+		"AttackDamageMin"		"33"
+		"AttackDamageMax"		"41"
+		"AttackRate"		"1.700000"
+		"MovementSpeed"		"295"
+		"AttackRange"		"380"
+		"ProjectileModel"		"particles/units/heroes/hero_zuus/zuus_base_base_attack.vpcf"
+	}
+	//=================================================================================================================
+	// HERO: Super Kill Myself Man
+	//=================================================================================================================
+		"npc_dota_hero_dnd2_ember_spirit"
+	{
+		"override_hero"			"npc_dota_hero_ember_spirit"	
+		
+		"NameAliases"	"es, ember spirit"
+		
+		"Ability1"		"super_kill_my_self_double_edge"
+		"Ability2"		"abaddon_aphotic_shield"
+		"Ability3"		"slark_dark_pact"
+		"Ability4"		"ember_spirit_activate_fire_remnant"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"ember_spirit_fire_remnant"
+		"Ability10"		"special_bonus_attack_damage_25"
+		"Ability11"		"special_bonus_unique_slark_2"
+		"Ability12"		"special_bonus_cooldown_reduction_12"
+		"Ability13"		"special_bonus_unique_centaur_4"
+		"Ability14"		"special_bonus_spell_amplify_10"
+		"Ability15"		"special_bonus_strength_25"
+		"Ability16"		"special_bonus_unique_abaddon"
+		"Ability17"		"special_bonus_unique_ember_spirit_5"
+		"AttackDamageMin"		"33"
+		"AttackDamageMax"		"37"
+		"AttackRate"		"1.700000"
+		"MovementSpeed"		"305"
+		"AttackRange"		"150"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"		"21"
+		"AttributeStrengthGain"		"2.600000"
+		"AttributeBaseAgility"		"20"
+		"AttributeAgilityGain"		"2.100000"
+		"ProjectileModel"		"particles/units/heroes/hero_ember_spirit/ember_spirit_base_attack.vpcf"
+	}	
+	//=================================================================================================================
+	// HERO: Clusterfuck Man
+	//=================================================================================================================
+		"npc_dota_hero_dnd2_rattletrap"	
+	{
+		"override_hero"			"npc_dota_hero_rattletrap"	
+		
+		"NameAliases" 	"rattletrap, clockwerk, cw"
+		
+		"Ability1"		"vengefulspirit_nether_swap"
+		"Ability2"		"clusterfuck_fissure"
+		"Ability3"		"tusk_ice_shards"
+		"Ability6"		"clusterfuck_warpath"
+		"Ability10"		"special_bonus_attack_damage_25"
+		"Ability11"		"special_bonus_hp_500"
+		"Ability12"		"special_bonus_cooldown_reduction_15"
+		"Ability13"		"special_bonus_unique_earthshaker_3"
+		"Ability14"		"special_bonus_spell_amplify_10"
+		"Ability15"		"special_bonus_attack_speed_30"
+		"Ability16"		"special_bonus_unique_bristleback_3"
+		"Ability17"		"special_bonus_unique_tusk_5"
+		"AttackDamageMin"		"22"
+		"AttackDamageMax"		"32"
+		"AttackRate"		"1.800000"
+		"MovementSpeed"		"305"
+		"AttackRange"		"150"
+		"AttributeBaseStrength"		"17"
+		"AttributeStrengthGain"		"1.800000"
+		"AttributeBaseAgility"		"22"
+		"AttributeAgilityGain"		"2.900000"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"ProjectileModel"		"particles/units/heroes/hero_rattletrap/rattletrap_base_attack.vpcf"
+	}
+	//=================================================================================================================
+	// HERO: Pudge Wars
+	//=================================================================================================================
+		"npc_dota_hero_dnd2_pudge"
+	{
+		"override_hero"			"npc_dota_hero_pudge"	
+		
+		"NameAliases" 	"pudge"
+		
+		"Ability1"		"pudge_wars_meat_hook"
+		"Ability2"		"meepo_earthbind"
+		"Ability3"		"puck_phase_shift"
+		"Ability6"		"pudge_wars_rearm"
+		"Ability10"		"special_bonus_attack_damage_25"
+		"Ability11"		"special_bonus_attack_speed_30"
+		"Ability12"		"special_bonus_cast_range_100"
+		"Ability13"		"special_bonus_unique_meepo_3"
+		"Ability14"		"special_bonus_hp_175"
+		"Ability15"		"special_bonus_movement_speed_15"
+		"Ability16"		"special_bonus_magic_resistance_25"
+		"Ability17"		"special_bonus_cooldown_reduction_10"
+		"AttackDamageMin"		"40"
+		"AttackDamageMax"		"46"
+		"AttackRate"		"1.700000"
+		"MovementSpeed"		"280"
+		"AttackRange"		"150"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+		"ProjectileModel"		"particles/units/heroes/hero_pudge/pudge_base_attack.vpcf"
+	}
+	//=================================================================================================================
+	// HERO: The Grand Magus
+	//=================================================================================================================
+		"npc_dota_hero_dnd2_rubick"
+	{
+		"override_hero"			"npc_dota_hero_rubick"	
+		
+		"NameAliases"	"rubick"
+		
+		"Ability1"		"rubick_spell_steal"
+		"Ability2"		"generic_hidden"
+		"Ability3"		"generic_hidden"	
+		"Ability4"		"rubick_empty1"
+		"Ability5"		"rubick_empty2"
+		"Ability6"		"rubick_arcane_supremacy"
+		"Ability7"		"generic_hidden"
+		"Ability8"		"rubick_hidden1"
+		"Ability9"		"rubick_hidden2"
+		"Ability10"		"rubick_hidden3"
+		"Ability11"		"special_bonus_hp_200"
+		"Ability12"		"special_bonus_attack_damage_60"
+		"Ability13"		"special_bonus_cast_range_125"
+		"Ability14"		"special_bonus_hp_500"
+		"Ability15"		"special_bonus_attack_speed_30"
+		"Ability16"		"special_bonus_magic_resistance_25"
+		"Ability17"		"special_bonus_cooldown_reduction_15"
+		"Ability18"		"special_bonus_unique_rubick_5"
+		"AttackDamageMin"		"22"
+		"AttackDamageMax"		"32"
+		"AttackRate"		"1.700000"
+		"ProjectileModel"		"particles/units/heroes/hero_rubick/rubick_base_attack.vpcf"
+	}
+	//=================================================================================================================
+	// HERO: Snot Gozzle
+	//=================================================================================================================
+		"npc_dota_hero_dnd2_bristleback"
+	{
+		"override_hero"			"npc_dota_hero_bristleback"	
+		
+		"NameAliases"	"bristleback, bb"
+		
+		"Ability1"		"bristleback_viscous_nasal_goo"
+		"Ability2"		"bristleback_viscous_nasal_gooa"
+		"Ability3"		"bristleback_viscous_nasal_goos"
+		"Ability6"		"snot_gozal_bristleback_warpath"
+		"Ability10"		"special_bonus_hp_200"
+		"Ability11"		"special_bonus_attack_damage_60"
+		"Ability12"		"special_bonus_cast_range_125"
+		"Ability13"		"special_bonus_spell_lifesteal_20"
+		"Ability14"		"special_bonus_attack_speed_30"
+		"Ability15"		"special_bonus_magic_resistance_25"
+		"Ability16"		"special_bonus_cooldown_reduction_15"
+		"Ability17"		"special_bonus_unique_bristleback_3"
+		"AttackDamageMin"		"22"
+		"AttackDamageMax"		"32"
+		"AttackRate"		"1.800000"
+		"ProjectileModel"		"particles/units/heroes/hero_bristleback/bristleback_base_attack.vpcf"
+	}
+	//=================================================================================================================
+	// HERO: Thanos
+	//=================================================================================================================
+		"npc_dota_hero_dnd2_arc_warden"
+	{
+		"override_hero"			"npc_dota_hero_arc_warden"	
+		
+		"NameAliases"	"aw, arc warden"
+		
+		"AbilityLayout"			"7"
+		"Ability1"		"thanos_starfall"
+		"Ability2"		"thanos_glaives_of_wisdom"
+		"Ability3"		"thanos_necromastery"	
+		"Ability4"		"thanos_time_lapse"
+		"Ability5"		"arc_warden_tempest_double"
+		"Ability6"		"sven_gods_strength"
+		"Ability7"		"thanos_snap"
+		"Ability10"		"special_bonus_intelligence_10"
+		"Ability11"		"special_bonus_attack_damage_60"
+		"Ability12"		"special_bonus_intelligence_35"
+		"Ability13"		"special_bonus_truestike"
+		"Ability14"		"special_bonus_attack_speed_30"
+		"Ability15"		"special_bonus_magic_resistance_25"
+		"Ability16"		"special_bonus_cooldown_reduction_15"
+		"Ability17"		"special_bonus_lifesteal_30"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+		"AttackDamageMin"		"22"
+		"AttackDamageMax"		"32"
+		"AttackRate"		"1.200000"
+		"ProjectileModel"		"particles/units/heroes/hero_arc_warden/arc_warden_base_attack.vpcf"
+	}
+	//=================================================================================================================
+	// HERO: Batman
+	//=================================================================================================================
+		"npc_dota_hero_dnd2_night_stalker"
+	{
+		"override_hero"			"npc_dota_hero_night_stalker"
+		
+		"NameAliases"	"ns, night stalker"		
+
+		"AbilityLayout"	"5"
+		"Ability1"		"beastmaster_wild_axes"
+		"Ability2"		"batman_vanish"
+		"Ability3"		"night_stalker_hunter_in_the_night"
+		"Ability4"		"alchemist_berserk_potion"
+		"Ability6"		"night_stalker_darkness"
+		"Ability10"		"special_bonus_hp_200"
+		"Ability11"		"special_bonus_attack_damage_60"
+		"Ability12"		"special_bonus_strength_20"
+		"Ability13"		"special_bonus_spell_amplify_20"
+		"Ability14"		"special_bonus_attack_speed_30"
+		"Ability15"		"special_bonus_magic_resistance_25"
+		"Ability16"		"special_bonus_unique_night_stalker_2"
+		"Ability17"		"special_bonus_unique_night_stalker"
+			
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"AttackDamageMin"		"22"
+		"AttackDamageMax"		"32"
+		"AttackRate"		"1.200000"
+		"ProjectileModel"		"particles/units/heroes/hero_night_stalker/night_stalker_base_attack.vpcf"
+	}
+	//=================================================================================================================
+	// HERO: Artillery
+	//=================================================================================================================
+		"npc_dota_hero_dnd2_tinker"
+	{
+		"override_hero"			"npc_dota_hero_tinker"	
+		
+		"NameAliases"	"tinker"
+		
+		"Ability1"		"gyrocopter_rocket_barrage"
+		"Ability2"		"gyrocopter_flak_cannon"
+		"Ability3"		"tinker_march_of_the_machines"
+		"Ability6"		"sniper_chopper"
+		"Ability10"		"special_bonus_intelligence_10"
+		"Ability11"		"special_bonus_attack_damage_60"
+		"Ability12"		"special_bonus_unique_gyrocopter_3"
+		"Ability13"		"special_bonus_cooldown_reduction_15"
+		"Ability14"		"special_bonus_unique_tinker_2"
+		"Ability15"		"special_bonus_magic_resistance_25"
+		"Ability16"		"special_bonus_attack_speed_30"
+		"Ability17"		"special_bonus_spell_amplify_20"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+		"AttackDamageMin"		"22"
+		"AttackDamageMax"		"32"
+		"AttackRate"		"1.2"
+		"ProjectileModel"		"particles/units/heroes/hero_tinker/tinker_base_attack.vpcf"
+	}
+	//=================================================================================================================
+	// HERO: skeleton
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_clinkz"	
+	{
+		"override_hero"	"npc_dota_hero_clinkz"	
+		
+		"NameAliases" "clinkz"
+		
+		"DisableWearables"  "1"
+		"Model"		"models/creeps/neutral_creeps/n_creep_troll_skeleton/n_creep_skeleton_melee.vmdl"
+		"SoundSet"		"Hero_Clinkz"
+		"ModelScale"		"1"
+		"Ability1"		"makeskeletons_lua"
+		"Ability2"		"alpha_wolf_command_aura"
+		"Ability3"		"skeleton_king_hellfire_blast"
+		"Ability4"		"phase_datadriven"
+		"Ability6"		"lycan_howl"
+		"Ability10"		"special_bonus_armor_15"
+		"Ability11"		"special_bonus_movement_speed_20"
+		"Ability12"		"special_bonus_strength_12"
+		"Ability13"		"special_bonus_cooldown_reduction_10"
+		"Ability14"		"special_bonus_unique_wraith_king_3"
+		"Ability15"		"special_bonus_hp_300"
+		"Ability16"		"special_bonus_attack_damage_120"
+		"Ability17"		"special_bonus_cooldown_reduction_12"
+	}
+	//=================================================================================================================
+	// HERO: death is my bitch
+	//==============================================================================================================
+		"npc_dota_hero_dnd2_skeleton"
+	{
+		"override_hero"	"npc_dota_hero_skeleton_king"
+		
+		"NameAliases"	"wraith king, skeleton king, wk"
+		
+		"SoundSet"		"Hero_SkeletonKing"
+		"Ability1"		"necrolyte_death_pulse"
+		"Ability2"		"deathbitch_octarine"
+		"Ability3"		"bitch_angle_form"
+		"Ability6"		"deathbitch_reincarnation"
+		"Ability10"		"special_bonus_unique_necrophos_4"
+		"Ability11"		"special_bonus_movement_speed_20"
+		"Ability12"		"special_bonus_strength_12"
+		"Ability13"		"special_bonus_cooldown_reduction_10"
+		"Ability14"		"special_bonus_all_stats_20"
+		"Ability15"		"special_bonus_hp_300"
+		"Ability16"		"special_bonus_attack_damage_120"
+		"Ability17"		"special_bonus_unique_necrophos"
+	}
+	//=================================================================================================================
+	// HERO: Drow Ranger (Glass Cannon)
+	//==============================================================================================================
+	"npc_dota_hero_dnd2_drowranger"
+	{
+		"override_hero"	"npc_dota_hero_drow_ranger"
+		
+		"Role"			"Carry,Disabler,Pusher"
+		"Rolelevels"	"2,1,1"
+		"Complexity"	"1"
+		"Team"			"Good"
+		"SoundSet"		"Hero_DrowRanger"
+		"PickSound"		"drowranger_dro_spawn_03"
+		"BanSound"		"drowranger_dro_anger_01"
+		"NameAliases" 	"drow, drow ranger"
+		
+		"AbilityLayout"	"5"
+		"Ability1"		"drow_ranger_overpower"
+		"Ability2"		"drow_ranger_wave_of_silence"
+		"Ability3"		"drow_ranger_headshot"
+		"Ability4"		"drow_ranger_fervor"
+		"Ability6"		"dnd2_drow_ranger_marksmenship"
+		"Ability10"		"special_bonus_attack_range_150"
+		"Ability11"		"special_bonus_attack_damage_25"
+		"Ability12"		"special_bonus_agility_15"
+		"Ability13"		"special_bonus_unique_drow_ranger_2"
+		"Ability14"		"special_bonus_unique_sniper_3"
+		"Ability15"		"special_bonus_unique_drow_ranger_4"
+		"Ability16"		"special_bonus_unique_troll_warlord_5"
+		"Ability17"		"special_bonus_unique_ursa_7"
+		
+		"ArmorPhysical"		"-5"
+		"AttackAcquisitionRange"		"900"
+		"AttackRange"		"800"
+		"AttributeBaseStrength"		"15"
+		"AttributeStrengthGain"		"0.500000"
+		"AttributeBaseIntelligence"		"22"
+		"AttributeIntelligenceGain"		"2.800000"
+		"AttributeBaseAgility"		"23"
+		"AttributeAgilityGain"		"3.100000"
+		"MovementSpeed"		"300"
+		
+		"precache"
+    	{
+    		"soundfile"	"soundevents/game_sounds_heroes/game_sounds_ursa.vsndevts"
+    		"soundfile"	"soundevents/game_sounds_heroes/game_sounds_enchantress.vsndevts"
+    	}
+	}
+	//=================================================================================================================
+	// HERO: Medusa (Split Shot)
+	//==============================================================================================================
+	"npc_dota_hero_dnd2_medusa"
+	{
+		"override_hero"	"npc_dota_hero_medusa"
+		
+		"NameAliases"	"medusa"
+		
+		"Ability1"		"medusa_split_shot"
+		"Ability2"		"medusa_moon_glaives"
+		"Ability3"		"templar_assassin_psi_blades"
+		"Ability4"		"tinker_defense_matrix"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"mars_gods_rebuke"
+		"Ability10"		"special_bonus_unique_medusa_4"
+		"Ability11"		"special_bonus_movement_speed_20"
+		"Ability12"		"special_bonus_agility_14"
+		"Ability13"		"special_bonus_lifesteal_10"
+		"Ability14"		"special_bonus_attack_range_200"
+		"Ability15"		"special_bonus_attack_damage_90"
+		"Ability16"		"special_bonus_all_stats_20"
+		"Ability17"		"special_bonus_unique_mars_gods_rebuke_extra_crit"
+		
+		"AttributeBaseStrength"		"20"
+		"AttributeStrengthGain"		"2.40000"
+		"AttributeBaseIntelligence"		"17"
+		"AttributeIntelligenceGain"		"1.3000"
+		"AttackRange"		"500"
+	}
+	//=================================================================================================================
+	// HERO: Bounty Hunter (Tax Evader)
+	//==============================================================================================================
+	"npc_dota_hero_dnd2_bounty_hunter"
+	{
+	"override_hero" 				"npc_dota_hero_bounty_hunter"
+		"Model"						"models/courier/lockjaw/lockjaw.vmdl"
+		"DisableWearables"			"1"
+		"ModelScale"				"1.45"
+		
+		"Role"			"Escape,Nuker"
+		"Rolelevels"	"2,1"
+		"Complexity"	"1"
+		"Team"			"Good"
+		"NameAliases"	"bounty, bh"
+		"SoundSet"		"Hero_BountyHunter"
+		"PickSound"		"bounty_hunter_bount_spawn_01"
+		"BanSound"		"bounty_hunter_bount_anger_04"
+	
+		"Ability1"		"bounty_pennycash"
+		"Ability2"		"bounty_dollarbills"
+		"Ability3"		"bounty_signthecheck"
+		"Ability4"		"ogre_magi_unrefined_fireblast"
+		"Ability6"		"ogre_magi_multicast_lua"
+		"Ability10"		"special_bonus_movement_speed_20"
+		"Ability11"		"special_bonus_agility_15"
+		"Ability12"		"special_bonus_all_stats_10"
+		"Ability13"		"special_bonus_hp_275"
+		"Ability14"		"special_bonus_cooldown_reduction_15"
+		"Ability15"		"special_bonus_cast_range_250"
+		"Ability16"		"special_bonus_evasion_40"
+		"Ability17"		"special_bonus_30_crit_2"
+		
+		"ArmorPhysical"		"5.000000"
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"		"34"
+		"AttackDamageMax"		"40"
+		"AttackRate"		"1.70000"
+		"AttackAnimationPoint"		"0.300000"
+		"AttackAcquisitionRange"		"600"
+		"AttackRange"		"150"
+		"AttackSpeedActivityModifiers"
+		{
+			"fast"		"150"
+			"faster"	"250"
+		}
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+		"AttributeBaseStrength"		"15"
+		"AttributeStrengthGain"		"2.500000"
+		"AttributeBaseAgility"		"15"
+		"AttributeAgilityGain"		"1.5"
+		"AttributeBaseIntelligence"		"20"
+		"AttributeIntelligenceGain"		"2.500000"
+		"StatusHealthRegen"		"3.25"
+		"MovementSpeed"		"310"
+	
+	}
+	
+	//=================================================================================================================
+	// HERO: Pangolier (Bowling Ball)
+	//=================================================================================================================
+	"npc_dota_hero_dnd2_pangolier"
+	{
+	"override_hero" 	"npc_dota_hero_pangolier"
+
+		"Model" 					"models/heroes/pangolier/pangolier_gyroshell2.vmdl"
+		"DisableWearables"			"1"
+		
+		"Role"						"Carry,Nuker,Disabler,Durable,Escape,Initiator"
+		"Rolelevels"				"2,2,1,1,2,2"
+		"Team"						"Good"
+		"NameAliases"				"ar, pango, pangolier"
+		"PickSound"					"pangolin_pick"
+		"BanSound"					"pangolin_ban"
+	
+		"Ability1"					"pango_charge_of_darkness"
+		"Ability2"					"mars_bulwark"
+		"Ability3"					"pango_greater_bash"
+		"Ability6"					"pango_omni_slash"
+		"Ability10"					"special_bonus_mp_regen_150"
+		"Ability11"					"special_bonus_agility_15"
+		"Ability12"					"special_bonus_movement_speed_50"
+		"Ability13"					"special_bonus_hp_500"
+		"Ability14"					"special_bonus_unique_spirit_breaker_3"
+		"Ability15"					"special_bonus_strength_18"
+		"Ability16"					"special_bonus_unique_spirit_breaker_1"
+		"Ability17"					"special_bonus_unique_juggernaut_2"
+		
+		"AttackRange"				"150"
+		"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"		"21"
+		"AttributeStrengthGain"		"3.50000"
+		"AttributeBaseAgility"		"18"
+		"AttributeAgilityGain"		"2.20000"
+		"AttributeBaseIntelligence"	"16"
+		"AttributeIntelligenceGain"	"1.900000"
+		"StatusHealthRegen"		"0.25"
+		"MovementSpeed"				"305"
+		"MovementTurnRate"			"0.900000"
+		"MovementSpeedActivityModifiers"
+		{
+			"walk"		"0"
+			"run"		"400"
+		}
+		"HasAggressiveStance"		"1"
+		"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+		"HealthBarOffset"			"180"
+		"VoiceFile"					"soundevents/voscripts/game_sounds_vo_pangolin.vsndevts"
+		"particle_folder"			"particles/units/heroes/hero_pangolier"
+		"GameSoundsFile"			"soundevents/game_sounds_heroes/game_sounds_pangolier.vsndevts"
+	}
+	
+	//=================================================================================================================
+	// HERO: Dawnbreaker (Devastating 4th Blow)
+	//=================================================================================================================
+	"npc_dota_hero_dnd2_dawnbreaker"
+	{
+	"override_hero"		"npc_dota_hero_dawnbreaker"
+	
+		"Model"				"models/heroes/dawnbreaker/dawnbreaker.vmdl"
+		"Team"				"Good"
+		"NameAliases"		"Dawnbreaker, Valora"
+		"PickSound"			"dawnbreaker_pick_shout"
+		"BanSound"			"dawnbreaker_ban_shout"
+	
+		"Ability1"		"abaddon_frostmourne"
+		"Ability2"		"4thblow_bash"
+		"Ability3"		"dawnbreaker_luminosity"
+		"Ability6"		"4thblow_jingu_mastery"
+		"Ability10"		"special_bonus_strength_7"
+		"Ability11"		"special_bonus_movement_speed_20"
+		"Ability12"		"special_bonus_attack_damage_20"
+		"Ability13"		"special_bonus_strength_10"
+		"Ability14"		"special_bonus_all_stats_12"
+		"Ability15"		"special_bonus_unique_dawnbreaker_luminosity_crit"
+		"Ability16"		"special_bonus_unique_slardar_2"
+		"Ability17"		"special_bonus_unique_dawnbreaker_luminosity_attack_count"
+		
+		"ArmorPhysical"		"2.000000"
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"		"13"
+		"AttackDamageMax"		"25"
+		"AttackRate"		"1.700000"
+		"AttackAnimationPoint"		"0.460000"
+		"AttackAcquisitionRange"		"600"
+		"AttackRange"		"150"
+		
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"		"15"
+		"AttributeStrengthGain"		"3.60000"
+		"AttributeBaseAgility"		"14"
+		"AttributeAgilityGain"		"1.700000"
+		"AttributeBaseIntelligence"		"24"
+		"AttributeIntelligenceGain"		"2.200000"
+		"HasAggressiveStance"		"1"
+		"MovementSpeed"		"310"
+		"MovementTurnRate"		"0.600000"
+		"ProjectileModel"		"particles/units/heroes/hero_dawnbreaker/dawnbreaker_base_attack.vpcf"
+		
+	}
+	//=================================================================================================================
+	// HERO: Terrorblade (Illousion Bitch)
+	//=================================================================================================================
+	"npc_dota_hero_dnd2_terrorblade"
+	{
+	"override_hero"		"npc_dota_hero_terrorblade"
+		
+		"SoundSet"		"Hero_Terrorblade"		
+		"NameAliases"	"tb, terror blade"
+		"PickSound"		"terrorblade_terr_spawn_01"
+		"BanSound"		"terrorblade_terr_anger_03"
+	
+		"Ability1"		"illous_mirror_image"
+		"Ability2"		"terrorblade_conjure_image"
+		"Ability3"		"phantom_lancer_doppelwalk"
+		"Ability4"		"illous_juxtapose"
+		"Ability5"		"terrorblade_terror_wave"
+		"Ability6"		"illous_metamorphosis"
+		"Ability10"		"special_bonus_movement_speed_20"
+		"Ability11"		"special_bonus_evasion_16"
+		"Ability12"		"special_bonus_unique_phantom_lancer_6"
+		"Ability13"		"special_bonus_attack_speed_30"
+		"Ability14"		"special_bonus_all_stats_8"
+		"Ability15"		"special_bonus_unique_terrorblade_5"
+		"Ability16"		"special_bonus_unique_phantom_lancer_4"
+		"Ability17"		"special_bonus_unique_terrorblade_3"
+		
+		"ArmorPhysical"		"2"
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"		"15"
+		"AttackDamageMax"		"21"
+		"AttackRate"		"1.750000"
+		"AttackAnimationPoint"		"0.300000"
+		"AttackAcquisitionRange"		"600"
+		"AttackRange"		"150"
+		"ProjectileSpeed"		"900"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"		"12"
+		"AttributeStrengthGain"		"1.2"
+		"AttributeBaseIntelligence"		"15"
+		"AttributeIntelligenceGain"		"1.70000"
+		"AttributeBaseAgility"		"18"
+		"AttributeAgilityGain"		"3.800000"
+		"StatusHealthRegen"		"1"
+		"MovementSpeed"		"300"
+		
+	}
+	//=================================================================================================================
+	// HERO: Lifestealer (Passive Agressive Dude)
+	//=================================================================================================================
+	"npc_dota_hero_dnd2_life_stealer"
+	{
+	"override_hero"		"npc_dota_hero_life_stealer"	
+	
+		"SoundSet"		"Hero_LifeStealer"
+		"NameAliases"	"ls, lifestealer"
+		"PickSound"		"life_stealer_lifest_spawn_01"
+		"BanSound"		"life_stealer_lifest_anger_05"
+		"NameAliases"	"ls, lifestealer"
+		
+		"Ability1"		"dragon_knight_dragon_blood"
+		"Ability2"		"life_stealer_feast"
+		"Ability3"		"life_stealer_ghoul_frenzy"
+		"Ability4"		"centaur_return"
+		"Ability5"		"spectre_dispersion"
+		"Ability6"		"passive_flesh_heap"
+		"Ability10"		"special_bonus_attack_speed_30"
+		"Ability11"		"special_bonus_movement_speed_20"
+		"Ability12"		"special_bonus_attack_damage_25"
+		"Ability13"		"special_bonus_unique_spectre_5"
+		"Ability14"		"special_bonus_evasion_16"
+		"Ability15"		"special_bonus_unique_lifestealer_6"
+		"Ability16"		"special_bonus_unique_lifestealer_3"
+		"Ability17"		"special_bonus_unique_pudge_1"
+		
+	}
+	
+	//=================================================================================================================
+	// HERO: Warlock (Warlock Golem)
+	//=================================================================================================================
+	"npc_dota_hero_dnd2_warlock"
+	{
+	"override_hero"		"npc_dota_hero_warlock"
+	
+		"Model"						"models/heroes/warlock/warlock_demon.vmdl"
+		"DisableWearables"			"1"
+		
+		
+		"SoundSet"		"Hero_Warlock"
+		"PickSound"		"warlock_warl_spawn_01"
+		"BanSound"		"warlock_warl_anger_04"
+		"NameAliases"	"warlock"
+		
+		"Ability1"		"warlock_golem_flaming_fists"
+		"Ability2"		"warlock_golem_permanent_immolation"
+		"Ability3"		"generic_hidden"
+		"Ability4"		"generic_hidden"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"warlock_rain_of_chaos"
+		"Ability10"		"special_bonus_attack_damage_20"
+		"Ability11"		"special_bonus_unique_warlock_8"
+		"Ability12"		"special_bonus_all_stats_14"
+		"Ability13"		"special_bonus_evasion_20"
+		"Ability14"		"special_bonus_unique_warlock_4"
+		"Ability15"		"special_bonus_spell_lifesteal_20"
+		"Ability16"		"special_bonus_unique_warlock_2"
+		"Ability17"		"special_bonus_unique_warlock_1"
+		
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"			"90"		// Damage range min.
+		"AttackDamageMax"			"110"		// Damage range max.	
+		"AttackRate"				"1.2"		// Speed of attack.
+		"AttackAnimationPoint"		"0.26"		// Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
+		"AttackRange"				"225"		// Range within a target can be attacked.
+		"ProjectileModel"			""			// Particle system model for projectile.
+		"ProjectileSpeed"			"0"			// Speed of projectile.		
+		
+		"VoiceFile" 				"soundevents/voscripts/game_sounds_vo_warlock_golem.vsndevts"
+	}
+
+	//=================================================================================================================
+	// HERO: Bane (Hold That Thought Please)
+	//=================================================================================================================
+	"npc_dota_hero_dnd2_bane"
+	{
+	"override_hero"		"npc_dota_hero_bane"
+	
+		"SoundSet"		"Hero_Bane"
+		"PickSound"		"bane_bane_spawn_01"
+		"BanSound"		"bane_bane_anger_10"
+		"NameAliases"	"bane"
+	
+		"particle_folder"		"particles/units/heroes/hero_bane"
+		"GameSoundsFile"		"soundevents/game_sounds_heroes/game_sounds_bane.vsndevts"
+		"VoiceFile"		"soundevents/voscripts/game_sounds_vo_bane.vsndevts"
+	
+		"Ability1"		"bane_fiends_grip"
+		"Ability2"		"naga_siren_ensnare"
+		"Ability3"		"bane_nightmare"
+		"Ability4"		"generic_hidden"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"naga_siren_song_of_the_siren"
+		"Ability7"		"naga_siren_song_of_the_siren_cancel"
+		"Ability10"		"special_bonus_armor_5"
+		"Ability11"		"special_bonus_magic_resistance_12"
+		"Ability12"		"special_bonus_cooldown_reduction_10"
+		"Ability13"		"special_bonus_unique_bane_9"
+		"Ability14"		"special_bonus_unique_bane_5"
+		"Ability15"		"special_bonus_movement_speed_30"
+		"Ability16"		"special_bonus_30_crit_2"
+		"Ability17"		"special_bonus_unique_bane_3"
+	}
+	//=================================================================================================================
+	// HERO: Storm Spirit (Tesla Tower)
+	//=================================================================================================================
+	"npc_dota_hero_dnd2_strom_spirit"
+	{
+	"override_hero"		"npc_dota_hero_storm_spirit"
+		
+		"SoundSet"		"Hero_StormSpirit"
+		"PickSound"		"stormspirit_ss_spawn_09"
+		"BanSound"		"stormspirit_ss_anger_03"		
+
+		"particle_folder"		"particles/units/heroes/hero_stormspirit"
+		"GameSoundsFile"		"soundevents/game_sounds_heroes/game_sounds_stormspirit.vsndevts"
+		"VoiceFile"		"soundevents/voscripts/game_sounds_vo_stormspirit.vsndevts"		
+		
+		"Ability1"		"tesla_spirit_static_remnant"
+		"Ability2"		"tesla_king_jingu_mastery"
+		"Ability3"		"storm_spirit_overload"
+		"Ability4"		"generic_hidden"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"tesla_eye_of_the_storm"
+		"Ability10"		"special_bonus_unique_storm_spirit_5"
+		"Ability11"		"special_bonus_mp_regen_250"
+		"Ability12"		"special_bonus_hp_250"
+		"Ability13"		"special_bonus_attack_speed_25"
+		"Ability14"		"special_bonus_unique_storm_spirit"
+		"Ability15"		"special_bonus_armor_15"
+		"Ability16"		"special_bonus_unique_storm_spirit_7"
+		"Ability17"		"special_bonus_30_crit_2"
+	}
+	
+	
+}

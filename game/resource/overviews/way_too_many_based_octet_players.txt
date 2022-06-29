@@ -1,0 +1,8 @@
+way_too_many_based_octet_players
+{
+	material materials/overviews/way_too_many_based_octet_players.vmat
+	pos_x -4996
+	pos_y 5843
+	scale 9.857
+}
+

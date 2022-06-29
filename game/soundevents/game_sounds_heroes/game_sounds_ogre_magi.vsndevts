@@ -1,0 +1,434 @@
+"Hero_OgreMagi.PreAttack"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "dota_src1_3d"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/doom_bringer/preattack01.vsnd",
+			"sounds/weapons/hero/doom_bringer/preattack02.vsnd",
+			"sounds/weapons/hero/doom_bringer/preattack03.vsnd",
+		]
+		volume = "1.000000"
+		pitch_rand_min = "-0.050000"
+		pitch_rand_max = "0.050000"
+		pitch = "1.000000"
+		soundlevel = "78.000000"
+		distance_max = "1500.000000"
+		event_type = "1.000000"
+	}}
+
+"Hero_OgreMagi.Attack"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "dota_update_default"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/earthshaker/fist_swing_impact1.vsnd",
+			"sounds/weapons/hero/earthshaker/fist_swing_impact2.vsnd",
+			"sounds/weapons/hero/earthshaker/fist_swing_impact3.vsnd",
+		]
+		volume = "1.000000"
+		pitch_rand_min = "-0.050000"
+		pitch_rand_max = "0.050000"
+		pitch = "1.000000"
+		soundlevel = "78.000000"
+		mixgroup = "BaseAttacks"
+		spread_radius = "150.000000"
+		distance_max = "2500.000000"
+		soundevent_layer2 = "Hero_OgreMagi.Attack.Impact"
+		soundevent_layer2_on = "1.000000"
+		soundevent_layer3 = "Damage_Melee.Gore"
+		soundevent_layer3_on = "1.000000"
+	}}
+
+"Hero_OgreMagi.Attack.Impact"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "dota_update_default"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/shared/large_blade/thump01.vsnd",
+			"sounds/weapons/hero/shared/large_blade/thump02.vsnd",
+			"sounds/weapons/hero/shared/large_blade/thump03.vsnd",
+		]
+		volume = "1.000000"
+		pitch_rand_min = "-0.050000"
+		pitch_rand_max = "0.050000"
+		pitch = "1.000000"
+		soundlevel = "81.000000"
+		mixgroup = "BaseAttacks"
+		spread_radius = "150.000000"
+		distance_max = "2500.000000"
+	}}
+
+"Hero_OgreMagi.Fireblast.Cast"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "dota_update_default"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ogre_magi/fireblast_cast.vsnd",
+		]
+		volume = "1.000000"
+		pitch_rand_min = "-0.050000"
+		pitch_rand_max = "0.050000"
+		pitch = "1.000000"
+		soundlevel = "84.000000"
+		mixgroup = "Weapons"
+		spread_radius = "300.000000"
+	}}
+
+"Hero_OgreMagi.Fireblast.Target"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "dota_update_default"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ogre_magi/fireblast_target.vsnd",
+		]
+		volume = "1.000000"
+		pitch_rand_min = "-0.050000"
+		pitch_rand_max = "0.050000"
+		pitch = "1.000000"
+		soundlevel = "84.000000"
+		mixgroup = "Weapons"
+		spread_radius = "300.000000"
+	}}
+
+"Hero_OgreMagi.Fireblast.x1"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "dota_src1_3d"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ogre_magi/multicast01.vsnd",
+		]
+		volume = "1.000000"
+		pitch = "0.900000"
+		soundlevel = "84.000000"
+		distance_max = "2500.000000"
+		event_type = "3.000000"
+	}}
+
+"Hero_OgreMagi.Fireblast.x2"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "dota_src1_3d"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ogre_magi/multicast02.vsnd",
+		]
+		volume = "1.000000"
+		pitch = "1.000000"
+		soundlevel = "84.000000"
+		distance_max = "2500.000000"
+		event_type = "3.000000"
+	}}
+
+"Hero_OgreMagi.Fireblast.x3"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "dota_src1_3d"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ogre_magi/multicast03.vsnd",
+		]
+		volume = "1.000000"
+		pitch = "1.100000"
+		soundlevel = "84.000000"
+		distance_max = "2500.000000"
+		event_type = "3.000000"
+	}}
+
+"Hero_OgreMagi.Ignite.Cast"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "dota_update_default"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ogre_magi/ignite_cast.vsnd",
+		]
+		volume = "1.000000"
+		pitch_rand_min = "-0.050000"
+		pitch_rand_max = "0.050000"
+		pitch = "1.000000"
+		soundlevel = "84.000000"
+		mixgroup = "Weapons"
+		spread_radius = "300.000000"
+	}}
+
+"Hero_OgreMagi.Ignite.Target"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "dota_update_default"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ogre_magi/ignite_target.vsnd",
+		]
+		volume = "1.000000"
+		pitch_rand_min = "-0.050000"
+		pitch_rand_max = "0.050000"
+		pitch = "1.000000"
+		soundlevel = "84.000000"
+		mixgroup = "Weapons"
+		spread_radius = "300.000000"
+	}}
+
+"Hero_OgreMagi.Ignite.Damage"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "dota_src1_3d"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/alchemist/acid_spray_damage01.vsnd",
+			"sounds/weapons/hero/alchemist/acid_spray_damage02.vsnd",
+			"sounds/weapons/hero/alchemist/acid_spray_damage03.vsnd",
+			"sounds/weapons/hero/alchemist/acid_spray_damage04.vsnd",
+			"sounds/weapons/hero/alchemist/acid_spray_damage05.vsnd",
+			"sounds/weapons/hero/alchemist/acid_spray_damage06.vsnd",
+			"sounds/weapons/hero/alchemist/acid_spray_damage07.vsnd",
+		]
+		volume = "0.500000"
+		pitch_rand_min = "-0.050000"
+		pitch_rand_max = "0.050000"
+		pitch = "1.000000"
+		soundlevel = "78.000000"
+		distance_max = "2500.000000"
+		limiter_on = "1.000000"
+		limiter_event_name = "Ignite.Damage"
+		limiter_max = "5000000.000000"
+		limiter_match_type = "0.000000"
+		limiter_match_entity = "0.000000"
+		limiter_match_substring = "0.000000"
+	}}
+
+"Hero_OgreMagi.Bloodlust.Cast"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "dota_update_default"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ogre_magi/bloodlust_cast.vsnd",
+		]
+		volume = "1.000000"
+		pitch_rand_min = "-0.050000"
+		pitch_rand_max = "0.050000"
+		pitch = "1.000000"
+		soundlevel = "84.000000"
+		mixgroup = "Weapons"
+		spread_radius = "300.000000"
+	}}
+
+"Hero_OgreMagi.Bloodlust.Target"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "dota_update_default"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ogre_magi/bloodlust_target.vsnd",
+		]
+		volume = "1.000000"
+		pitch_rand_min = "-0.050000"
+		pitch_rand_max = "0.050000"
+		pitch = "1.000000"
+		soundlevel = "84.000000"
+		mixgroup = "Weapons"
+		spread_radius = "300.000000"
+	}}
+
+"Hero_OgreMagi.Bloodlust.Target.FP"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "dota_update_default"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ogre_magi/bloodlust_target_fp.vsnd",
+		]
+		volume = "1.000000"
+		pitch_rand_min = "-0.050000"
+		pitch_rand_max = "0.050000"
+		pitch = "1.000000"
+		soundlevel = "84.000000"
+		mixgroup = "Weapons"
+		delay = "1.500000"
+		spread_radius = "300.000000"
+		distance_max = "2500.000000"
+	}}
+
+"Hero_OgreMagi.Footsteps"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "dota_src1_3d_footsteps"
+		vsnd_files = 
+		[
+			"sounds/physics/footsteps/hero/shared/general01.vsnd",
+			"sounds/physics/footsteps/hero/shared/general02.vsnd",
+			"sounds/physics/footsteps/hero/shared/general03.vsnd",
+			"sounds/physics/footsteps/hero/shared/general04.vsnd",
+			"sounds/physics/footsteps/hero/shared/general05.vsnd",
+			"sounds/physics/footsteps/hero/shared/general06.vsnd",
+			"sounds/physics/footsteps/hero/shared/general07.vsnd",
+		]
+		volume_rand_min = "-0.049988"
+		volume_rand_max = "0.049988"
+		volume = "0.449890"
+		pitch_rand_min = "-0.050000"
+		pitch_rand_max = "0.050000"
+		pitch = "0.850000"
+		soundlevel = "75.000000"
+		distance_max = "2000.000000"
+		event_type = "4.000000"
+	}}
+
+"Hero_OgreMagi.Movement"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "dota_update_default"
+		vsnd_files = 
+		[
+			"sounds/physics/movement/hero/ogre_magi/move01.vsnd",
+			"sounds/physics/movement/hero/ogre_magi/move02.vsnd",
+			"sounds/physics/movement/hero/ogre_magi/move03.vsnd",
+			"sounds/physics/movement/hero/ogre_magi/move04.vsnd",
+			"sounds/physics/movement/hero/ogre_magi/move05.vsnd",
+			"sounds/physics/movement/hero/ogre_magi/move06.vsnd",
+		]
+		volume_rand_min = "-0.099976"
+		volume_rand_max = "0.099976"
+		volume = "0.299927"
+		pitch_rand_min = "-0.050000"
+		pitch_rand_max = "0.050000"
+		pitch = "1.000000"
+		soundlevel = "75.000000"
+		mixgroup = "Physics"
+		volume_move_vol = "0.100000"
+		volume_move_vel = "300.000000"
+		volume_move_filter_vel = "1.000000"
+		volume_falloff_min = "10.000000"
+		volume_falloff_max = "1500.000000"
+		distance_max = "2000.000000"
+	}}
+
+"Hero_OgreMagi.Death"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "dota_null_start"
+	}}
+
+"Hero_OgreMagi.Idle.Headbutt"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "dota_src1_3d"
+		vsnd_files = 
+		[
+			"sounds/misc/idles/idle_ogremagi_fight_headbutt.vsnd",
+		]
+		volume = "0.599609"
+		pitch = "1.000000"
+		soundlevel = "72.000000"
+		distance_max = "1500.000000"
+		event_type = "4.000000"
+	}}
+
+"Hero_OgreMagi.Idle.Punch"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "dota_src1_3d"
+		vsnd_files = 
+		[
+			"sounds/misc/idles/idle_ogremagi_fight_punch.vsnd",
+		]
+		volume = "0.599609"
+		pitch = "1.000000"
+		soundlevel = "72.000000"
+		distance_max = "1500.000000"
+		event_type = "4.000000"
+	}}
+
+"Hero_OgreMagi.Idle.Scratch"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "dota_src1_3d"
+		vsnd_files = 
+		[
+			"sounds/misc/idles/idle_ogremagi_scratch_01.vsnd",
+			"sounds/misc/idles/idle_ogremagi_scratch_02.vsnd",
+		]
+		volume = "0.449951"
+		pitch_rand_min = "-0.050000"
+		pitch_rand_max = "0.050000"
+		pitch = "1.000000"
+		soundlevel = "72.000000"
+		distance_max = "1500.000000"
+		event_type = "4.000000"
+	}}
+
+"Hero_OgreMagi.Attack.TI8"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "dota_update_default"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/earthshaker/fist_swing_impact1.vsnd",
+			"sounds/weapons/hero/earthshaker/fist_swing_impact2.vsnd",
+			"sounds/weapons/hero/earthshaker/fist_swing_impact3.vsnd",
+		]
+		volume = "1.000000"
+		pitch_rand_min = "-0.050000"
+		pitch_rand_max = "0.050000"
+		pitch = "1.000000"
+		soundlevel = "78.000000"
+		mixgroup = "BaseAttacks"
+		spread_radius = "150.000000"
+		distance_max = "2500.000000"
+		soundevent_layer2 = "Hero_OgreMagi.Attack.Impact"
+		soundevent_layer2_on = "1.000000"
+		soundevent_layer3 = "Hero_OgreMagi.Attack.TI8_layer"
+		soundevent_layer3_on = "1.000000"
+	}}
+
+"Hero_OgreMagi.Attack.TI8_layer"
+{
+	<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+	{
+		type = "dota_src1_3d"
+		vsnd_files = 
+		[
+			"sounds/physics/movement/hero/alchemist/slosh01.vsnd",
+			"sounds/physics/movement/hero/alchemist/slosh02.vsnd",
+			"sounds/physics/movement/hero/alchemist/slosh03.vsnd",
+			"sounds/physics/movement/hero/alchemist/slosh04.vsnd",
+			"sounds/physics/movement/hero/alchemist/slosh05.vsnd",
+		]
+		volume = "1.000000"
+		volume_rand_min = "-0.250000"
+		volume_rand_max = "0.250000"
+		pitch_rand_min = "-0.050000"
+		pitch_rand_max = "0.050000"
+		pitch = "1.000000"
+		soundlevel = "75.000000"
+		distance_max = "2000.000000"
+		event_type = "3.000000"
+	}}
+
