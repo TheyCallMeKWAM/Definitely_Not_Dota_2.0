@@ -2280,5 +2280,47 @@
 		"Ability17"		"special_bonus_30_crit_2"
 	}
 	
+	//=================================================================================================================
+	// HERO: Chen	(The Fountain)
+	//=================================================================================================================
+	"npc_dota_hero_dnd2_chen"
+	{
+	"override_hero"		"npc_dota_hero_chen"
+		
+		"Model"						"models/props_structures/radiant_fountain002_gold.vmdl"
+		"SoundSet"					"dota_fountain"	
+		"ProjectileModel"			"particles/base_attacks/fountain_attack.vpcf"
+		"ModelScale"		"0.50"
+		"DisableWearables"	"1"
+		
+		"Ability1"		"fountain_focusfire"
+		"Ability2"		"fountain_moon_glaive"
+		"Ability3"		"fountain_fury_swipes"
+		"Ability4"		"creep_siege"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"fountain_guardian_angel"
+		"Ability10"		"special_bonus_all_stats_10"
+		"Ability11"		"special_bonus_attack_damage_30"
+		"Ability12"		"special_bonus_hp_250"
+		"Ability13"		"special_bonus_attack_speed_25"
+		"Ability14"		"special_bonus_unique_luna_7"
+		"Ability15"		"special_bonus_armor_15"
+		"Ability16"		"special_bonus_attack_range_200"
+		"Ability17"		"special_bonus_30_crit_2"
+		
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseAgility" 			"27"
+		"AttributeAgilityGain"			"2.2"
+		"AttributeBaseIntelligence"		"14"
+		"AttributeIntelligenceGain"		"1.4"
+		"AttributeBaseStrength" 		"34"
+		"AttributeStrengthGain"			"3.3"
+		
+		"AttackRate"				"0.25"		// Speed of attack.
+		"AttackDamageMin"			"15"		// Damage range min.
+		"AttackDamageMax"			"25"
+		
+	}
+	
 	
 }

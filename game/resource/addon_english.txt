@@ -31,10 +31,6 @@
 		"new_stat_wards"											"Wards sentries/obsrvrs"
 		"new_stat_killed_heroes"									"Killed enemies"
 
-		"boots_free"												"Free Boots"
-		"boots_free_description"									"Start the game with free boots!"
-		"boots_enable"												"Enable Boots"
-		
 		"time_extended"												"The Score to win has been increased by 2 and the time has been increased by 30 seconds!"
 
 		"random_unlimited"											"Unlimited Random"
@@ -123,75 +119,6 @@
 
 		"DOTA_Tooltip_modifier_invis_revealed"									"True Sight"
 		"DOTA_Tooltip_modifier_invis_revealed_Description"						"Being near the treasure slot reveals you to nearby players"	
-
-		"Overtime"																"Overtime"
-		"OvertimeInstructions"													"IT'S ALL TIED UP, GET TO THE NEW VALUE TO WIN"		
-		
-	"custom_hud_error_no_coins"						"Ability Can't Be Used Without Coins"
-
-	"PointsToWin"									"+{d:points_to_win} more"
-	"PointsToWin_CloseToVictory"					"+{d:points_to_win} more"
-	"PointsToWin_VeryCloseToVictory"				"+{d:points_to_win} more!"
-	"PointsToWin_Victory"							"Victory!"
-
-	"InstructionsTitle"								"OVERTHROW"
-	"InstructionsObjective"							"OBJECTIVE"
-	"InstructionsObjectiveText"						"Slay your enemies! Be the first to earn the goal number of kills, or the team with the most kills when the round ends, and you will be victorious."
-	"InstructionsHowToPlay"							"HOW TO PLAY"
-	"InstructionsLines"								"-Approach the Midas Throne to earn bonus gold and experience.<br>
-													-Snatch up any giant coins the Over Boss tosses to earn even more gold.<br>
-													-Keep an eye out for item deliveries. An icon will appear on your map where an item will appear.<br>
-													-The fewer kills your team has, the better the item you will receive from a delivery.<br>
-													-Slay anyone who isn't on your team."
-	"PointsToWin"									"+{d:points_to_win} more"
-	"PointsToWin_CloseToVictory"					"+{d:points_to_win} more"
-	"PointsToWin_VeryCloseToVictory"				"+{d:points_to_win} more!"
-	"PointsToWin_Victory"							"Could have stopped this"
-
-	"InstructionsTitle"								"Definitely Not Dota 2.0"
-	"InstructionsObjective"							"OBJECTIVE"
-	"InstructionsObjectiveText"						"Slay your enemies! Be the first to earn the goal number of kills, or the team with the most kills when the round ends, and you will be victorious."
-	"InstructionsHowToPlay"							"HOW TO PLAY"
-	"InstructionsLines"								"-Approach the middle of the map to earn bonus gold and experience.<br>
-													-Snatch up any giant coins to earn even more gold.<br>
-													-Every now and again the mystical CHEST will appear in the centre.<br>
-													-I'm really sorry you have to play this.<br>
-													-Look seriously just strap yourself in this game is pure garbage."
-
-	"Chest"											"ITEM"
-	"ItemWillSpawn"									"IS ABOUT TO BE DELIVERED!"
-	"ItemHasSpawned"								"IS ON ITS WAY!"
-
-	"RecentScore"									"+{d:score}"
-
-	"Unassigned"      								"Unassigned Team"
-	"Spectator"       								"Spectator Team"
-	"Neutrals"        								"Neutral Team"
-	"NoTeam"          								"No Team"
-
-	"DOTA_GoodGuys"   								"A Walking Contradiction"
-	"DOTA_BadGuys"    								"Bad Outdated Memes"
-	"DOTA_Custom1"    								"Crippling Anxiety"
-	"DOTA_Custom2"    								"Trump's Toad Addiction"
-	"DOTA_Custom3"    								"Virginity Incarnate"
-	"DOTA_Custom4"    								"A Really Nice Person"
-	"DOTA_Custom5"    								"i sexually identify as a terrible dota player"
-	"DOTA_Custom6"    								"Cardboard 7"
-	"DOTA_Custom7"    								"Totally Rad Dude"
-	"DOTA_Custom8"    								"Twitch.tv/"
-
-	"OverthrowHeroPickup"							"{s:hero_id}"
-	"OverthrowTextPickup"							"HAS PICKED UP"
-	"OverthrowItemPickup"							"{s:item_id}!"
-
-	"Remaining"										"REMAINING"
-
-	"Overtime"										"OVERTIME!"
-	"OvertimeInstructions"							"THE GAME IS TIED THE SCORE TO WIN IS"
-
-	"KillMessageHero"								"{s:hero_id}"
-	"KillMessageText"								"HAS KILLED THE LEADER"
-	"KillMessageBounty"								"FOR 500 BONUS GOLD!"
 
 //=================================================================================================================
 // 	Neutral Items
@@ -669,99 +596,11 @@
 		"npc_dota_hero_bounty_hunter"								"Tax Evader"
 		"npc_dota_hero_pangolier"									"Bowling Ball"
 		"npc_dota_hero_dawnbreaker"									"Devastating 4th Blow"
-		"npc_dota_hero_warlock"					"Warlock Golem"
+		"npc_dota_hero_warlock"										"Warlock Golem"
 		"npc_dota_hero_spirit_breaker"								"Thomas the Dank Engine"
 		"npc_dota_hero_bane"										"Hold That Thought Please"
-		
-		"DOTA_Tooltip_modifier_item_force_boots"	"Force Boots"
-		"DOTA_Tooltip_ability_item_force_boots"                  						"Force Boots"
-		"DOTA_Tooltip_ability_item_force_boots_Description"						"<h1>Active: Force</h1> Push your hero by 700 units."
-		"DOTA_Tooltip_ability_item_force_boots_bonus_movement_speed"   "%+$move_speed"
-		"DOTA_Tooltip_ability_item_force_boots_bonus_int"   "+$int"
-		
-		"DOTA_Tooltip_ability_item_blink_boots"                  						"Blink Boots"
-		"DOTA_Tooltip_ability_item_blink_boots_Description"						"<h1>Active: Blink</h1> Teleport to a target point up to 1200 units away."
-		"DOTA_Tooltip_ability_item_blink_boots_bonus_movement_speed"   "%+$move_speed"
-		"DOTA_Tooltip_ability_item_blink_boots_bonus_int"   "+$int"
-		"DOTA_Tooltip_ability_item_blink_boots_bonus_regen"   "+$hp_regen"
-		
-		"DOTA_Tooltip_Ability_item_radiance_2"			"Magical Radiance"
-		"DOTA_Tooltip_ability_item_radiance_2_Description"				"<h1>Toggle: Burn Baby Burn</h1> When active, scorches enemies for 80 magical damage per second, and causes them to miss 20% of their attacks and redure their magical resistance on 25%. Illusions deal 45 magical damage per second. <br><br> Radius 700"
-		"DOTA_Tooltip_ability_item_radiance_2_Lore"						""
-		"DOTA_Tooltip_ability_item_radiance_2_bonus_damage"				"+$damage"
-		"DOTA_Tooltip_ability_item_radiance_2_bonus_regen_hp"			"+$hp_regen"
-		"DOTA_Tooltip_ability_item_radiance_2_bonus_armor"				"+$armor"
-		"DOTA_Tooltip_ability_item_radiance_2_bonus_agility"			"+$agi"
-		"DOTA_Tooltip_ability_item_radiance_2_bonus_strength"			"+$str"
-		"DOTA_Tooltip_ability_item_radiance_2_bonus_intellect"			"+$int"
-		"DOTA_Tooltip_modifier_radiance_2_burn"										"Magical Radiance"
-		"DOTA_Tooltip_modifier_radiance_2_burn_Description"							"Taking 80 damage per second, and missing 20% of attacks, magic resistance reduced by 25%."
-
-		"DOTA_Tooltip_ability_item_uebator"	"Mega Reaver"
-		"DOTA_Tooltip_ability_item_uebator_Description"	"<h1>Active: Life Exchange</h1> Turns 1/4 of health into strength for 5 seconds."
-		"DOTA_Tooltip_ability_item_uebator_bonus_strength"	"+$str"
-		"DOTA_Tooltip_ability_item_uebator_bonus_regen_hp"	"+$hp_regen"
-		"DOTA_Tooltip_ability_item_uebator_bonus_hp"	"+$health"
-		
-		"DOTA_Tooltip_Ability_item_mana_booster"			"Mana Booster"
-		"DOTA_Tooltip_ability_item_mana_booster_mana"				"+$mana"
-
-		"DOTA_Tooltip_Ability_item_mystic_booster"			"Mystic Booster"
-		"DOTA_Tooltip_ability_item_mystic_booster_Description"				"<h1>Passive: Pure</h1> With a 8% chance turn into your magical damage to pure."
-		"DOTA_Tooltip_ability_item_mystic_booster_mana"				"+$mana"
-		"DOTA_Tooltip_ability_item_mystic_booster_int"				"+$int"
-
-		"DOTA_Tooltip_Ability_item_angel_boots"			"Angel Boots"
-		"DOTA_Tooltip_ability_item_angel_boots_Description"				"<h1>Active: Angelic Help</h1> Gives all allies within 900 radius a rune regeneration, removes all negative effects and restores 300 health and 200 mana.\n<h1>Passive: Faith</h1> Acts on allies around in a radius of 900. Increases their health regeneration by 20 and armor by 5. If the health threshold of an allied hero is below 20%, then the aura will affect him more strongly, restoring 40 health per second and increasing armor by 20."
-		"DOTA_Tooltip_ability_item_angel_boots_movespeed"				"%+$move_speed"
-		"DOTA_Tooltip_ability_item_angel_boots_bonus_armor"				"+$armor"
-		"DOTA_Tooltip_ability_item_angel_boots_bonus_stats"				"+$all"
-		"DOTA_Tooltip_ability_item_angel_boots_bonus_mana"				"+$mana"
-		"DOTA_Tooltip_ability_item_angel_boots_bonus_regen"				"+$hp_regen"
-		
-		"DOTA_Tooltip_ability_item_butter2"	"Mega Butterfly"
-		"DOTA_Tooltip_ability_item_butter2_Description"	"<h1>Active: Energy Drink</h1> Redbull Gives you WINGGSSSSS and free movement for the duration. Duration 3 seconds."
-		"DOTA_Tooltip_ability_item_butter2_agi"	"+$agi"
-		"DOTA_Tooltip_ability_item_butter2_dmg"	"+$damage"
-		"DOTA_Tooltip_ability_item_butter2_attack"	"+$attack"
-		"DOTA_Tooltip_ability_item_butter2_ev"	"%+$evasion"
-		
-		"DOTA_Tooltip_Ability_item_overheal_trank"							"Boots of Healing"
-		"DOTA_Tooltip_ability_item_overheal_trank_Description"				"<h1>Active: Regeneration Rune </h1> Restores your health and mana to maximum. Duration 30 seconds."
-		"DOTA_Tooltip_ability_item_overheal_trank_Lore"						"Any damage will cancel the regeneration effect."
-		"DOTA_Tooltip_Ability_item_overheal_trank_movespeed"				"%+$move_speed"
-		"DOTA_Tooltip_Ability_item_overheal_trank_regen"					"+$hp_regen"
+		"npc_dota_hero_chen"										"The Fountain"
 				
-		"DOTA_Tooltip_ability_item_imba_phase_boots_2"			"Swift Boots"
-		"DOTA_Tooltip_ability_item_imba_phase_boots_2_Description"					"<h1>Active: Swift</h1> Increases move speed by %phase_ms%%%. Duration 3 seconds."
-		"DOTA_Tooltip_ability_item_imba_phase_boots_2_bonus_damage"					"+$damage"
-		"DOTA_Tooltip_ability_item_imba_phase_boots_2_bonus_armor"					"+$armor"
-		"DOTA_Tooltip_ability_item_imba_phase_boots_2_bonus_movement_speed"			"%+$move_speed"
-		
-		"DOTA_Tooltip_Ability_item_birzha_diffusal_blade_2"			"Diffuser Blade"
-		"DOTA_Tooltip_ability_item_birzha_diffusal_blade_2_Description"				"<h1>Active: Diffusal Blade 2</h1> Applies basic purge and reduces movespeed for %duration% seconds, also applies mute effect.<br><br>Cast range: 600\n<h1>Passive: Manabreak</h1> Each attack burns %mana_per_hit% mana and deals %damage_per_burn% bonus physical damage for mana burned. Burns 25 mana per attack from illusions."
-		"DOTA_Tooltip_ability_item_birzha_diffusal_blade_2_Lore"						""
-		"DOTA_Tooltip_ability_item_birzha_diffusal_blade_2_damage"			"+$damage"
-		"DOTA_Tooltip_ability_item_birzha_diffusal_blade_2_armor"			"+$armor"
-		"DOTA_Tooltip_ability_item_birzha_diffusal_blade_2_regen"			"+$hp_regen"
-		"DOTA_Tooltip_ability_item_birzha_diffusal_blade_2_agility"			"+$agi"
-		"DOTA_Tooltip_ability_item_birzha_diffusal_blade_2_intellect"			"+$int"
-		"DOTA_Tooltip_modifier_birzha_diffusal_blade_2"								"Diffusal Blade 2"
-		"DOTA_Tooltip_modifier_birzha_diffusal_blade_2_Description"								"You are muted. Movement speed reduced by %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%."
-
-		"DOTA_Tooltip_ability_item_book_of_strength" "Book of Strength"
-		"DOTA_Tooltip_ability_item_book_of_strength_Description" "<h1>Use: Eat</h1> Gives 10 strength"
-
-		"DOTA_Tooltip_ability_item_book_of_agility" "Book of Agility"
-		"DOTA_Tooltip_ability_item_book_of_agility_Description" "<h1>Use: Eat</h1> Gives 10 agility"
-
-		"DOTA_Tooltip_ability_item_book_of_intelligence"	 "Book of Intelligence "
-		"DOTA_Tooltip_ability_item_book_of_intelligence_Description"	 "<h1>Use: Eat</h1> Gives 10 intelligence"
-		
-		"DOTA_Tooltip_modifier_item_angel_boots_aura_hud"				"Faith"
-		"DOTA_Tooltip_modifier_item_angel_boots_aura_hud_Description"	"+20 Regen and +5 Armour to heroes in a 900 radius"
-
-		
 		
 	    "DOTA_Tooltip_ability_alchemist_acid_bomb"                                        "Acid Bomb"
         "DOTA_Tooltip_ability_alchemist_acid_bomb_Description"                            "Hurls a flask of acid at a target. the flask breaks upon impact, splashing a powerful acid on nearby hostile units. Decreases armor; deals slightly less damage over time to nearby targets."
@@ -1432,9 +1271,36 @@
 		"DOTA_Tooltip_ability_tesla_eye_of_the_storm_strike_interval"						"STRIKE INTERVAL: "
 		"DOTA_Tooltip_ability_tesla_eye_of_the_storm_armour_reduction"						"ARMOUR REDUCED: "
 		"DOTA_Tooltip_ability_tesla_eye_of_the_storm_damage"								"DAMAGE: "
+
+//=================================================================================================================
+// HERO: Chen (The Fountain)
+//==============================================================================================================
+		
+		"DOTA_Tooltip_ability_fountain_focusfire"											"FOCUS FIRE"
+		"DOTA_Tooltip_ability_fountain_focusfire_description"								"ATTACK A TARGET VERY FAST, GET THEM AWAY FROM THE FOUNTAIN!"
+		"DOTA_Tooltip_ability_fountain_focusfire_bonus_attack_speed"						"BONUS ATTACK SPEED: "
+		"DOTA_Tooltip_ability_fountain_focusfire_focusfire_damage_reduction"				"DAMAGE REDUCTION: "
+		"DOTA_Tooltip_ability_fountain_focusfire_AbilityDuration"							"DURATION: "
+		
+		"DOTA_Tooltip_ability_fountain_moon_glaive"											"MOON GLAIVES"
+		"DOTA_Tooltip_ability_fountain_moon_glaive_description"								"The fountains bullets begin to bounce to other targets as attacking one tartget isnt fun enough"
+		"DOTA_Tooltip_ability_fountain_moon_glaive_range"									"BOUNCE RADIUS: "
+		"DOTA_Tooltip_ability_fountain_moon_glaive_bounces"									"BOUNCES: "
+		"DOTA_Tooltip_ability_fountain_moon_glaive_damage_reduction_percent"				"DAMAGE REDUCTION PER BOUNCE: "
 		
 		
+		"DOTA_Tooltip_ability_fountain_fury_swipes"											"FURY SWIPES"
+		"DOTA_Tooltip_ability_fountain_fury_swipes_description"								"The Fountain doesnt like when heroes dive it. It will deal more damage the more consecutive attacks in a row it hits"
+		"DOTA_Tooltip_ability_fountain_fury_swipes_bonus_reset_time"						"RESET TIME: "
+		"DOTA_Tooltip_ability_fountain_fury_swipes_damage_per_stack"						"DAMAGE PER ATTACK: "
 		
+		"DOTA_Tooltip_ability_fountain_guardian_angel"										"FORTIFY"
+		"DOTA_Tooltip_ability_fountain_guardian_angel_description"							"All Towers need fortification at some point, protect yourself and your team!"
+		"DOTA_Tooltip_ability_fountain_guardian_angel_scepter_description"					"Increases duration, provides Status Resist, radius becomes global and affects buildings."
+		"DOTA_Tooltip_ability_fountain_guardian_angel_duration"								"DURATION: "
+		"DOTA_Tooltip_ability_fountain_guardian_angel_radius"								"RAIDUS: "
+		"DOTA_Tooltip_ability_fountain_guardian_angel_scepter_status_resist"				"STATUS RESIST: "
+		"DOTA_Tooltip_ability_fountain_guardian_angel_duration_scepter"						"SCEPTER DURATION: "
 		
 	}	
 }

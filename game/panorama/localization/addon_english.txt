@@ -1,0 +1,67 @@
+"addon"
+{
+	"PointsToWin"									"+{d:points_to_win} more"
+	"PointsToWin_CloseToVictory"					"+{d:points_to_win} more"
+	"PointsToWin_VeryCloseToVictory"				"+{d:points_to_win} more!"
+	"PointsToWin_Victory"							"Victory!"
+
+	"InstructionsTitle"								"Definitely Not Dota 2.0"
+	"InstructionsObjective"							"OBJECTIVE"
+	"InstructionsObjectiveText"						"Slay your enemies! Be the first to earn the goal number of kills, or the team with the most kills when the round ends, and you will be victorious."
+	"InstructionsHowToPlay"							"HOW TO PLAY"
+	"InstructionsLines"								"-Approach the middle of the map to earn bonus gold and experience.<br>
+													-Snatch up any giant coins to earn even more gold.<br>
+													-Every now and again the mystical CHEST will appear in the centre.<br>
+													-I'm really sorry you have to play this.<br>
+													-Look seriously just strap yourself in this game is pure garbage."
+
+	"Chest"											"ITEM"
+	"ItemWillSpawn"									"IS ABOUT TO BE DELIVERED!"
+	"ItemHasSpawned"								"IS ON ITS WAY!"
+
+	"RecentScore"									"+{d:score}"
+
+	"Unassigned"      								"Unassigned Team"
+	"Spectator"       								"Spectator Team"
+	"Neutrals"        								"Neutral Team"
+	"NoTeam"          								"No Team"
+
+	"DOTA_GoodGuys"   								"A Walking Contradiction"
+	"DOTA_BadGuys"    								"Bad Outdated Memes"
+	"DOTA_Custom1"    								"Crippling Anxiety"
+	"DOTA_Custom2"    								"Trump's Toad Addiction"
+	"DOTA_Custom3"    								"Virginity Incarnate"
+	"DOTA_Custom4"    								"A Really Nice Person"
+	"DOTA_Custom5"    								"i sexually identify as a terrible dota player"
+	"DOTA_Custom6"    								"Cardboard 7"
+	"DOTA_Custom7"    								"Totally Rad Dude"
+	"DOTA_Custom8"    								"Twitch.tv/"
+
+	"OverthrowHeroPickup"							"{s:hero_id}"
+	"OverthrowTextPickup"							"HAS PICKED UP"
+	"OverthrowItemPickup"							"{s:item_id}!"
+
+	"Remaining"										"REMAINING"
+
+	"Overtime"										"OVERTIME!"
+	"OvertimeInstructions"							"THE GAME IS TIED THE SCORE TO WIN IS"
+
+	"KillMessageHero"								"{s:hero_id}"
+	"KillMessageText"								"HAS KILLED THE LEADER"
+	"KillMessageBounty"								"FOR 500 BONUS GOLD!"
+
+	"addonname"										"Definitely Not Dota 2.0"
+	"overthrow_game_info_header_objective"			"Objective:"
+	"overthrow_brief_description"					"Slay your enemies! First team to hit the kill limit wins!"
+	"overthrow_game_info_header_how_to_play"		"How To Play:"
+	"overthrow_game_info_throne"					"Approach the <span class='midas_throne'>Midas Throne</span> to earn bonus <span class='gold'>gold</span> and <span class='xp'>experience</span>."
+	"overthrow_game_info_coins"						"Snatch up them golden coins as <span class='overboss'>MR SALTY</span> throws them to earn more moola <span class='gold'>gold</span>."
+	"overthrow_game_info_items"						"<span class='midas_throne'>Random Items</span> occassionaly appear on the map, sell them for extra gold or use them to escape those annoying OP heroes."
+	"overthrow_game_info_tips_header"				"Tips:"
+	"overthrow_game_info_tip01"						"- The current leader has a CROWN on their heads, kill them to steal their presious money and get to the top!<br>"
+	"overthrow_game_info_tip02"						"- Valve breaks Custom Games. Some heroes definitely don't work. Please feel free to report them in the discord.<br>"
+	"overthrow_game_info_tip03"						"- Make sure you figure out which of your opponents is weak, so you can feed on them for easy kills and make them abandon.<br>"
+	"overthrow_game_info_tip04"						"- Don't let your memes be dreams."
+	
+	"custom_hud_error_no_coins"						"Ability Can't Be Used Without Coins"
+}
