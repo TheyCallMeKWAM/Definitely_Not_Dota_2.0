@@ -29,11 +29,11 @@ end
 
 function COverthrowGameMode:SpawnGoldEntity( spawnPoint )
 	EmitGlobalSound("Item.PickUpGemWorld")
-	local newItem = CreateItem( "item_bag_of_gold", nil, nil )
+	local newItem = CreateItem( "item_treasure_chest", nil,  nil )
 	local drop = CreateItemOnPositionForLaunch( spawnPoint, newItem )
 	local dropRadius = RandomFloat( self.m_GoldRadiusMin, self.m_GoldRadiusMax )
 	newItem:LaunchLootInitialHeight( false, 0, 500, 0.75, spawnPoint + RandomVector( dropRadius ) )
-	newItem:SetContextThink( "KillLoot", function() return self:KillLoot( newItem, drop ) end, 20 )
+	newItem:SetContextThink( "KillLoot", function() return self:KillLoot( newItem, drop ) end, 30 )
 end
 
 
@@ -55,7 +55,7 @@ function COverthrowGameMode:KillLoot( item, drop )
 end
 
 function COverthrowGameMode:AddGoldenCoin(owner)
-	local gold = 300
+	local gold = RandomInt( 1000, 5000 )
 	local goblinsGreed = owner:FindAbilityByName("alchemist_goblins_greed_custom")
 	if goblinsGreed and goblinsGreed:GetLevel() > 0 then
 		local bonusGold = gold * (goblinsGreed:GetSpecialValueFor("gold_coin_multiplier") - 1)
@@ -70,75 +70,109 @@ function COverthrowGameMode:SpecialItemAdd(owner)
 	local tier = {}
 
 	tier[1] =	{
-		"item_tranquil_boots",
-		"item_phase_boots",
-		"item_power_treads",
-		"item_medallion_of_courage",
+		"item_keen_optic",
+		"item_unstable_wand",
 		"item_ironwood_tree",
-		"item_grove_bow",
+		"item_royal_jelly",
+		"item_ocean_heart",
 		"item_broom_handle",
-		"item_nether_shawl",
-		"item_possessed_mask",
+		"item_pogo_stick",
+		"item_trusty_shovel",
+		"item_faded_broach",
+		"item_arcane_ring",
+		"item_winter_embrace",
+		"item_ogre_seal_totem",
+		"item_oblivions_locket",
 		"item_precious_egg",
+		"item_mysterious_hat",
+		"item_possessed_mask",
+		"item_chipped_vest",
+		"item_grove_bow",
+		"item_ring_of_aquila",
+		"item_pupils_gift",
+		"item_imp_claw",
+		"item_misericorde",
+		"item_philosophers_stone",
+		"item_nether_shawl",
+		"item_dragon_scale",
+		"item_essence_ring",
+		"item_vambrace",
+		"item_dimensional_doorway",
+		"item_ambient_sorcery",
+		"item_bear_cloak",
+		"item_bogduggs_baldric",
+		"item_bogduggs_cudgel",
+		"item_bogduggs_lucky_femur",
+		"item_lifestone",
+		"item_pelt_of_the_old_wolf",
+		"item_sign_of_the_arachnid",
+		"item_quicksilver_amulet",
+		"item_bullwhip",
+		"item_paintball",	
 	}
 
 	tier[2] =	{
-		"item_blink",
-		"item_force_staff",
-		"item_cyclone",
-		"item_blade_mail",
-		"item_vladmir",
-		"item_enchanted_quiver",
-		"item_helm_of_the_undying",
-		"item_paladin_sword",
+		"item_quickening_charm",
 		"item_mind_breaker",
-		"item_titan_sliver",
-		"item_ceremonial_robe",
-		"item_orb_of_destruction",
 		"item_spider_legs",
-		"item_paw_of_lucius",	
+		"item_enchanted_quiver",
+		"item_paladin_sword",
+		"item_orb_of_destruction",
+		"item_black_powder_bag",
+		"item_titan_sliver",
+		"item_horizon",
+		"item_gravel_foot",
+		"item_preserved_skull",
+		"item_slippers_of_the_abyss",
+		"item_treads_of_ermacor",
+		"item_wand_of_the_brine",
+		"item_watchers_gaze",
+		"item_stony_coat",
+		"item_elven_tunic",
+		"item_cloak_of_flames",
+		"item_psychic_headband",
+		"item_ceremonial_robe",
 	}
 
 	tier[3] =	{
-		"item_shivas_guard",
-		"item_maelstrom",
-		"item_desolator",
-		"item_ultimate_scepter",
-		"item_black_king_bar",
-		"item_bloodstone",
-		"item_moon_shard",
-		"item_nullifier",
-		"item_aeon_disk",
-		"item_flicker",
-		"item_minotaur_horn",
-		"item_princes_knife",
-		"item_spell_prism",
+		"item_spy_gadget",
 		"item_timeless_relic",
-		"item_elven_tunic",
-		"item_penta_edged_sword",
-		"item_the_leveller",
+		"item_spell_prism",
+		"item_flicker",
+		"item_ninja_gear",
+		"item_illusionsts_cape",
+		"item_guardian_shell",
+		"item_ice_dragon_maw",
+		"item_paw_of_lucius",
+		"item_stonework_pendant",
+		"item_unhallowed_icon",
+		"item_carapace_of_qaldin",
 		"item_rhyziks_eye",
+		"item_the_leveller",
+		"item_penta_edged_sword",
+		"item_stormcrafter",
+		"item_trickster_cloak",
+		"item_heavy_blade",
 	}
 
 	tier[4] =	{
-		"item_skadi",
-		"item_greater_crit",
-		"item_sheepstick",
-		"item_heart",
-		"item_abyssal_blade",
-		"item_butterfly",
-		"item_monkey_king_bar",
-		"item_satanic",
-		"item_rapier",
-		"item_fallen_sky",
-		"item_mirror_shield",
-		"item_pirate_hat",
-		"item_giants_ring",
+		"item_force_boots",
 		"item_desolator_2",
+		"item_seer_stone",
+		"item_mirror_shield",
+		"item_fusion_rune",
+		"item_ballista",
 		"item_demonicon",
-		"item_apex",
+		"item_fallen_sky",
+		"item_pirate_hat",
 		"item_ex_machina",
+		"item_apex",
 		"item_the_caustic_finale",
+		"item_glimmerdark_shield",
+		"item_dredged_trident",
+		"item_book_of_shadows",
+		"item_giants_ring",
+		"item_greater_mango",
 	}
 
 	local hero = owner:GetClassname()
@@ -197,6 +231,7 @@ function COverthrowGameMode:SpecialItemAdd(owner)
 	self:StartItemPick(owner, spawnedItem)
 end
 
+
 function COverthrowGameMode:StartItemPick(owner, items)
 	if (not owner:IsRealHero()) and owner:GetOwnerEntity() then
 		owner = owner:GetOwnerEntity()
@@ -223,8 +258,8 @@ function COverthrowGameMode:FinishItemPick(keys)
 end
 
 function COverthrowGameMode:ThinkSpecialItemDrop()
-	-- Stop spawning items after 15
-	if self.nNextSpawnItemNumber >= 15 then
+	-- Stop spawning items after 30
+	if self.nNextSpawnItemNumber >= 30 then
 		return
 	end
 	-- Don't spawn if the game is about to end
@@ -257,7 +292,7 @@ function COverthrowGameMode:PlanNextSpawn()
 	local r = RandomInt( 1, 8 )
 	if GetMapName() == "too_many_based_quintet_players" or GetMapName() == "way_too_many_based_octet_players" or GetMapName() == "temple_of_the_quartet_icefrog" then
 		r = RandomInt( 1, 6 )
-	elseif GetMapName() == "temple_quartet" then
+	elseif GetMapName() == "temple_of_the_quartet_icefrog" then
 		r = RandomInt( 1, 4 )
 	end
 	local path_track = "item_spawn_" .. r
@@ -351,12 +386,12 @@ function COverthrowGameMode:TreasureDrop( treasureCourier )
 	EmitGlobalSound( "lockjaw_Courier.Impact" )
 	EmitGlobalSound( "lockjaw_Courier.gold_big" )
 
-	--Spawn the treasure chest at the selected item spawn location
-	local newItem = CreateItem( "item_treasure_chest", nil, nil )
+	--Spawn the gold at the selected item spawn location
+	local newItem = CreateItem( "item_bag_of_gold", nil, nil )
 	local drop = CreateItemOnPositionForLaunch( spawnPoint, newItem )
 	drop:SetForwardVector( treasureCourier:GetRightVector() ) -- oriented differently
 	newItem:LaunchLootInitialHeight( false, 0, 50, 0.25, spawnPoint )
-
+	
 	--Stop the particle effect
 	DoEntFire( "item_spawn_particle_" .. self.itemSpawnIndex, "stopplayendcap", "0", 0, self, self )
 

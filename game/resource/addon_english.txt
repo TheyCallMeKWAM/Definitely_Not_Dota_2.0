@@ -535,8 +535,8 @@
 		"npc_dota_hero_jakiro"										"Mud Golem"
 		"npc_dota_hero_witch_doctor"								"Death Ward"
 		"npc_dota_hero_huskar"										"Debuffer"
-		"npc_dota_hero_doom_bringer"									"Dire Safe Lane"
-		"npc_dota_hero_nevermore"				"A Really Angry Tower"
+		"npc_dota_hero_doom_bringer"								"Dire Safe Lane"
+		"npc_dota_hero_nevermore"									"Fear Me"
 		"npc_dota_hero_morphling"				"FISH"
 		"npc_dota_hero_centaur"										"Mr Stompy"
 		"npc_dota_hero_lone_druid"									"Shapeshifter"
@@ -600,6 +600,8 @@
 		"npc_dota_hero_spirit_breaker"								"Thomas the Dank Engine"
 		"npc_dota_hero_bane"										"Hold That Thought Please"
 		"npc_dota_hero_chen"										"The Fountain"
+		"npc_dota_hero_batrider"									"Wombo Combo"
+		
 				
 		
 	    "DOTA_Tooltip_ability_alchemist_acid_bomb"                                        "Acid Bomb"
@@ -862,7 +864,7 @@
 		"DOTA_Tooltip_ability_throw_poop_Description"									"An integral part of any monkeys arsenal, throw poop to slow and damage your enemys"
 		"DOTA_Tooltip_ability_throw_poop_damage"										"Damage Over Time:"
 		"DOTA_Tooltip_ability_monkey_king_wukongs_command_Description"					"Global Range. Monkey King creates a circular formation of soldiers that spread out from his position. If Monkey King leaves the area his soldiers disperse. The soldiers have Monkey King's attack and only target heroes. Monkey King and all his soldiers receive bonus damage for the spell's duration."
-		
+		"npc_dota_attackbanana"															"Attack Banana"
 		
 		"DOTA_Tooltip_ability_debuffer_split_shot"										"Lay Waste to your enemies"
 		"DOTA_Tooltip_ability_debuffer_split_shot_Description"							"Litterally hit everyone in an AOE forever. Have Fun!"
@@ -1301,6 +1303,38 @@
 		"DOTA_Tooltip_ability_fountain_guardian_angel_radius"								"RAIDUS: "
 		"DOTA_Tooltip_ability_fountain_guardian_angel_scepter_status_resist"				"STATUS RESIST: "
 		"DOTA_Tooltip_ability_fountain_guardian_angel_duration_scepter"						"SCEPTER DURATION: "
+
+//=================================================================================================================
+// HERO: Batrider (Wombo Combo)
+//==============================================================================================================
+		
+		"DOTA_Tooltip_ability_wombocombo_flaminglasso"										"FLAMING LASSO"
+		"DOTA_Tooltip_ability_wombocombo_flaminglasso_description"							"Lassoes an enemy and drags them in Batrider's wake. Dragged units cannot move, attack, or use abilities.  Teleporting or blinking will break the lasso."
+		"DOTA_Tooltip_ability_wombocombo_flaminglasso_duration"								"DURATION: "	
+		"DOTA_Tooltip_ability_wombocombo_flaminglasso_break_distance"						"BREAK DISTANCE: "
+		"DOTA_Tooltip_ability_wombocombo_flaminglasso_damage"								"DAMAGE: "
+		"DOTA_Tooltip_ability_wombocombo_flaminglasso_scepter_description"					"Flaming Lasso grabs both its target, as well as the target's nearest allied hero within 800 units. The secondary target is tethered to the first."
+	
+
+//=================================================================================================================
+// HERO: Shadow Fiend (Fear Me)
+//==============================================================================================================
+		
+		"DOTA_Tooltip_ability_fearme_arena_of_blood"										"ARENA OF BLOOD"
+		"DOTA_Tooltip_ability_fearme_arena_of_blood_description"							"After a short formation time, Fear Me summons an arena lined with the undead warriors of the Ash Legion, who block enemy attacks and movement. Enemy heroes near the inside edge of the arena will be attacked by spears, dealing damage and knocking them back."
+		"DOTA_Tooltip_ability_fearme_arena_of_blood_duration"								"DURATION: "
+		"DOTA_Tooltip_ability_fearme_arena_of_blood_radius"									"RADIUS: "
+		"DOTA_Tooltip_ability_fearme_arena_of_blood_spear_damage"							"SPEAR DAMAGE: "
+		"DOTA_Tooltip_ability_fearme_arena_of_blood_formation_time"							"FORMATION TIME: "
+		
+		
+		"DOTA_Tooltip_ability_fearme_spirit_siphon"											"SPIRIT SIPHON"
+		"DOTA_Tooltip_ability_fearme_spirit_siphon_description"								"Creates a spirit link between Fear Me and an enemy unit, draining health from the enemy."
+		"DOTA_Tooltip_ability_fearme_spirit_siphon_damage"									"BASE DAMAGE: "
+		"DOTA_Tooltip_ability_fearme_spirit_siphon_damage_pct"								"MAX HP AS DAMAGE: "
+		"DOTA_Tooltip_ability_fearme_spirit_siphon_haunt_duration"							"DURATION: "
+		"DOTA_Tooltip_ability_fearme_spirit_siphon_shard_description"						"Increases Spirit Siphon charges by 4 and causes enemies to be feared for 4 seconds if they are siphoned for 1 seconds consecutively."
+		
 		
 	}	
 }

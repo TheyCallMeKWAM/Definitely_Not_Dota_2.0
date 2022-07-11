@@ -15,7 +15,7 @@
 													-I'm really sorry you have to play this.<br>
 													-Look seriously just strap yourself in this game is pure garbage."
 
-	"Chest"											"ITEM"
+	"Chest"											"GOLD"
 	"ItemWillSpawn"									"IS ABOUT TO BE DELIVERED!"
 	"ItemHasSpawned"								"IS ON ITS WAY!"
 
@@ -27,14 +27,14 @@
 	"NoTeam"          								"No Team"
 
 	"DOTA_GoodGuys"   								"A Walking Contradiction"
-	"DOTA_BadGuys"    								"Bad Outdated Memes"
+	"DOTA_BadGuys"    								"KING BOB"
 	"DOTA_Custom1"    								"Crippling Anxiety"
-	"DOTA_Custom2"    								"Trump's Toad Addiction"
+	"DOTA_Custom2"    								"Herald Battlecup Team"
 	"DOTA_Custom3"    								"Virginity Incarnate"
-	"DOTA_Custom4"    								"A Really Nice Person"
-	"DOTA_Custom5"    								"i sexually identify as a terrible dota player"
+	"DOTA_Custom4"    								"mode: TOP 10 or quit"
+	"DOTA_Custom5"    								"muted all incoming chat"
 	"DOTA_Custom6"    								"Cardboard 7"
-	"DOTA_Custom7"    								"Totally Rad Dude"
+	"DOTA_Custom7"    								"Avid Reddit User"
 	"DOTA_Custom8"    								"Twitch.tv/"
 
 	"OverthrowHeroPickup"							"{s:hero_id}"
@@ -55,8 +55,8 @@
 	"overthrow_brief_description"					"Slay your enemies! First team to hit the kill limit wins!"
 	"overthrow_game_info_header_how_to_play"		"How To Play:"
 	"overthrow_game_info_throne"					"Approach the <span class='midas_throne'>Midas Throne</span> to earn bonus <span class='gold'>gold</span> and <span class='xp'>experience</span>."
-	"overthrow_game_info_coins"						"Snatch up them golden coins as <span class='overboss'>MR SALTY</span> throws them to earn more moola <span class='gold'>gold</span>."
-	"overthrow_game_info_items"						"<span class='midas_throne'>Random Items</span> occassionaly appear on the map, sell them for extra gold or use them to escape those annoying OP heroes."
+	"overthrow_game_info_coins"						"Snatch up them treasure chests as <span class='overboss'>MR SALTY</span> throws them to earn more <span class='gold'>GOODIES</span>."
+	"overthrow_game_info_items"						"<span class='midas_throne'>Random Gold</span> occassionaly appear on the map, grab them for up to <span class='gold'>5000</span> extra bucks to help kill those annoying OP heroes."
 	"overthrow_game_info_tips_header"				"Tips:"
 	"overthrow_game_info_tip01"						"- The current leader has a CROWN on their heads, kill them to steal their presious money and get to the top!<br>"
 	"overthrow_game_info_tip02"						"- Valve breaks Custom Games. Some heroes definitely don't work. Please feel free to report them in the discord.<br>"

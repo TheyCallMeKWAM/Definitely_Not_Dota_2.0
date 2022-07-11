@@ -32,7 +32,6 @@
 			"item_mysterious_hat"		"1"
 			"item_possessed_mask"		"1"
 			"item_chipped_vest"			"1"
-			"item_greater_mango"		"1"
 		}
 	}
 	"2"
@@ -147,6 +146,7 @@
 			"item_stormcrafter"			"1"
 			"item_trickster_cloak"		"1"
 			"item_heavy_blade"			"1"
+			"item_greater_mango"		"1"
 		}
 	}
 	"5"
