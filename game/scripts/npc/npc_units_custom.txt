@@ -902,8 +902,8 @@
 		"AttackDamageType"			"DAMAGE_TYPE_PURE"
 		"AttackRate"				"0.15"		// Speed of attack.
 		"AttackAnimationPoint"		"0.0"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"1300"		// Range within a target can be acquired.
-		"AttackRange"				"1300"		// Range within a target can be attacked. (was 690)
+		"AttackAcquisitionRange"	"1200"		// Range within a target can be acquired.
+		"AttackRange"				"1200"		// Range within a target can be attacked. (was 690)
 		"ProjectileModel"			"particles/base_attacks/fountain_attack.vpcf" // Particle system model for projectile.
 		"ProjectileSpeed"			"1900"		// Speed of projectile.
 

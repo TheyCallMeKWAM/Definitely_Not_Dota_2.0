@@ -345,21 +345,21 @@ function COverthrowGameMode:InitGameMode()
 		GameRules:SetCustomGameTeamMaxPlayers( DOTA_TEAM_CUSTOM_2, 4 )
 		self.m_GoldRadiusMin = 300
 		self.m_GoldRadiusMax = 1400
-		self.m_GoldDropPercent = 12
+		self.m_GoldDropPercent = 14
 	elseif GetMapName() == "way_too_many_based_octet_players" then
 		GameRules:SetCustomGameTeamMaxPlayers( DOTA_TEAM_GOODGUYS, 8 )
 		GameRules:SetCustomGameTeamMaxPlayers( DOTA_TEAM_BADGUYS, 8 )
 		GameRules:SetCustomGameTeamMaxPlayers( DOTA_TEAM_CUSTOM_1, 8 )
 		self.m_GoldRadiusMin = 300
 		self.m_GoldRadiusMax = 1400
-		self.m_GoldDropPercent = 12
+		self.m_GoldDropPercent = 14
 	elseif GetMapName() == "too_many_based_quintet_players" then
 		GameRules:SetCustomGameTeamMaxPlayers( DOTA_TEAM_GOODGUYS, 5 )
 		GameRules:SetCustomGameTeamMaxPlayers( DOTA_TEAM_BADGUYS, 5 )
 		GameRules:SetCustomGameTeamMaxPlayers( DOTA_TEAM_CUSTOM_1, 5 )
 		self.m_GoldRadiusMin = 300
 		self.m_GoldRadiusMax = 1400
-		self.m_GoldDropPercent = 8
+		self.m_GoldDropPercent = 10
 	elseif GetMapName() == "temple_quartet" then
 		GameRules:SetCustomGameTeamMaxPlayers( DOTA_TEAM_GOODGUYS, 4 )
 		GameRules:SetCustomGameTeamMaxPlayers( DOTA_TEAM_BADGUYS, 4 )
@@ -379,7 +379,7 @@ function COverthrowGameMode:InitGameMode()
 	else
 		self.m_GoldRadiusMin = 250
 		self.m_GoldRadiusMax = 550
-		self.m_GoldDropPercent = 4
+		self.m_GoldDropPercent = 6
 	end
 
 	-- Show the ending scoreboard immediately

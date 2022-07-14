@@ -59,6 +59,7 @@
 		"ItemKillable"					"0"
 	}
 
+
 	"item_treasure_chest_notification_dummy"
 	{
 		"BaseClass"						"item_lua"

@@ -2263,3 +2263,68 @@ Reasoning: Looking to create some of my custom items for the next update. These 
 - All Abilities Fixed
 - Phase Boot Ability Added (Summoning the 5 Turrets got Veno Stuck)
 - Sidekick: Ability Level Reduced from 4 to 3 to make room for Phase Boots
+
+[h1]3.7 Lets Try Something New[/h1]
+
+[h1]News[/h1]
+- Hopefully, you all enjoy the changes to the game mode that make it play differently!
+- Thank You to all of you 18800 idiots playing this game mode.
+- Take a Look at the new [url=https://kwammers.notion.site/Definitely-Not-Dota-2-0-823fb341ace2433b9511427d6920c564] Definitely Not Dota 2.0 Road Map[/url] to see what progress is next on my TO-DO List.
+- Leave suggestions and changes you would like to see next in the Discord
+
+[h1]Gamemode Changes[/h1]
+- Maps: All Map Textures have been Fixed
+- Maps: Quintet and Octet maps now have Global EXP, meaning you don't need to be in the ring to get passive levels
+- Neutral Items: Re-Introduced into the game via the Overboss, instead of throwing coins he will throw neutral items for you and your team
+- Neutral Items: Item Tier is based on team placement on the scoreboard. The lower you are on the scoreboard, the better the items. (this is to help with a comeback mechanic)
+- Neutral Items: Items can still be farmed like normal from zombies around the maps (Other than 4's, 5's and 8's) at the time intervals listed
+- Delivered Items: Have been replaced with Gold Coin, these can range in value anywhere between 1000-5000 Gold. (value is a beta and can be adjusted)
+
+- AFK Detection: During the draft, if you fail to pick a hero, you will be spectating the game instead of playing. Pick a fucking hero LMAO
+- Fountain Diving: Fountain Range Increased, Be Careful
+- Fountain Diving: Valves "No Move, Don't Die" has been added. When you respawn, if you sit afk you are inv
+- Team Names: Switched up some of the team names for more relevant events
+
+
+[h1]New Heroes[/h1]
+[b]Chen (The Fountain)[/b]
+- Ability: Focus Fire (Wind Ranger)
+- Ability: Moon Glaives	(Luna)
+- Ability: Fury Swipes	(Ursa)
+- Ability: Reinforced	(Towers and Siege Creeps)
+- Ultimate: Guardian Angel (Omniknight)
+
+[b]Batrider (Wombo Combo) literally inspired yesterday by Dendi&Arkosh[/b]
+- Ability: Rupture	(Bloodseeker)
+- Ability: Timber Chain (Timbersaw)
+- Ability: Flaming Lasso (Bat Rider)
+- Ultimate: Soul Bind (Grimstroke)
+
+[b]Shadow Fiend (Fear Me)[/b]
+- Ability: Arena of Blood (Mars)
+- Ability: Spirit Siphon (Death Prophet)
+- Ability: Requiem of Souls (Shadow Fiend)
+- Ability: Necromastery (Shadow Fiend)
+- Ultimate: Terrorize (Dark Willow)
+
+[h1]Hero Changes[/h1]
+[b]Juggernaut (Dragon Ball Z Character)[/b]
+- Bloodrage: Ability Fixed
+
+[b]Windranger (Bouncey Boi)[/b]
+- Focus Fire: Ability Fixed
+
+[b]Anti-Mage (Blinkin Slammin)[/b]
+- Aftershock: Ability fixed
+
+[b]Sniper (Call of Duty)[/b]
+- Surge: Ability Levels Fixed (Now has 4 instead of 2)
+
+[b]Earthshaker (Harambe)[/b]
+- Flaming Lasso: Ability Fixed
+- Leap: Ability Fixed
+
+[b]Dragon Knight (Succa Your Life)[/b]
+- Spirit Siphon: Ability Fixed
+
+

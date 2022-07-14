@@ -7,7 +7,7 @@
 	<Panel class="DotaLoadingRoot">
 		<Panel class="OverthrowLoadingRoot">
 			<Panel id="seq">
-				<Image id="seq_bg" class="SeqBg" src="s2r://panorama/images/custom_game/loading_screen/loading_seq_bg.psd" />
+				<Image id="seq_bg" class="SeqBg"  src="file://{images}/custom_game/loading_screen/loading_seq_bg_psd.png" />
 			</Panel>
 			<Panel id="TitlePanel" />
 		</Panel>
@@ -21,7 +21,7 @@
 		</Panel>
 		<Image class="DotaLoadingIcon" />
 		<Panel id="DOTA2IMBA">
-			<Image id="DOTA2IMBA_Image" class="SeqBg" src="s2r://" />
+			<Image id="DOTA2IMBA_Image" class="SeqBg" src="file://{images}/custom_game/loading_screen/server-icon.png"/>
 			<Label id="DOTA2IMBA_Text" text="Definitely Not Dota 2.0" />
 		</Panel>
 		<Panel id="DOTA2IMBA_OP">
@@ -51,17 +51,17 @@
 				<Image id="DOTA2IMBA_OP_Image3_2" />
 				<Panel id="DOTA2IMBA_TIP">
 					<Label id="DOTA2IMBA_TIP_TEXT" text="Get ready for some STUPID SHIT. This game is literally fucked" />
-					<Label id="DOTA2IMBA_TIP_TEXT2" text="Thank you for all the support over the past year! 18600 Players!" />
-					<Label id="DOTA2IMBA_TIP_TEXT3" text="Be sure to suggest and changes you want to be made" />
+					<Label id="DOTA2IMBA_TIP_TEXT2" text="Thank you for all the support over the past year! 18800 Players!" />
+					<Label id="DOTA2IMBA_TIP_TEXT3" text="Check Out the New Road Map!" />
 					<Label id="DOTA2IMBA_TIP_TEXT4" text="Report and bugs or problems to Discord or the Workshop" />
-					<Label id="DOTA2IMBA_TIP_TEXT5" text="NEWS: Patch 3.6c is LIVE, patch notes on the Workshop" />
+					<Label id="DOTA2IMBA_TIP_TEXT5" text="NEWS: Patch 3.7 is LIVE, patch notes on the Workshop" />
 				</Panel>
 				<Label id="DOTA2IMBA_OP_TEXT2" text="Welcome to Definitely Not Dota 2.0" />
 			</Panel>
 		</Panel>
 		<Panel id="DOTA2IMBA_HERO_Recommend_Root">
-			<Image id="DOTA2IMBA_HERO_Recommend" src="s2r://panorama/images/custom_game/peepodance.png" />
-			<Label id="DOTA2IMBA_HERO_Recommend_TEXT" />
+			<Image id="DOTA2IMBA_HERO_Recommend" src="file://{images}/custom_game/loading_screen/375.jpg" />
+			<Label id="DOTA2IMBA_HERO_Recommend_TEXT" text="" />
 		</Panel>
 	</Panel>
 </root>
